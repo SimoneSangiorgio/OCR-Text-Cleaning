@@ -19,7 +19,7 @@ def clean_with_gemini(ocr_text: str) -> str:
 
     try:
         # Initialize the client. Passing api_key explicitly is robust.
-        client = genai.Client(api_key="AIzaSyBR9Mr8OhU-XZdhXQb8NsoDiRin4H1hFZc")
+        client = genai.Client(api_key="")
     except Exception as e:
         print(f"Error initializing Gemini Client (genai.Client): {e}")
         print("This could be due to an invalid API key, network issues, or problems with the 'google-generativeai' library.")
