@@ -25,9 +25,8 @@ def clean_with_gemini(ocr_text: str) -> str:
         print("This could be due to an invalid API key, network issues, or problems with the 'google-generativeai' library.")
         return f"[GEMINI_CLIENT_INIT_ERROR: {e}]"
 
-    contents = f"""Clean the following OCR text. Correct spelling errors, fix punctuation. Preserve the original
-    meaning and style as much as possible. Do not add new information or summarize.
-    Return only the cleaned text.
+    contents = f"""Clean the following OCR text. Correct spelling errors, fix punctuation, remouve also the \n present in the text. Preserve the original
+    meaning and style. Do not add new information or summarize. Return only the cleaned text.
 
 OCR Text:
 ---
@@ -43,80 +42,80 @@ Cleaned Text:
     return response.text
 
 # ----------------------------------------------- Evaluation Metrics -----------------------------------------------
-# def calculate_metrics(reference: str, hypothesis: str) -> dict:
-#     """Calculates WER and CER."""
-#     if not reference.strip() and not hypothesis.strip(): # Both empty
-#         return {"wer": 0.0, "cer": 0.0}
-#     if not reference.strip(): # Reference is empty, hypothesis is not (bad)
-#         # jiwer handles this as WER=1.0 (if hypothesis has content) or 0.0 (if hypothesis also empty)
-#         # For CER, similar logic applies.
-#         # To be explicit and match common interpretations for empty reference:
-#         return {"wer": 1.0 if hypothesis.strip() else 0.0, "cer": 1.0 if hypothesis.strip() else 0.0}
-#     if not hypothesis.strip(): # Hypothesis is empty, reference is not (bad)
-#          return {"wer": 1.0, "cer": 1.0} # All words in reference are deletions.
-
-#     transformation = jiwer.Compose([
-#         jiwer.ToLowerCase(),
-#         jiwer.RemoveMultipleSpaces(),
-#         jiwer.Strip(),
-#         jiwer.RemovePunctuation(), # Punctuation will not count towards WER
-#     ])
-
-#     # Apply transformations. jiwer.wer will tokenize the resulting string by spaces.
-#     wer = jiwer.wer(reference, hypothesis, truth_transform=transformation, hypothesis_transform=transformation)
-
-#     # For CER, jiwer by default applies ToLowerCase and RemoveMultipleSpaces.
-#     # If you want punctuation removed for CER as well, you can pass the same transformation.
-#     # For now, let's use jiwer's default CER processing.
-#     cer = jiwer.cer(reference, hypothesis)
-
-#     return {"wer": wer, "cer": cer}
-
-
 def calculate_metrics(reference: str, hypothesis: str) -> dict:
-    """Calculates WER and CER, handling cases where transformations might empty strings."""
+    """Calculates WER and CER."""
+    if not reference.strip() and not hypothesis.strip(): # Both empty
+        return {"wer": 0.0, "cer": 0.0}
+    if not reference.strip(): # Reference is empty, hypothesis is not (bad)
+        # jiwer handles this as WER=1.0 (if hypothesis has content) or 0.0 (if hypothesis also empty)
+        # For CER, similar logic applies.
+        # To be explicit and match common interpretations for empty reference:
+        return {"wer": 1.0 if hypothesis.strip() else 0.0, "cer": 1.0 if hypothesis.strip() else 0.0}
+    if not hypothesis.strip(): # Hypothesis is empty, reference is not (bad)
+         return {"wer": 1.0, "cer": 1.0} # All words in reference are deletions.
 
-    wer_transformation = jiwer.Compose([
-        jiwer.ToLowerCase(),
-        jiwer.RemoveMultipleSpaces(),
-        jiwer.Strip(),
-        jiwer.RemovePunctuation(),
-    ])
+    # transformation = jiwer.Compose([
+    #     jiwer.ToLowerCase(),
+    #     jiwer.RemoveMultipleSpaces(),
+    #     jiwer.Strip(),
+    #     jiwer.RemovePunctuation(), # Punctuation will not count towards WER
+    # ])
 
-    # Apply WER transformation to evaluate what jiwer.wer would internally process
-    transformed_reference_for_wer_eval = wer_transformation(reference)
-    transformed_hypothesis_for_wer_eval = wer_transformation(hypothesis)
+    # Apply transformations. jiwer.wer will tokenize the resulting string by spaces.
+    wer = jiwer.wer(reference, hypothesis)
 
-    # Check if strings become effectively "empty of words" after WER transformation.
-    # An empty string or a string with only spaces will result in an empty list after .split().
-    ref_is_empty_of_words_after_wer_transform = not transformed_reference_for_wer_eval.split()
-    hyp_is_empty_of_words_after_wer_transform = not transformed_hypothesis_for_wer_eval.split()
-
-    wer = 0.0 # Default WER
-
-    if ref_is_empty_of_words_after_wer_transform and hyp_is_empty_of_words_after_wer_transform:
-        # Both are empty of words after transformation (e.g., ref="...", hyp="!!!")
-        wer = 0.0
-    elif ref_is_empty_of_words_after_wer_transform and not hyp_is_empty_of_words_after_wer_transform:
-        # Reference is empty of words (e.g., "..."), hypothesis has words (e.g., "text"). All insertions.
-        wer = 1.0
-    elif not ref_is_empty_of_words_after_wer_transform and hyp_is_empty_of_words_after_wer_transform:
-        # Reference has words (e.g., "text"), hypothesis is empty of words (e.g., "!!!"). All deletions.
-        wer = 1.0
-    else:
-        # Both reference and hypothesis have words after WER transformation.
-        # It's now safe to call jiwer.wer, passing original strings and transformations.
-        wer = jiwer.wer(reference, hypothesis,
-                        truth_transform=wer_transformation,
-                        hypothesis_transform=wer_transformation)
-
-    # For CER, jiwer by default applies ToLowerCase, RemoveMultipleSpaces, and Strip.
-    # It does not remove punctuation by default and is generally more robust to empty strings.
-    # If you wanted CER to also ignore punctuation, you would pass `truth_transform=wer_transformation`
-    # and `hypothesis_transform=wer_transformation` to jiwer.cer as well.
+    # For CER, jiwer by default applies ToLowerCase and RemoveMultipleSpaces.
+    # If you want punctuation removed for CER as well, you can pass the same transformation.
+    # For now, let's use jiwer's default CER processing.
     cer = jiwer.cer(reference, hypothesis)
 
     return {"wer": wer, "cer": cer}
+
+
+# def calculate_metrics(reference: str, hypothesis: str) -> dict:
+#     """Calculates WER and CER, handling cases where transformations might empty strings."""
+
+#     wer_transformation = jiwer.Compose([
+#         jiwer.ToLowerCase(),
+#         jiwer.RemoveMultipleSpaces(),
+#         jiwer.Strip(),
+#         jiwer.RemovePunctuation(),
+#     ])
+
+#     # Apply WER transformation to evaluate what jiwer.wer would internally process
+#     transformed_reference_for_wer_eval = wer_transformation(reference)
+#     transformed_hypothesis_for_wer_eval = wer_transformation(hypothesis)
+
+#     # Check if strings become effectively "empty of words" after WER transformation.
+#     # An empty string or a string with only spaces will result in an empty list after .split().
+#     ref_is_empty_of_words_after_wer_transform = not transformed_reference_for_wer_eval.split()
+#     hyp_is_empty_of_words_after_wer_transform = not transformed_hypothesis_for_wer_eval.split()
+
+#     wer = 0.0 # Default WER
+
+#     if ref_is_empty_of_words_after_wer_transform and hyp_is_empty_of_words_after_wer_transform:
+#         # Both are empty of words after transformation (e.g., ref="...", hyp="!!!")
+#         wer = 0.0
+#     elif ref_is_empty_of_words_after_wer_transform and not hyp_is_empty_of_words_after_wer_transform:
+#         # Reference is empty of words (e.g., "..."), hypothesis has words (e.g., "text"). All insertions.
+#         wer = 1.0
+#     elif not ref_is_empty_of_words_after_wer_transform and hyp_is_empty_of_words_after_wer_transform:
+#         # Reference has words (e.g., "text"), hypothesis is empty of words (e.g., "!!!"). All deletions.
+#         wer = 1.0
+#     else:
+#         # Both reference and hypothesis have words after WER transformation.
+#         # It's now safe to call jiwer.wer, passing original strings and transformations.
+#         wer = jiwer.wer(reference, hypothesis,
+#                         truth_transform=wer_transformation,
+#                         hypothesis_transform=wer_transformation)
+
+#     # For CER, jiwer by default applies ToLowerCase, RemoveMultipleSpaces, and Strip.
+#     # It does not remove punctuation by default and is generally more robust to empty strings.
+#     # If you wanted CER to also ignore punctuation, you would pass `truth_transform=wer_transformation`
+#     # and `hypothesis_transform=wer_transformation` to jiwer.cer as well.
+#     cer = jiwer.cer(reference, hypothesis)
+
+#     return {"wer": wer, "cer": cer}
 
 
 # ----------------------------------------------- Main Processing Logic -----------------------------------------------
@@ -155,7 +154,7 @@ def main():
         print("Cleaning with Gemini...")
         gemini_cleaned_text = clean_with_gemini(ocr_text)
         if "[GEMINI_" in gemini_cleaned_text: # Check if an error placeholder was returned
-             print(f"Gemini cleaning failed for item {i+1}. Returned: {gemini_cleaned_text}")
+            print(f"Gemini cleaning failed for item {i+1}. Returned: {gemini_cleaned_text}")
         else:
             print(f"Gemini Cleaned Text (first 200 chars):\n{gemini_cleaned_text[:200]}{'...' if len(gemini_cleaned_text) > 200 else ''}")
 
