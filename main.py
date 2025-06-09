@@ -1,180 +1,143 @@
-
-
 import json
 import os
+import re
+import time
 from google import genai
-import jiwer # For WER/CER calculation
-import time # To handle potential rate limits
-import evaluate
 from dotenv import load_dotenv
+import jiwer
+import evaluate
 
+from cleaner_LLM import clean_with_gemini
+from judge_LLM import judge_with_gemini
+
+# --- 1. Configuration ---
 load_dotenv()
 
-GEMINI_MODEL_NAME = "gemini-2.0-flash" # Or other suitable Gemini model
-INPUT_PATH = "dataset2/eng/the_vampyre_subset.json" # Path to your dataset file
+# Model and File Configuration
+INPUT_PATH = "dataset/eng/the_vampyre_subset.json"
+OUTPUT_PATH = "results/full_pipeline_results.json"
+NUM_ITEM_TO_PROCESS = 6 # Set to a larger number or `None` to process all
 
-api_key = os.getenv("GOOGLE_API_KEY")
+def parse_score(response_text: str) -> int:
+    """Extracts the first integer from the judge's response for robustness."""
+    numbers = re.findall(r'\d+', response_text)
+    return int(numbers[0]) if numbers else -1 # -1 indicates a parsing error
 
-
-# ----------------------------------------------- LLM Cleaning Functions -----------------------------------------------
-def clean_with_gemini(ocr_text: str) -> str:
-    """Cleans OCR text using Google Gemini (Client API style)."""
-    if not ocr_text.strip():
-        return ""
-
-    try:
-        # Initialize the client. Passing api_key explicitly is robust.
-        client = genai.Client(api_key=api_key)
-    except Exception as e:
-        print(f"Error initializing Gemini Client (genai.Client): {e}")
-        print("This could be due to an invalid API key, network issues, or problems with the 'google-generativeai' library.")
-        return f"[GEMINI_CLIENT_INIT_ERROR: {e}]"
-
-    contents = f"""Clean the following OCR text. Correct spelling errors, fix punctuation, remouve also the \n present in the text. Preserve the original
-    meaning and style. Do not add new information or summarize. Return only the cleaned text.
-
-OCR Text:
----
-{ocr_text}
----
-Cleaned Text:
-"""
-    response = client.models.generate_content(
-        model=GEMINI_MODEL_NAME,
-        contents=contents
-    )
-    #print(response.text)
-    return response.text
-
-# ----------------------------------------------- Evaluation Metrics -----------------------------------------------
 def calculate_metrics(reference: str, hypothesis: str) -> dict:
-    """Calculates WER and CER."""
-    if not reference.strip() and not hypothesis.strip(): # Both empty
+    """Calculates WER and CER, handling edge cases."""
+    if not reference.strip() and not hypothesis.strip():
         return {"wer": 0.0, "cer": 0.0}
-    if not reference.strip(): # Reference is empty, hypothesis is not (bad)
-        # jiwer handles this as WER=1.0 (if hypothesis has content) or 0.0 (if hypothesis also empty)
-        # For CER, similar logic applies.
-        # To be explicit and match common interpretations for empty reference:
-        return {"wer": 1.0 if hypothesis.strip() else 0.0, "cer": 1.0 if hypothesis.strip() else 0.0}
-    if not hypothesis.strip(): # Hypothesis is empty, reference is not (bad)
-         return {"wer": 1.0, "cer": 1.0} # All words in reference are deletions.
+    if not reference.strip() or not hypothesis.strip():
+        return {"wer": 1.0, "cer": 1.0}
+    
+    return {
+        "wer": jiwer.wer(reference, hypothesis),
+        "cer": jiwer.cer(reference, hypothesis)
+    }
 
-    # transformation = jiwer.Compose([
-    #     jiwer.ToLowerCase(),
-    #     jiwer.RemoveMultipleSpaces(),
-    #     jiwer.Strip(),
-    #     jiwer.RemovePunctuation(), # Punctuation will not count towards WER
-    # ])
+# --- 3. Main Orchestration Logic ---
 
-    # Apply transformations. jiwer.wer will tokenize the resulting string by spaces.
-    wer = jiwer.wer(reference, hypothesis)
-
-    # For CER, jiwer by default applies ToLowerCase and RemoveMultipleSpaces.
-    # If you want punctuation removed for CER as well, you can pass the same transformation.
-    # For now, let's use jiwer's default CER processing.
-    cer = jiwer.cer(reference, hypothesis)
-
-    return {"wer": wer, "cer": cer}
-
-# ----------------------------------------------- Main Processing Logic -----------------------------------------------
 def main():
+    """
+    Main function to run the complete clean, evaluate, and judge pipeline.
+    """
+    # --- Initialize APIs (ONCE) ---
+    try:
+        api_key = os.getenv("GOOGLE_API_KEY")
+        if not api_key:
+            raise ValueError("GOOGLE_API_KEY not found in environment variables.")
+        client = genai.Client(api_key=api_key)
+        rouge_metric = evaluate.load("rouge")
+        print("Successfully initialized Gemini Client and ROUGE metric evaluator.")
+    except Exception as e:
+        print(f"Fatal Error during initialization: {e}")
+        return
+
+    # --- Load Data ---
     try:
         with open(INPUT_PATH, 'r', encoding='utf-8') as f:
             data_dict = json.load(f)
-    except FileNotFoundError:
-        print(f"Error: Dataset file not found at {INPUT_PATH}")
-        print("Please ensure the path is correct and the file exists.")
+        print(f"Successfully loaded {len(data_dict)} items from '{INPUT_PATH}'")
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        print(f"Error loading input file: {e}")
         return
-    except json.JSONDecodeError:
-        print(f"Error: Could not decode JSON from {INPUT_PATH}. Check its format.")
-        return
-
-    print(f"Loaded data type: {type(data_dict)}")
-    print(f"Total key-value pairs in dictionary: {len(data_dict)}")
 
     list_of_items = list(data_dict.values())
-    print(f"Total items (segments with ocr/clean pairs) to process: {len(list_of_items)}")
+    subset_to_process = list_of_items[:NUM_ITEM_TO_PROCESS] if NUM_ITEM_TO_PROCESS is not None else list_of_items
+    
+    all_results = []
+    print(f"\nStarting pipeline for {len(subset_to_process)} items...")
 
-    num_items_to_process = 6
-    subset_to_process = list_of_items[:num_items_to_process]
-    print(f"\nProcessing {len(subset_to_process)} items from the dataset...")
-
-    results = []
-    gemini_judged = []
-
-    rouge = evaluate.load("rouge")
-
+    # --- Process Each Item in the Pipeline ---
     for i, item in enumerate(subset_to_process):
         print(f"\n--- Processing item {i+1}/{len(subset_to_process)} ---")
+        
+        ocr_text = item.get('ocr', '')
+        ground_truth = item.get('clean', '')
 
-        ocr_text = item['ocr']
-        ground_truth_clean_text = item['clean']
+        # Step 1: Clean the text
+        print("1. Cleaning text with Gemini...")
+        cleaned_text = clean_with_gemini(client, ocr_text)
+        
+        if "[GEMINI_" in cleaned_text:
+            print("  -> Skipping further processing for this item due to cleaning error.")
+            # Still save the failed attempt for review
+            result_item = {
+                "original_ocr": ocr_text,
+                "ground_truth": ground_truth,
+                "gemini_cleaned": cleaned_text,
+                "metrics": None,
+                "judgement": None
+            }
+            all_results.append(result_item)
+            time.sleep(1) # Still sleep to avoid hammering a failing API
+            continue
 
-        print(f"OCR Text (first 200 chars):\n{ocr_text[:200]}{'...' if len(ocr_text) > 200 else ''}")
+        # Step 2: Evaluate with quantitative metrics
+        print("2. Calculating WER, CER, and ROUGE metrics...")
+        edit_metrics = calculate_metrics(ground_truth, cleaned_text)
+        rouge_scores = rouge_metric.compute(predictions=[cleaned_text], references=[ground_truth])
+        
+        # Step 3: Judge the quality with an LLM
+        print("3. Judging quality with Gemini...")
+        raw_judgement = judge_with_gemini(client, cleaned_text, ground_truth)
+        parsed_judgement_score = parse_score(raw_judgement)
 
-        print("Cleaning with Gemini...")
-        gemini_cleaned_text = clean_with_gemini(ocr_text)
-        if "[GEMINI_" in gemini_cleaned_text: # Check if an error placeholder was returned
-            print(f"Gemini cleaning failed for item {i+1}. Returned: {gemini_cleaned_text}")
-        else:
-            print(f"Gemini Cleaned Text (first 200 chars):\n{gemini_cleaned_text[:200]}{'...' if len(gemini_cleaned_text) > 200 else ''}")
-
-        result = rouge.compute(predictions=[gemini_cleaned_text], references=[ground_truth_clean_text])
-        print(f" ROUGE score:...")
-        print(result)
-        gemini_metrics = calculate_metrics(ground_truth_clean_text, gemini_cleaned_text)
-        print(f"Gemini Metrics: WER={gemini_metrics['wer']:.4f}, CER={gemini_metrics['cer']:.4f}")
-
-        # To avoid hitting rate limits, we can add a sleep here.
-        time.sleep(1)
-
-        gemini_judged.append({
-            "gemini_cleaned": gemini_cleaned_text,
-            "ground_truth": ground_truth_clean_text,
-        })
-        results.append({
+        # Step 4: Aggregate all information for this item
+        result_item = {
             "original_ocr": ocr_text,
-            "ground_truth": ground_truth_clean_text,
-            "gemini_cleaned": gemini_cleaned_text,
-            "gemini_wer": gemini_metrics['wer'],
-            "gemini_cer": gemini_metrics['cer'],
-        })
+            "ground_truth": ground_truth,
+            "gemini_cleaned": cleaned_text,
+            "metrics": {
+                "wer": edit_metrics['wer'],
+                "cer": edit_metrics['cer'],
+                "rouge": rouge_scores
+            },
+            "judgement": {
+                "score": parsed_judgement_score,
+                #"raw_score_text": raw_judgement
+            }
+        }
+        all_results.append(result_item)
+        
+        print(f"  -> Metrics: WER={edit_metrics['wer']:.4f}, CER={edit_metrics['cer']:.4f}")
+        print(f"  -> Judgement: Score={parsed_judgement_score} (Raw: '{raw_judgement}')")
+        
+        # Avoid hitting API rate limits
+        time.sleep(1) 
 
-    print("\n\n--- Overall Results ---")
-    if results:
-        successful_results = [r for r in results if not r['gemini_cleaned'].startswith("[GEMINI_")]
-        if successful_results:
-            avg_gemini_wer = sum(r['gemini_wer'] for r in successful_results) / len(successful_results)
-            avg_gemini_cer = sum(r['gemini_cer'] for r in successful_results) / len(successful_results)
-            print(f"Average Gemini WER (for {len(successful_results)} successfully processed items): {avg_gemini_wer:.4f}")
-            print(f"Average Gemini CER (for {len(successful_results)} successfully processed items): {avg_gemini_cer:.4f}")
-            if len(successful_results) < len(results):
-                print(f"Note: {len(results) - len(successful_results)} item(s) encountered errors during Gemini cleaning and were excluded from averages.")
-        else:
-            print("No items were successfully processed by Gemini to calculate average metrics.")
-    else:
-        print("No items were processed.")
-
-#-------------------------------------------- Save Results to JSON File --------------------------------------------
-    output_filename = "cleaning_results.json"
+    # --- Save Final Combined Results ---
+    print("\n--- Pipeline Complete ---")
+    output_dir = os.path.dirname(OUTPUT_PATH)
+    if output_dir:
+        os.makedirs(output_dir, exist_ok=True)
+        
     try:
-        with open(output_filename, "w", encoding="utf-8") as outfile:
-            json.dump(results, outfile, indent=2, ensure_ascii=False)
-        print(f"\nDetailed results saved to {output_filename}")
+        with open(OUTPUT_PATH, "w", encoding="utf-8") as outfile:
+            json.dump(all_results, outfile, indent=2, ensure_ascii=False)
+        print(f"\nAll processed data and results saved to: {OUTPUT_PATH}")
     except IOError as e:
-        print(f"\nError saving results to {output_filename}: {e}")
+        print(f"\nError saving final results file: {e}")
 
-
-#-------------------------------------------- Saving of the file ready to be judicate with judge --------------------------------------------
-        output_filename = "judge_file.json"
-    try:
-        with open(output_filename, "w", encoding="utf-8") as outfile:
-            json.dump(results, outfile, indent=2, ensure_ascii=False)
-        print(f"\njudge file saved correctly {output_filename}")
-    except IOError as e:
-        print(f"\nError saving results to {output_filename}: {e}")
-
-
-#------------------------------------------------------------------------------------------------------------------------------------
 if __name__ == "__main__":
     main()

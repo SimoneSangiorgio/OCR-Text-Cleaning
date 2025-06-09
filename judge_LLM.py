@@ -7,14 +7,14 @@ from dotenv import load_dotenv # Recommended for API key management
 load_dotenv()
 
 GEMINI_MODEL_NAME = "gemini-2.0-flash"
-INPUT_PATH = "results/cleaning_results.json"
-OUTPUT_PATH = "results/judging_results.json"
+INPUT_PATH = "clean_judge_files/cleaning_results.json"
+OUTPUT_PATH = "clean_judge_files/judging_results.json"
 
 api_key = os.getenv("GOOGLE_API_KEY")
 
 # ----------------------------------------------- LLM Judge Functions -----------------------------------------------
 
-def judge_with_gemini(gemini_cleaned: str, ground_truth: str) -> str:
+def judge_with_gemini(client: genai.Client, gemini_cleaned: str, ground_truth: str) -> str:
     """Judges the quality of Gemini-generated text using a pre-initialized Gemini client."""
     
     # Handle empty input gracefully
@@ -56,27 +56,18 @@ Return ONLY the integer score (0-5) and nothing else.
     #print(response.text)
     return response.text
 
+
+#--------------------------------------------------------------------------------------------------------------------------------
+
+
+
 def main():
     """
     Main function to read data, judge it with Gemini, and save the results.
+    this is actually no more nedded because the main file take the function from judge_LLM.py. but could be usefull if we want to create a separate file witout run the main file
     """
-    # # --- 1. Initialize API Client ---
-    # # BEST PRACTICE: Get API key from environment variables.
-    # api_key = os.getenv("GOOGLE_API_KEY")
-    # if not api_key:
-    #     print("Error: GOOGLE_API_KEY not found in environment variables.")
-    #     print("Please create a .env file or set the environment variable.")
-    #     return # Exit if no API key
 
-    # try:
-    #     genai.configure(api_key=api_key)
-    #     model = genai.GenerativeModel(GEMINI_MODEL_NAME)
-    #     print(f"Successfully initialized Gemini model: {GEMINI_MODEL_NAME}")
-    # except Exception as e:
-    #     print(f"Error initializing Gemini Client: {e}")
-    #     return
-
-    # --- 2. Read Input File ---
+    # --- 1. Read Input File ---
     try:
         with open(INPUT_PATH, 'r', encoding='utf-8') as f:
             data_dict = json.load(f)
@@ -88,7 +79,7 @@ def main():
         print(f"Error: Could not decode JSON from '{INPUT_PATH}'. Please check its format.")
         return
 
-    # --- 3. Process Data ---
+    # --- 2. Process Data ---
     results = []
     for i, item in enumerate(data_dict, 1):
         print(f"Processing item {i}/{len(data_dict)}...")
@@ -103,7 +94,7 @@ def main():
             'score': score
         })
 
-    # --- 4. Save Results ---
+    # --- 3. Save Results ---
     output_dir = os.path.dirname(OUTPUT_PATH)
     if output_dir: # Check if there is a directory part
         os.makedirs(output_dir, exist_ok=True)
