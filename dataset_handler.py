@@ -1,8 +1,8 @@
 import json
 
 # Path to the dataset file
-input_ocr_path = "dataset/eng/the_vampyre_ocr.json"
-input_clear_path = "dataset/eng/the_vampyre_clean.json"
+input_ocr_path = "dataset2/eng/the_vampyre_ocr.json"
+input_clear_path = "dataset2/eng/the_vampyre_clean.json"
 
 # Load the full JSON file
 with open(input_ocr_path, 'r', encoding='utf-8') as f:
@@ -54,10 +54,10 @@ print(f"\nNumber of items in subset: {len(final_dict)}")
 
 
 # Display the first item in the subset
-# print(f"example", final_dict["0"])
+print(f"example", final_dict["0"])
 
 #save this subset
-output_subset_path = "dataset/eng/the_vampyre_subset_24.json"
+output_subset_path = "dataset2/eng/the_vampyre_subset.json"
 with open(output_subset_path, 'w', encoding='utf-8') as outfile:
     json.dump(final_dict, outfile, indent=2, ensure_ascii=False)
 print(f"\nSubset dictionary saved to: {output_subset_path}")

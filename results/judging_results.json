@@ -1,0 +1,32 @@
+[
+    {
+        "gemini_cleaned": "THE VAMPYRE;\n",
+        "ground_truth": "THE VAMPYRE;",
+        "score": "5\n"
+    },
+    {
+        "gemini_cleaned": "A Tale.\n",
+        "ground_truth": "A Tale.",
+        "score": "5\n"
+    },
+    {
+        "gemini_cleaned": "By John William Polidori\n",
+        "ground_truth": "By John William Polidori",
+        "score": "5\n"
+    },
+    {
+        "gemini_cleaned": "The superstition upon which this tale is founded is very general in the East. Among the Arabians it appears to be common: it did not, however, extend itself to the Greeks until after the establishment of Christianity; and it has only assumed its present form since the division of the Latin and Greek churches; at which time, the idea becoming prevalent, that a Latin body could not corrupt if buried in their territory, it gradually increased, and formed the subject of many wonderful stories, still extant, of the dead rising from their graves, and feeding upon the blood of the young and beautiful. In the West it spread, with some slight variation, all over Hungary, Poland, Austria, and Lorraine, where the belief existed, that vampires nightly imbibed a certain portion of the blood of their victims, who became emaciated, lost their strength, and speedily died of consumption; whilst these human blood-suckers fattened—and their veins became distended to such a state of repletion, as to cause the blood to flow from all the passages of their bodies, and even from the very pores of their skins.\n",
+        "ground_truth": "THE superstition upon which this tale is founded is very general in the East. Among the Arabians it appears to be common: it did not, however, extend itself to the Greeks until after the establishment of Christianity; and it has only assumed its present form since the division of the Latin and Greek churches; at which time, the idea becoming prevalent, that a Latin body could not corrupt if buried in their territory, it gradually increased, and formed the subject of many wonderful stories, still extant, of the dead rising from their graves, and feeding upon the blood of the young and beautiful. In the West it spread, with some slight variation, all over Hungary, Poland, Austria, and Lorraine, where the belief existed, that vampyres nightly imbibed a certain portion of the blood of their victims, who became emaciated, lost their strength, and speedily died of consumptions; whilst these human blood-suckers fattened—and their veins became distended to such a state of repletion, as to cause the blood to flow from all the passages of their bodies, and even from the very pores of their skins.",
+        "score": "4\n"
+    },
+    {
+        "gemini_cleaned": "In the London Journal, of March, 1732, is a curious, and, of course, credible account of a particular case of vampyrism, which is stated to have occurred at Madreyga, in Hungary. It appears, that upon an examination of the commander-in-chief and magistrates of the place, they positively and unanimously affirmed, that, about five years before, a certain Heyduke, named Arnold Paul, had been heard to say, that, at Cassovia, on the frontiers of the Turkish Servia, he had been tormented by a vampyre, but had found a way to rid himself of the evil, by eating some of the earth out of the vampyre's grave, and rubbing himself with his blood. This precaution, however, did not prevent him from becoming a vampyre himself; for, about twenty or thirty days after his death and burial, many persons complained of having been tormented by him, and a deposition was made, that four persons had been deprived of life by his attacks. To prevent further mischief, the inhabitants having consulted their Hadagni, took up the body, and found it (as is supposed to be usual in cases of vampyrism) fresh, and entirely free from corruption, and emitting at the mouth, nose, and ears, pure and florid blood. Proof having been thus obtained, they resorted to the accustomed remedy. A stake was driven entirely through the heart and body of Arnold Paul, at which he is reported to have cried out as dreadfully as if he had been alive. This done, they cut off his head, burned his body, and threw the ashes into his grave. The same measures were adopted with the corpses of those persons who had previously died from vampyrism, lest they should, in their turn, become agents upon others who survived them.\n",
+        "ground_truth": "In the London Journal, of March, 1732, is a curious, and, of course, credible account of a particular case of vampyrism, which is stated to have occurred at Madreyga, in Hungary. It appears, that upon an examination of the commander-in-chief and magistrates of the place, they positively and unanimously affirmed, that, about five years before, a certain Heyduke, named Arnold Paul, had been heard to say, that, at Cassovia, on the frontiers of the Turkish Servia, he had been tormented by a vampyre, but had found a way to rid himself of the evil, by eating some of the earth out of the vampyre's grave, and rubbing himself with his blood. This precaution, however, did not prevent him from becoming a vampyre himself; for, about twenty or thirty days after his death and burial, many persons complained of having been tormented by him, and a deposition was made, that four persons had been deprived of life by his attacks. To prevent further mischief, the inhabitants having consulted their Hadagni, took up the body, and found it (as is supposed to be usual in cases of vampyrism) fresh, and entirely free from corruption, and emitting at the mouth, nose, and ears, pure and florid blood. Proof having been thus obtained, they resorted to the accustomed remedy. A stake was driven entirely through the heart and body of Arnold Paul, at which he is reported to have cried out as dreadfully as if he had been alive. This done, they cut off his head, burned his body, and threw the ashes into his grave. The same measures were adopted with the corses of those persons who had previously died from vampyrism, lest they should, in their turn, become agents upon others who survived them.",
+        "score": "5\n"
+    },
+    {
+        "gemini_cleaned": "The universal belief is that a person sucked by a vampyre becomes a vampyre himself, and sucks in his turn.\n",
+        "ground_truth": "The universal belief is, that a person sucked by a vampyre becomes a vampyre himself, and sucks in his turn.",
+        "score": "5\n"
+    }
+]
