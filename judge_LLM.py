@@ -3,12 +3,14 @@ import json
 from google import genai
 from dotenv import load_dotenv # Recommended for API key management
 
+from pathinator import *
+
 # --- Configuration ---
 load_dotenv()
 
 GEMINI_MODEL_NAME = "gemini-2.0-flash"
-INPUT_PATH = "clean_judge_files/cleaning_results.json"
-OUTPUT_PATH = "clean_judge_files/judging_results.json"
+INPUT_PATH = cleaning_results
+OUTPUT_PATH = judging_results
 
 api_key = os.getenv("GOOGLE_API_KEY")
 

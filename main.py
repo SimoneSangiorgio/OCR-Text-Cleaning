@@ -6,17 +6,38 @@ from google import genai
 from dotenv import load_dotenv
 import jiwer
 import evaluate
+import difflib
+from groq import Groq
 
-from cleaner_LLM import clean_with_gemini
+
+from cleaner_LLM import clean_with_gemini, clean_with_huggingface, clean_with_groq
 from judge_LLM import judge_with_gemini
+
+from pathinator import *
 
 # --- 1. Configuration ---
 load_dotenv()
 
 # Model and File Configuration
-INPUT_PATH = "dataset/eng/the_vampyre_subset.json"
-OUTPUT_PATH = "results/full_pipeline_results.json"
-NUM_ITEM_TO_PROCESS = 6 # Set to a larger number or `None` to process all
+INPUT_PATH = dataset_subset
+OUTPUT_PATH = full_pipeline_results
+NUM_ITEM_TO_PROCESS = 5 # Set to a larger number or `None` to process all
+
+MODELS_TO_RUN = [
+    {
+        "name": "Gemini-1.5-Flash",
+        "type": "gemini",
+        "function": clean_with_gemini,
+        "model_id_or_client": None  # Gemini uses a global client
+    },
+    {
+        "name": "Groq Llama-3-8B-Instruct",
+        "type": "groq",
+        "function": clean_with_groq,
+        "model_id_or_client": "llama-3.3-70b-versatile"
+    }
+]
+
 
 def parse_score(response_text: str) -> int:
     """Extracts the first integer from the judge's response for robustness."""
@@ -35,20 +56,54 @@ def calculate_metrics(reference: str, hypothesis: str) -> dict:
         "cer": jiwer.cer(reference, hypothesis)
     }
 
+def get_detailed_diffs(text1: str, text2: str) -> list[dict]:
+    """
+    Compares two strings word by word and returns a list of dictionaries 
+    highlighting the specific differing words.
+    """
+    # Split texts into lists of words. We use a regex to better handle
+    # punctuation, treating it as a separate "word".
+    import re
+    words1 = re.findall(r'\w+|[^\w\s]', text1)
+    words2 = re.findall(r'\w+|[^\w\s]', text2)
+
+    s = difflib.SequenceMatcher(None, words1, words2)
+    diffs = []
+
+    for tag, i1, i2, j1, j2 in s.get_opcodes():
+        if tag == 'equal':
+            continue
+
+        diff_item = {
+            "type": tag,
+            # Join the words to recreate the original text slice
+            "ground_truth_slice": " ".join(words1[i1:i2]),
+            "model_cleaned_slice": " ".join(words2[j1:j2])
+        }
+        diffs.append(diff_item)
+        
+    return diffs
+
 # --- 3. Main Orchestration Logic ---
 
 def main():
     """
-    Main function to run the complete clean, evaluate, and judge pipeline.
+    Main function to run the complete clean, evaluate, and judge pipeline for multiple models.
     """
     # --- Initialize APIs (ONCE) ---
     try:
-        api_key = os.getenv("GOOGLE_API_KEY")
-        if not api_key:
+        google_api_key = os.getenv("GOOGLE_API_KEY")
+        if not google_api_key:
             raise ValueError("GOOGLE_API_KEY not found in environment variables.")
-        client = genai.Client(api_key=api_key)
+        gemini_client = genai.Client(api_key=google_api_key)
+        
+        groq_api_key = os.getenv("GROQ_API_KEY")
+        if not groq_api_key:
+            raise ValueError("GROQ_API_KEY not found in environment variables.")
+        groq_client = Groq(api_key=groq_api_key)
+
         rouge_metric = evaluate.load("rouge")
-        print("Successfully initialized Gemini Client and ROUGE metric evaluator.")
+        print("Successfully initialized Gemini Client, Groq Client, and ROUGE metric evaluator.")
     except Exception as e:
         print(f"Fatal Error during initialization: {e}")
         return
@@ -66,65 +121,85 @@ def main():
     subset_to_process = list_of_items[:NUM_ITEM_TO_PROCESS] if NUM_ITEM_TO_PROCESS is not None else list_of_items
     
     all_results = []
-    print(f"\nStarting pipeline for {len(subset_to_process)} items...")
+    print(f"\nStarting pipeline for {len(subset_to_process)} items across {len(MODELS_TO_RUN)} models...")
 
-    # --- Process Each Item in the Pipeline ---
+    # --- Process Each Item in the Dataset ---
     for i, item in enumerate(subset_to_process):
-        print(f"\n--- Processing item {i+1}/{len(subset_to_process)} ---")
+        print(f"\n{'='*20} Processing item {i+1}/{len(subset_to_process)} {'='*20}")
         
         ocr_text = item.get('ocr', '')
         ground_truth = item.get('clean', '')
-
-        # Step 1: Clean the text
-        print("1. Cleaning text with Gemini...")
-        cleaned_text = clean_with_gemini(client, ocr_text)
         
-        if "[GEMINI_" in cleaned_text:
-            print("  -> Skipping further processing for this item due to cleaning error.")
-            # Still save the failed attempt for review
-            result_item = {
-                "original_ocr": ocr_text,
-                "ground_truth": ground_truth,
-                "gemini_cleaned": cleaned_text,
-                "metrics": None,
-                "judgement": None
-            }
-            all_results.append(result_item)
-            time.sleep(1) # Still sleep to avoid hammering a failing API
-            continue
-
-        # Step 2: Evaluate with quantitative metrics
-        print("2. Calculating WER, CER, and ROUGE metrics...")
-        edit_metrics = calculate_metrics(ground_truth, cleaned_text)
-        rouge_scores = rouge_metric.compute(predictions=[cleaned_text], references=[ground_truth])
-        
-        # Step 3: Judge the quality with an LLM
-        print("3. Judging quality with Gemini...")
-        raw_judgement = judge_with_gemini(client, cleaned_text, ground_truth)
-        parsed_judgement_score = parse_score(raw_judgement)
-
-        # Step 4: Aggregate all information for this item
-        result_item = {
+        # Structure to save all results for this item
+        item_result = {
+            "item_id": i + 1,
             "original_ocr": ocr_text,
             "ground_truth": ground_truth,
-            "gemini_cleaned": cleaned_text,
-            "metrics": {
-                "wer": edit_metrics['wer'],
-                "cer": edit_metrics['cer'],
-                "rouge": rouge_scores
-            },
-            "judgement": {
-                "score": parsed_judgement_score,
-                #"raw_score_text": raw_judgement
-            }
+            "model_outputs": []
         }
-        all_results.append(result_item)
-        
-        print(f"  -> Metrics: WER={edit_metrics['wer']:.4f}, CER={edit_metrics['cer']:.4f}")
-        print(f"  -> Judgement: Score={parsed_judgement_score} (Raw: '{raw_judgement}')")
-        
-        # Avoid hitting API rate limits
-        time.sleep(1) 
+
+        # --- Loop through each configured model ---
+        for model_config in MODELS_TO_RUN:
+            model_name = model_config["name"]
+            cleaning_function = model_config["function"]
+            print(f"\n--- Running on model: {model_name} ---")
+
+            # Step 1: Clean the text
+            print("1. Cleaning text...")
+            cleaned_text = "[ERROR: Unknown model type in config]"
+            if model_config["type"] == "gemini":
+                cleaned_text = cleaning_function(gemini_client, ocr_text)
+            elif model_config["type"] == "huggingface":
+                model_id = model_config["model_id_or_client"]
+                cleaned_text = cleaning_function(model_id, ocr_text)
+            elif model_config["type"] == "groq":
+                model_id = model_config["model_id_or_client"]
+                cleaned_text = cleaning_function(groq_client, ocr_text, model_id)
+
+            if "[ERROR:" in cleaned_text or "[GEMINI_" in cleaned_text or "[HUGGINGFACE_" in cleaned_text or "[GROQ_" in cleaned_text:
+                print(f"  -> Skipping further processing for {model_name} due to cleaning error: {cleaned_text}")
+                model_run_result = {"model_name": model_name, "cleaned_text": cleaned_text, "metrics": None, "judgement": None, "differences": []}
+                item_result["model_outputs"].append(model_run_result)
+                time.sleep(1) # Still sleep to avoid hammering a failing API
+                continue
+
+            # Step 2: Evaluate with quantitative metrics
+            print("2. Calculating WER, CER, and ROUGE metrics...")
+            edit_metrics = calculate_metrics(ground_truth, cleaned_text)
+            rouge_scores = rouge_metric.compute(predictions=[cleaned_text], references=[ground_truth])
+            
+            # Step 3: Judge the quality with Gemini (using Gemini as the standard judge for all)
+            print("3. Judging quality with Gemini...")
+            raw_judgement = judge_with_gemini(gemini_client, cleaned_text, ground_truth)
+            parsed_judgement_score = parse_score(raw_judgement)
+
+            # Step 4: Get detailed differences
+            detailed_differences = get_detailed_diffs(ground_truth, cleaned_text)
+
+            # Step 5: Aggregate all information for this model run
+            model_run_result = {
+                "model_name": model_name,
+                "cleaned_text": cleaned_text,
+                "metrics": {
+                    "wer": edit_metrics['wer'],
+                    "cer": edit_metrics['cer'],
+                    "rouge": rouge_scores
+                },
+                "judgement": {
+                    "score": parsed_judgement_score,
+                    "raw_score_text": raw_judgement.strip()
+                },
+                "differences": detailed_differences
+            }
+            item_result["model_outputs"].append(model_run_result)
+            
+            print(f"  -> Metrics: WER={edit_metrics['wer']:.4f}, CER={edit_metrics['cer']:.4f}")
+            print(f"  -> Judgement: Score={parsed_judgement_score}")
+            
+            # Avoid hitting API rate limits
+            time.sleep(1) 
+
+        all_results.append(item_result)
 
     # --- Save Final Combined Results ---
     print("\n--- Pipeline Complete ---")
@@ -141,3 +216,22 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+'''{
+        "name": "Groq Llama-3-8B-Instruct",
+        "type": "groq",
+        "function": clean_with_groq,
+        "model_id_or_client": "llama3-8b-8192"
+    },
+    {
+        "name": "Groq Mixtral-8x7B-Instruct",
+        "type": "groq",
+        "function": clean_with_groq,
+        "model_id_or_client": "mixtral-8x7b-32768"
+},
+    {
+        "name": "Llama",
+        "type": "huggingface",
+        "function": clean_with_huggingface,
+        "model_id_or_client": "meta-llama/Llama-3.3-70B-Instruct"
+    }'''
