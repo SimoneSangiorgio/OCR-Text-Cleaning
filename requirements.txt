@@ -1,0 +1,9 @@
+google-genai
+python-dotenv
+jiwer
+evaluate
+rouge-score
+
+
+prometheus-eval
+vllm
