@@ -10,9 +10,9 @@ import difflib
 from groq import Groq
 
 
-from cleaner_LLM import clean_with_gemini, clean_with_huggingface, clean_with_groq
+from cleaner_LLM import clean_with_gemini, clean_with_groq, corrector_gemini, corrector_groq
 from judge_LLM import judge_with_gemini
-
+from pre_clean import *
 from pathinator import *
 
 # --- 1. Configuration ---
@@ -20,24 +20,24 @@ load_dotenv()
 
 # Model and File Configuration
 INPUT_PATH = dataset_subset
-OUTPUT_PATH = full_pipeline_results
-NUM_ITEM_TO_PROCESS = 5 # Set to a larger number or `None` to process all
 
-MODELS_TO_RUN = [
-    {
+START_INDEX = 1
+END_INDEX = 2  # Modifica questo valore o impostalo su None per andare fino alla fine
+
+OUTPUT_PATH = results / f"full_pipeline_results_{START_INDEX}_{END_INDEX}.json"
+
+MODELS_TO_RUN = [{
         "name": "Gemini-1.5-Flash",
         "type": "gemini",
         "function": clean_with_gemini,
-        "model_id_or_client": None  # Gemini uses a global client
-    },
+        "model_id_or_client": None },
+
     {
-        "name": "Groq Llama-3-8B-Instruct",
+        "name": "Mistral",
         "type": "groq",
         "function": clean_with_groq,
-        "model_id_or_client": "llama-3.3-70b-versatile"
-    }
-]
-
+        "model_id_or_client": "mistral-saba-24b"}
+        ]
 
 def parse_score(response_text: str) -> int:
     """Extracts the first integer from the judge's response for robustness."""
@@ -90,6 +90,7 @@ def main():
     """
     Main function to run the complete clean, evaluate, and judge pipeline for multiple models.
     """
+
     # --- Initialize APIs (ONCE) ---
     try:
         google_api_key = os.getenv("GOOGLE_API_KEY")
@@ -118,16 +119,25 @@ def main():
         return
 
     list_of_items = list(data_dict.values())
-    subset_to_process = list_of_items[:NUM_ITEM_TO_PROCESS] if NUM_ITEM_TO_PROCESS is not None else list_of_items
+
+    # Validate the indices to prevent unexpected behavior
+    if END_INDEX is not None and START_INDEX > END_INDEX:
+        print(f"Error: START_INDEX ({START_INDEX}) cannot be greater than END_INDEX ({END_INDEX}). Exiting.")
+        return
+
+    # Slice the list of items based on the specified range
+    subset_to_process = list_of_items[START_INDEX-1:END_INDEX]
     
     all_results = []
-    print(f"\nStarting pipeline for {len(subset_to_process)} items across {len(MODELS_TO_RUN)} models...")
+    print(f"\nStarting pipeline for {len(subset_to_process)} items (from index {START_INDEX} to {END_INDEX or len(list_of_items)}) across {len(MODELS_TO_RUN)} models...")
 
     # --- Process Each Item in the Dataset ---
     for i, item in enumerate(subset_to_process):
         print(f"\n{'='*20} Processing item {i+1}/{len(subset_to_process)} {'='*20}")
         
         ocr_text = item.get('ocr', '')
+        ocr_text = replacement_rules(ocr_text)
+
         ground_truth = item.get('clean', '')
         
         # Structure to save all results for this item
@@ -149,12 +159,15 @@ def main():
             cleaned_text = "[ERROR: Unknown model type in config]"
             if model_config["type"] == "gemini":
                 cleaned_text = cleaning_function(gemini_client, ocr_text)
-            elif model_config["type"] == "huggingface":
-                model_id = model_config["model_id_or_client"]
-                cleaned_text = cleaning_function(model_id, ocr_text)
+                cleaned_text = corrector_gemini(gemini_client, cleaned_text)
+                #cleaned_text = replacement_rules(cleaned_text)
             elif model_config["type"] == "groq":
                 model_id = model_config["model_id_or_client"]
                 cleaned_text = cleaning_function(groq_client, ocr_text, model_id)
+                cleaned_text = corrector_groq(groq_client, cleaned_text, model_id)
+                #cleaned_text = replacement_rules(cleaned_text)
+
+            #ocr_text = correct_spelling(ocr_text)
 
             if "[ERROR:" in cleaned_text or "[GEMINI_" in cleaned_text or "[HUGGINGFACE_" in cleaned_text or "[GROQ_" in cleaned_text:
                 print(f"  -> Skipping further processing for {model_name} due to cleaning error: {cleaned_text}")
@@ -216,22 +229,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-'''{
-        "name": "Groq Llama-3-8B-Instruct",
-        "type": "groq",
-        "function": clean_with_groq,
-        "model_id_or_client": "llama3-8b-8192"
-    },
-    {
-        "name": "Groq Mixtral-8x7B-Instruct",
-        "type": "groq",
-        "function": clean_with_groq,
-        "model_id_or_client": "mixtral-8x7b-32768"
-},
-    {
-        "name": "Llama",
-        "type": "huggingface",
-        "function": clean_with_huggingface,
-        "model_id_or_client": "meta-llama/Llama-3.3-70B-Instruct"
-    }'''
