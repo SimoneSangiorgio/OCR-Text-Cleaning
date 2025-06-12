@@ -1,0 +1,275 @@
+[
+  {
+    "item_id": 1,
+    "original_ocr": "THE VAMPYRE;",
+    "ground_truth": "THE VAMPYRE;",
+    "model_outputs": [
+      {
+        "model_name": "Gemini-1.5-Flash",
+        "cleaned_text": "THE VAMPYRE;\n",
+        "metrics": {
+          "wer": 0.0,
+          "cer": 0.0,
+          "rouge": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": []
+      },
+      {
+        "model_name": "Llama",
+        "cleaned_text": "THE VAMPYRE;",
+        "metrics": {
+          "wer": 0.0,
+          "cer": 0.0,
+          "rouge": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": []
+      },
+      {
+        "model_name": "Mistral",
+        "cleaned_text": "THE VAMPYRE;",
+        "metrics": {
+          "wer": 0.0,
+          "cer": 0.0,
+          "rouge": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": []
+      }
+    ]
+  },
+  {
+    "item_id": 2,
+    "original_ocr": "A Tale.",
+    "ground_truth": "A Tale.",
+    "model_outputs": [
+      {
+        "model_name": "Gemini-1.5-Flash",
+        "cleaned_text": "A Tale.\n",
+        "metrics": {
+          "wer": 0.0,
+          "cer": 0.0,
+          "rouge": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": []
+      },
+      {
+        "model_name": "Llama",
+        "cleaned_text": "A Tale.",
+        "metrics": {
+          "wer": 0.0,
+          "cer": 0.0,
+          "rouge": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": []
+      },
+      {
+        "model_name": "Mistral",
+        "cleaned_text": "A Tale.",
+        "metrics": {
+          "wer": 0.0,
+          "cer": 0.0,
+          "rouge": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": []
+      }
+    ]
+  },
+  {
+    "item_id": 3,
+    "original_ocr": "By John William Polidori",
+    "ground_truth": "By John William Polidori",
+    "model_outputs": [
+      {
+        "model_name": "Gemini-1.5-Flash",
+        "cleaned_text": "By John William Polidori\n",
+        "metrics": {
+          "wer": 0.0,
+          "cer": 0.0,
+          "rouge": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": []
+      },
+      {
+        "model_name": "Llama",
+        "cleaned_text": "By John William Polidori",
+        "metrics": {
+          "wer": 0.0,
+          "cer": 0.0,
+          "rouge": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": []
+      },
+      {
+        "model_name": "Mistral",
+        "cleaned_text": "By John William Polidori",
+        "metrics": {
+          "wer": 0.0,
+          "cer": 0.0,
+          "rouge": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": []
+      }
+    ]
+  },
+  {
+    "item_id": 4,
+    "original_ocr": "THEsuperstition upon which this taIe iſ founded is very general in the East. Among tho Arabjans itappeors to be common: it did not, however, extend itself to the Greeks until after the establi shment of Christianity; and it has only aſsumed its prosent form since the division af the Latin and Greok churches; at which time, lhe idea becoming prevalent, that a Lcltin body could not corrvpl if buried in their territory, it gradually increosed, and formed lhe subject of many wonderful stories, ſtill extant, of the dead rising from their graves, and feeding uponlhe blood of tho young and beautiful. In the West itspread, with some slight variation, all over Hungary, Poland, Austria, and Lorraine, whoro the helies existed, that vompyresnightly imbi6ed a certain portion of the blood of their victims, who became emaciated, lost their strength, and speedily died of c0nsumptions; whilst these human blood-suckers fattened—and their veins became distended to such a state of ropletion, as t0 cause the blood to flow from all the passages of their badies, and even fr0m the ucry pores of thoir skins.",
+    "ground_truth": "THE superstition upon which this tale is founded is very general in the East. Among the Arabians it appears to be common: it did not, however, extend itself to the Greeks until after the establishment of Christianity; and it has only assumed its present form since the division of the Latin and Greek churches; at which time, the idea becoming prevalent, that a Latin body could not corrupt if buried in their territory, it gradually increased, and formed the subject of many wonderful stories, still extant, of the dead rising from their graves, and feeding upon the blood of the young and beautiful. In the West it spread, with some slight variation, all over Hungary, Poland, Austria, and Lorraine, where the belief existed, that vampyres nightly imbibed a certain portion of the blood of their victims, who became emaciated, lost their strength, and speedily died of consumptions; whilst these human blood-suckers fattened—and their veins became distended to such a state of repletion, as to cause the blood to flow from all the passages of their bodies, and even from the very pores of their skins.",
+    "model_outputs": [
+      {
+        "model_name": "Gemini-1.5-Flash",
+        "cleaned_text": "THE superstition upon which this tale is founded is very general in the East. Among the Arabians it appears to be common: it did not, however, extend itself to the Greeks until after the establishment of Christianity; and it has only assumed its present form since the division of the Latin and Greek churches; at which time, the idea becoming prevalent, that a Latin body could not corrupt if buried in their territory, it gradually increased, and formed the subject of many wonderful stories, still extant, of the dead rising from their graves, and feeding upon the blood of the young and beautiful. In the West it spread, with some slight variation, all over Hungary, Poland, Austria, and Lorraine, where the belief existed, that vampyres nightly imbibed a certain portion of the blood of their victims, who became emaciated, lost their strength, and speedily died of consumptions; whilst these human blood-suckers fattened—and their veins became distended to such a state of repletion, as to cause the blood to flow from all the passages of their bodies, and even from the very pores of their skins.\n",
+        "metrics": {
+          "wer": 0.0,
+          "cer": 0.0,
+          "rouge": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": []
+      },
+      {
+        "model_name": "Llama",
+        "cleaned_text": "THE superstition upon which this tale is founded is very general in the East. Among the Arabians it appears to be common: it did not, however, extend itself to the Greeks until after the establishment of Christianity; and it has only assumed its present form since the division of the Latin and Greek churches; at which time, the idea becoming prevalent, that a Latin body could not corrupt if buried in their territory, it gradually increased, and formed the subject of many wonderful stories, still extant, of the dead rising from their graves, and feeding upon the blood of the young and beautiful. In the West it spread, with some slight variation, all over Hungary, Poland, Austria, and Lorraine, where the belief existed, that vampires nightly imbibed a certain portion of the blood of their victims, who became emaciated, lost their strength, and speedily died of consumptions; whilst these human blood-suckers fattened—and their veins became distended to such a state of repletion, as to cause the blood to flow from all the passages of their bodies, and even from the very pores of their skins.",
+        "metrics": {
+          "wer": 0.005405405405405406,
+          "cer": 0.0009066183136899365,
+          "rouge": {
+            "rouge1": 0.9946524064171123,
+            "rouge2": 0.989247311827957,
+            "rougeL": 0.9946524064171123,
+            "rougeLsum": 0.9946524064171123
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": [
+          {
+            "type": "replace",
+            "ground_truth_slice": "vampyres",
+            "model_cleaned_slice": "vampires"
+          }
+        ]
+      },
+      {
+        "model_name": "Mistral",
+        "cleaned_text": "THE superstition upon which this tale is founded is very general in the East. Among the Arabjans it appears to be common: it did not, however, extend itself to the Greeks until after the establishment of Christianity; and it has only assumed its present form since the division of the Latin and Greek churches; at which time, the idea becoming prevalent, that a Latin body could not corrupt if buried in their territory, it gradually increased, and formed the subject of many wonderful stories, still extant, of the dead rising from their graves, and feeding upon the blood of the young and beautiful. In the West it spread, with some slight variation, all over Hungary, Poland, Austria, and Lorraine, where the beliefs existed, that vampyres nightly imbibed a certain portion of the blood of their victims, who became emaciated, lost their strength, and speedily died of consumptions; whilst these human blood-suckers fattened—and their veins became distended to such a state of repletion, as to cause the blood to flow from all the passages of their bodies, and even from the very pores of their skins.",
+        "metrics": {
+          "wer": 0.010810810810810811,
+          "cer": 0.001813236627379873,
+          "rouge": {
+            "rouge1": 0.9893048128342246,
+            "rouge2": 0.978494623655914,
+            "rougeL": 0.9893048128342246,
+            "rougeLsum": 0.9893048128342246
+          }
+        },
+        "judgement": {
+          "score": 4,
+          "raw_score_text": "4"
+        },
+        "differences": [
+          {
+            "type": "replace",
+            "ground_truth_slice": "Arabians",
+            "model_cleaned_slice": "Arabjans"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "belief",
+            "model_cleaned_slice": "beliefs"
+          }
+        ]
+      }
+    ]
+  }
+]

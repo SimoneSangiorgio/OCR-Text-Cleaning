@@ -1,0 +1,348 @@
+[
+  {
+    "item_id": 1,
+    "original_ocr": "But firſt on earth, as Vampyre sent, Thy corſe shall from its tomb be rent; Then ghastly haunt the natiue place, And suck thc blo0d of all thy race; There srom thy daughter, sister, wife, At midnight drain the stream of life; Yet l0atbe the banquet which perforee Must feed thy livid living corſe,Thy victims, ore they yet expirc, ShaIl know the demon for tbeir fire; As cvrſing thee, thou cursing them, Thy flowerf are withered on the stem. But one that for thy crime musl fall, The youngest, best beloved of all, Shall bless thee with a father's name— That word shall wrap thy heart in flaine! Yel thou must end thy task and inark Her c heek's last tinge—hor eye's last spark, And the last glassy glance must view Which freozes o'er its lifeless b1ue; Then with unballowed hand shall tear The tresses of her yellow hair, Of which, in life a lock wheri sborn Affcction's fondest pledge was worn— But now is borne away by thee Memorial of lhine agony! Yet with thine own bost blood shall drip; Thy gnashing tooth, and baggard lip; Then sta1king to thy sullen gravc, Go—arid with Gouls and Afrits rave, Till thefe in horror shrjnk away From spcctre more accursed than they.",
+    "ground_truth": "But first on earth, as Vampyre sent, Thy corse shall from its tomb be rent; Then ghastly haunt the native place, And suck the blood of all thy race; There from thy daughter, sister, wife, At midnight drain the stream of life; Yet loathe the banquet which perforce Must feed thy livid living corse, Thy victims, ere they yet expire, Shall know the demon for their sire; As cursing thee, thou cursing them, Thy flowers are withered on the stem. But one that for thy crime must fall, The youngest, best beloved of all, Shall bless thee with a father's name— That word shall wrap thy heart in flame! Yet thou must end thy task and mark Her cheek's last tinge—her eye's last spark, And the last glassy glance must view Which freezes o'er its lifeless blue; Then with unhallowed hand shall tear The tresses of her yellow hair, Of which, in life a lock when shorn Affection's fondest pledge was worn— But now is borne away by thee Memorial of thine agony! Yet with thine own best blood shall drip; Thy gnashing tooth, and haggard lip; Then stalking to thy sullen grave, Go—and with Gouls and Afrits rave, Till these in horror shrink away From spectre more accursed than they.",
+    "model_outputs": [
+      {
+        "model_name": "Gemini-1.5-Flash",
+        "cleaned_text": "But first on earth, as Vampyre sent, Thy corse shall from its tomb be rent; Then ghastly haunt the native place, And suck the blood of all thy race; There from thy daughter, sister, wife, At midnight drain the stream of life; Yet loathe the banquet which perforce Must feed thy livid living corse,Thy victims, ere they yet expire, Shall know the demon for their sire; As cursing thee, thou cursing them, Thy flowers are withered on the stem. But one that for thy crime must fall, The youngest, best beloved of all, Shall bless thee with a father's name— That word shall wrap thy heart in flame! Yet thou must end thy task and mark Her cheek's last tinge—her eye's last spark, And the last glassy glance must view Which freezes o'er its lifeless blue; Then with unhallowed hand shall tear The tresses of her yellow hair, Of which, in life a lock when shorn Affection's fondest pledge was worn— But now is borne away by thee Memorial of thine agony! Yet with thine own best blood shall drip; Thy gnashing tooth, and haggard lip; Then stalking to thy sullen grave, Go—and with Gouls and Afrits rave, Till these in horror shrink away From spectre more accursed than they.\n",
+        "metrics": {
+          "wer": 0.009478672985781991,
+          "cer": 0.0008561643835616438,
+          "rouge": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": []
+      },
+      {
+        "model_name": "Llama",
+        "cleaned_text": "But first on earth, as Vampyre sent, Thy corse shall from its tomb be rent; Then ghastly haunt the native place, And suck the blood of all thy race; There from thy daughter, sister, wife, At midnight drain the stream of life; Yet loathe the banquet which perforce Must feed thy livid living corse, Thy victims, ere they yet expire, Shall know the demon for their fire; As cursing thee, thou cursing them, Thy flowers are withered on the stem. But one that for thy crime must fall, The youngest, best beloved of all, Shall bless thee with a father's name— That word shall wrap thy heart in flame! Yet thou must end thy task and mark Her cheek's last tinge—her eye's last spark, And the last glassy glance must view Which freezes o'er its lifeless blue; Then with unhallowed hand shall tear The tresses of her yellow hair, Of which, in life a lock when born Affection's fondest pledge was worn— But now is borne away by thee Memorial of thine agony! Yet with thine own beast blood shall drip; Thy gnashing tooth, and haggard lip; Then stalking to thy sullen grave, Go—and with Gouls and Afrits rave, Till these in horror shrink away From spectre more accursed than they.",
+        "metrics": {
+          "wer": 0.014218009478672985,
+          "cer": 0.003424657534246575,
+          "rouge": {
+            "rouge1": 0.9862385321100917,
+            "rouge2": 0.9723502304147466,
+            "rougeL": 0.9862385321100917,
+            "rougeLsum": 0.9862385321100917
+          }
+        },
+        "judgement": {
+          "score": 4,
+          "raw_score_text": "4"
+        },
+        "differences": [
+          {
+            "type": "replace",
+            "ground_truth_slice": "sire",
+            "model_cleaned_slice": "fire"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "shorn",
+            "model_cleaned_slice": "born"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "best",
+            "model_cleaned_slice": "beast"
+          }
+        ]
+      },
+      {
+        "model_name": "Mistral",
+        "cleaned_text": "But first on earth, as Vampyre sent, Thy corse shall from its tomb be rent; Then ghastly haunt the native place, And suck the blood of all thy race; There from thy daughter, sister, wife, At midnight drain the stream of life; Yet late be the banquet which perforce Must feed thy livid living corse, Thy victims ere they yet expire, Shall know the demon for their fire; As cursing thee, thou cursing them, Thy flowers are withered on the stem. But one that for thy crime must fall, The youngest, best beloved of all, Shall bless thee with a father's name—That word shall wrap thy heart in flame! Yet thou must end thy task and mark Her cheek's last tinge—her eye's last spark, And the last glassy glance must viewWhich freezes o'er its lifeless blue; Then with unblessed hand shall tearThe tresses of her yellow hair, Of which, in life a lock whereonAffection's fondest pledge was worn—But now is borne away by thee Memorial of thine agony! Yet with thine own host blood shall drip; Thy gnashing tooth, and haggard lip; Then stalking to thy sullen grave, Go—and with Gouls and Afrits rave, Till these in horror shrink awayFrom spectre more accursed than they.",
+        "metrics": {
+          "wer": 0.09004739336492891,
+          "cer": 0.02054794520547945,
+          "rouge": {
+            "rouge1": 0.9490740740740741,
+            "rouge2": 0.9116279069767441,
+            "rougeL": 0.9490740740740741,
+            "rougeLsum": 0.9490740740740741
+          }
+        },
+        "judgement": {
+          "score": 3,
+          "raw_score_text": "3"
+        },
+        "differences": [
+          {
+            "type": "replace",
+            "ground_truth_slice": "loathe",
+            "model_cleaned_slice": "late be"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "sire",
+            "model_cleaned_slice": "fire"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "view Which",
+            "model_cleaned_slice": "viewWhich"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "unhallowed",
+            "model_cleaned_slice": "unblessed"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "tear The",
+            "model_cleaned_slice": "tearThe"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "when shorn Affection",
+            "model_cleaned_slice": "whereonAffection"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "best",
+            "model_cleaned_slice": "host"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "away From",
+            "model_cleaned_slice": "awayFrom"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item_id": 2,
+    "original_ocr": "Mr. Southey hcls also intraduced in his wild bul heavtiful poem of \"Thalaba,\" the vompyre corfe of the Arabian maid Oneiza, who is represented as havirig returned from the grave for the purpose of tormenting hirn shc best loved whilst in exiſtence.Bvt this cannot be supposed to havc resulted from the sinfulneſs of her life, she being pourtrayed througbout the whole of the tale as a complete type of purity and innocence. The veraciouſ Tourncf0rt gives o long account in his travels of several astonishing cases of vampyrjsm, to which he pretends to have been ari eyewitness; and Calmet, iri his greot work upon this subject, besides avariety of anecdotes, and traditionary narratives illustrative of jts effects, has put forth ſome learned dissertalions, tending to prove it to be a classical, as well as barbarian errar.",
+    "ground_truth": "Mr. Southey has also introduced in his wild but beautiful poem of \"Thalaba,\" the vampyre corse of the Arabian maid Oneiza, who is represented as having returned from the grave for the purpose of tormenting him she best loved whilst in existence. But this cannot be supposed to have resulted from the sinfulness of her life, she being pourtrayed throughout the whole of the tale as a complete type of purity and innocence. The veracious Tournefort gives a long account in his travels of several astonishing cases of vampyrism, to which he pretends to have been an eyewitness; and Calmet, in his great work upon this subject, besides a variety of anecdotes, and traditionary narratives illustrative of its effects, has put forth some learned dissertations, tending to prove it to be a classical, as well as barbarian error.",
+    "model_outputs": [
+      {
+        "model_name": "Gemini-1.5-Flash",
+        "cleaned_text": "Mr. Southey has also introduced in his wild but beautiful poem of \"Thalaba,\" the vampyre corse of the Arabian maid Oneiza, who is represented as having returned from the grave for the purpose of tormenting him she best loved whilst in existence. But this cannot be supposed to have resulted from the sinfulness of her life, she being pourtrayed throughout the whole of the tale as a complete type of purity and innocence. The veracious Tournefort gives a long account in his travels of several astonishing cases of vampyrism, to which he pretends to have been an eyewitness; and Calmet, in his great work upon this subject, besides a variety of anecdotes, and traditionary narratives illustrative of its effects, has put forth some learned dissertations, tending to prove it to be a classical, as well as barbarian error.\n",
+        "metrics": {
+          "wer": 0.0,
+          "cer": 0.0,
+          "rouge": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": []
+      },
+      {
+        "model_name": "Llama",
+        "cleaned_text": "Mr. Southey has also introduced in his wild but beautiful poem of \"Thalaba,\" the vampire corpse of the Arabian maid Oneiza, who is represented as having returned from the grave for the purpose of tormenting him she best loved whilst in existence. But this cannot be supposed to have resulted from the sinfulness of her life, she being portrayed throughout the whole of the tale as a complete type of purity and innocence. The veracious Tournefort gives a long account in his travels of several astonishing cases of vampyrism, to which he pretends to have been an eyewitness; and Calmet, in his great work upon this subject, besides a variety of anecdotes, and traditionary narratives illustrative of its effects, has put forth some learned dissertations, tending to prove it to be a classical, as well as barbarian error.",
+        "metrics": {
+          "wer": 0.021739130434782608,
+          "cer": 0.0036540803897685747,
+          "rouge": {
+            "rouge1": 0.9782608695652174,
+            "rouge2": 0.9635036496350365,
+            "rougeL": 0.9782608695652174,
+            "rougeLsum": 0.9782608695652174
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": [
+          {
+            "type": "replace",
+            "ground_truth_slice": "vampyre corse",
+            "model_cleaned_slice": "vampire corpse"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "pourtrayed",
+            "model_cleaned_slice": "portrayed"
+          }
+        ]
+      },
+      {
+        "model_name": "Mistral",
+        "cleaned_text": "Mr. Southey has also introduced in his wild but beautiful poem of \"Thalaba,\" the vampyre corfe of the Arabian maid Oneiza, who is represented as having returned from the grave for the purpose of tormenting him she best loved whilst in existence. But this cannot be supposed to have resulted from the sinfulness of her life, she being portrayed throughout the whole of the tale as a complete type of purity and innocence. The veracious Tournefort gives a long account in his travels of several astonishing cases of vampyrism, to which he pretends to have been an eyewitness; and Calmet, in his great work upon this subject, besides a variety of anecdotes, and traditionary narratives illustrative of its effects, has put forth some learned dissertations, tending to prove it to be a classical, as well as barbarian error.",
+        "metrics": {
+          "wer": 0.014492753623188406,
+          "cer": 0.00243605359317905,
+          "rouge": {
+            "rouge1": 0.9855072463768116,
+            "rouge2": 0.9708029197080292,
+            "rougeL": 0.9855072463768116,
+            "rougeLsum": 0.9855072463768116
+          }
+        },
+        "judgement": {
+          "score": 4,
+          "raw_score_text": "4"
+        },
+        "differences": [
+          {
+            "type": "replace",
+            "ground_truth_slice": "corse",
+            "model_cleaned_slice": "corfe"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "pourtrayed",
+            "model_cleaned_slice": "portrayed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item_id": 3,
+    "original_ocr": "Many curious and intcresting notices on this singularly horrible superstition might be added; tbough the present may suffiee for the limjts of a note, neceſsarily devoted to explanation, and which inay now be conc1uded 6y merely remarking, that though the term Vampyre is the one in most general acceptation, thcre are scvercll others synonymous withit, made use of in various parts of the world: as Vrouco1ocha, Vardou1acba, Goul, Broucoloka, &c.",
+    "ground_truth": "Many curious and interesting notices on this singularly horrible superstition might be added; though the present may suffice for the limits of a note, necessarily devoted to explanation, and which may now be concluded by merely remarking, that though the term Vampyre is the one in most general acceptation, there are several others synonymous with it, made use of in various parts of the world: as Vroucolocha, Vardoulacha, Goul, Broucoloka, &c.",
+    "model_outputs": [
+      {
+        "model_name": "Gemini-1.5-Flash",
+        "cleaned_text": "Many curious and interesting notices on this singularly horrible superstition might be added; though the present may suffice for the limits of a note, necessarily devoted to explanation, and which may now be concluded by merely remarking, that though the term Vampyre is the one in most general acceptation, there are several others synonymous with it, made use of in various parts of the world: as Vroucolocha, Vardoulacba, Goul, Broucoloka, &c.\n",
+        "metrics": {
+          "wer": 0.014084507042253521,
+          "cer": 0.002242152466367713,
+          "rouge": {
+            "rouge1": 0.9859154929577465,
+            "rouge2": 0.9714285714285714,
+            "rougeL": 0.9859154929577465,
+            "rougeLsum": 0.9859154929577465
+          }
+        },
+        "judgement": {
+          "score": 4,
+          "raw_score_text": "4"
+        },
+        "differences": [
+          {
+            "type": "replace",
+            "ground_truth_slice": "Vardoulacha",
+            "model_cleaned_slice": "Vardoulacba"
+          }
+        ]
+      },
+      {
+        "model_name": "Llama",
+        "cleaned_text": "Many curious and interesting notices on this singularly horrible superstition might be added; though the present may suffice for the limits of a note, necessarily devoted to explanation, and which may now be concluded by merely remarking, that though the term Vampyre is the one in most general acceptation, there are several others synonymous with it, made use of in various parts of the world: as Vroucolocha, Vardoulacha, Goul, Broucoloka, &c.",
+        "metrics": {
+          "wer": 0.0,
+          "cer": 0.0,
+          "rouge": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": []
+      },
+      {
+        "model_name": "Mistral",
+        "cleaned_text": "Many curious and interesting notices on this singularly horrible superstition might be added; though the present may suffice for the limits of a note, necessarily devoted to explanation, and which may now be concluded by merely remarking, that though the term Vampyre is the one in most general acceptation, there are several others synonymous with it, made use of in various parts of the world: as Vroucolocha, Vardoulacha, Goul, Broucoloka, &c.",
+        "metrics": {
+          "wer": 0.0,
+          "cer": 0.0,
+          "rouge": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": []
+      }
+    ]
+  },
+  {
+    "item_id": 4,
+    "original_ocr": "THE VAMPYRE.",
+    "ground_truth": "THE VAMPYRE.",
+    "model_outputs": [
+      {
+        "model_name": "Gemini-1.5-Flash",
+        "cleaned_text": "THE VAMPYRE.\n",
+        "metrics": {
+          "wer": 0.0,
+          "cer": 0.0,
+          "rouge": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": []
+      },
+      {
+        "model_name": "Llama",
+        "cleaned_text": "THE VAMPYRE.",
+        "metrics": {
+          "wer": 0.0,
+          "cer": 0.0,
+          "rouge": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": []
+      },
+      {
+        "model_name": "Mistral",
+        "cleaned_text": "THE VAMPYRE.",
+        "metrics": {
+          "wer": 0.0,
+          "cer": 0.0,
+          "rouge": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": []
+      }
+    ]
+  }
+]

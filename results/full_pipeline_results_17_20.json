@@ -1,0 +1,432 @@
+[
+  {
+    "item_id": 1,
+    "original_ocr": "They s0on arrived ot Romc, and Aubrey for a time lost sight of his companion; he left him in daily attendarice upon the morning circlc of an Italian countess, whilst he wenl in search of the memorials of another almost desertod cily. Whilst he waſ thus engaged, letters arrived from England, which he oponed with eager impatience; the first wos from his sister, breathing nothirig but affection; lhe others were from his gvardians, the latter astanished him; if it had hesore entered into his imagination that thcre was an evil power resident in his companion, these soemed to glve hjm sufficienl reason f0rthe belief. His guardians jnsisted upon his immedialely leaving his friend, and urged, that his character was dreadfully vicious, for that the possession of irresjstible powers of seduction, rendered his licentious habits more dangerous to society. It had been discouered, that his contempt for the a dultress had not originated in hatred of hercharacter; but thot he had reqvired, to erihance his gratification, that his vjclim, the partner of his guilt, shovld be hurled from the pinnclcIe of vnsullicd virtue, dowri to the lowest abyss of infamy and dogradation: in fine, thal all those females whom he had sought, apparently on account of their virtue, hod, since his departvre, thrown even the mask aside, and had not scrupled to expose the whole deformity of their vices to tbe public gaze.",
+    "ground_truth": "They soon arrived at Rome, and Aubrey for a time lost sight of his companion; he left him in daily attendance upon the morning circle of an Italian countess, whilst he went in search of the memorials of another almost deserted city. Whilst he was thus engaged, letters arrived from England, which he opened with eager impatience; the first was from his sister, breathing nothing but affection; the others were from his guardians, the latter astonished him; if it had before entered into his imagination that there was an evil power resident in his companion, these seemed to give him sufficient reason for the belief. His guardians insisted upon his immediately leaving his friend, and urged, that his character was dreadfully vicious, for that the possession of irresistible powers of seduction, rendered his licentious habits more dangerous to society. It had been discovered, that his contempt for the adultress had not originated in hatred of her character; but that he had required, to enhance his gratification, that his victim, the partner of his guilt, should be hurled from the pinnacle of unsullied virtue, down to the lowest abyss of infamy and degradation: in fine, that all those females whom he had sought, apparently on account of their virtue, had, since his departure, thrown even the mask aside, and had not scrupled to expose the whole deformity of their vices to the public gaze.",
+    "model_outputs": [
+      {
+        "model_name": "Gemini-1.5-Flash",
+        "cleaned_text": "They soon arrived at Rome, and Aubrey for a time lost sight of his companion; he left him in daily attendance upon the morning circle of an Italian countess, whilst he went in search of the memorials of another almost deserted city. Whilst he was thus engaged, letters arrived from England, which he opened with eager impatience; the first was from his sister, breathing nothing but affection; the others were from his guardians, the latter astonished him; if it had before entered into his imagination that there was an evil power resident in his companion, these seemed to give him sufficient reason for the belief. His guardians insisted upon his immediately leaving his friend, and urged, that his character was dreadfully vicious, for that the possession of irresistible powers of seduction, rendered his licentious habits more dangerous to society. It had been discovered, that his contempt for the adultress had not originated in hatred of her character; but that he had required, to enhance his gratification, that his victim, the partner of his guilt, should be hurled from the pinnacle of unsullied virtue, down to the lowest abyss of infamy and degradation: in fine, that all those females whom he had sought, apparently on account of their virtue, had, since his departure, thrown even the mask aside, and had not scrupled to expose the whole deformity of their vices to the public gaze.\n",
+        "metrics": {
+          "wer": 0.0,
+          "cer": 0.0,
+          "rouge": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": []
+      },
+      {
+        "model_name": "Llama",
+        "cleaned_text": "They soon arrived at Rome, and Aubrey for a time lost sight of his companion; he left him in daily attendance upon the morning circle of an Italian countess, whilst he went in search of the memorials of another almost deserted city. Whilst he was thus engaged, letters arrived from England, which he opened with eager impatience; the first was from his sister, breathing nothing but affection; the others were from his guardians, the latter astonished him; if it had hitherto entered into his imagination that there was an evil power resident in his companion, these seemed to give him sufficient reason for the belief. His guardians insisted upon his immediately leaving his friend, and urged, that his character was dreadfully vicious, for that the possession of irresistible powers of seduction, rendered his licentious habits more dangerous to society. It had been discovered, that his contempt for the adultress had not originated in hatred of her character; but that he had required, to enhance his gratification, that his victim, the partner of his guilt, should be hurled from the pinnacle of unsullied virtue, down to the lowest abyss of infamy and degradation: in fine, that all those females whom he had sought, apparently on account of their virtue, had, since his departure, thrown even the mask aside, and had not scrupled to expose the whole deformity of their vices to the public gaze.",
+        "metrics": {
+          "wer": 0.004291845493562232,
+          "cer": 0.005003573981415297,
+          "rouge": {
+            "rouge1": 0.9957081545064378,
+            "rouge2": 0.9913793103448276,
+            "rougeL": 0.9957081545064378,
+            "rougeLsum": 0.9957081545064378
+          }
+        },
+        "judgement": {
+          "score": 4,
+          "raw_score_text": "4"
+        },
+        "differences": [
+          {
+            "type": "replace",
+            "ground_truth_slice": "before",
+            "model_cleaned_slice": "hitherto"
+          }
+        ]
+      },
+      {
+        "model_name": "Mistral",
+        "cleaned_text": "They soon arrived at Rome, and Aubrey for a time lost sight of his companion; he left him in daily attendance upon the morning circle of an Italian countess, whilst he went in search of the memorials of another almost deserted city. Whilst he was thus engaged, letters arrived from England, which he opened with eager impatience; the first was from his sister, breathing nothing but affection; the others were from his guardians, the latter astonished him; if it had ever entered into his imagination that there was an evil power resident in his companion, these seemed to give him sufficient reason for the belief. His guardians insisted upon his immediately leaving his friend, and urged, that his character was dreadfully vicious, for that the possession of irresistible powers of seduction, rendered his licentious habits more dangerous to society. It had been discovered, that his contempt for the adultress had not originated in hatred of her character; but that he had required, to enhance his gratification, that his victim, the partner of his guilt, should be hurled from the pinnacle of unsullied virtue, down to the lowest abyss of infamy and degradation: in fine, that all those females whom he had sought, apparently on account of their virtue, had, since his departure, thrown even the mask aside, and had not scrupled to expose the whole deformity of their vices to the public gaze.",
+        "metrics": {
+          "wer": 0.004291845493562232,
+          "cer": 0.0028591851322373124,
+          "rouge": {
+            "rouge1": 0.9957081545064378,
+            "rouge2": 0.9913793103448276,
+            "rougeL": 0.9957081545064378,
+            "rougeLsum": 0.9957081545064378
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": [
+          {
+            "type": "replace",
+            "ground_truth_slice": "before",
+            "model_cleaned_slice": "ever"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item_id": 2,
+    "original_ocr": "Aubrey detcrmined upon leaving one, whose cbclracter had not yet shown a sjngle bright point on which t0 rest tbe eye. He refolved to invent some plausible pretext for abandoning him altogether, purposing, in the mean while, to watcb him more closely, ond to let no slight circurnslances pass by unnotlced. He entered into the ſame cir cle, and soon percoived, that his Lordship was ondeavouring to work upon the inexperience of the daughter of the lady whose house he chiefly frequented. In Italy, it is seldam that an unmarried female is met with in socjety; he was theref0re obliged to oarry on his plans in secret; but Aubrey's eye fallowedhim in all his windingf, and soon diseoverod that an asflgnatlon had been appointed, whlch would mosl likely ond in tho ruin af an innocent, though thoughtless girl. Losing no time, he entored the apartment 0f Lord Ruthven, and abruptly asked hiin his intenlions wlth respect to the lady, informing him atthe same time that be was aware of his being about to meet her thal uery night. Lord Ruthven answered, that his inlentions were such as he supposed clll would have upon such an occasion; and upon b eing pressed wbether he intended to marry her, merely laughcd. Aubrey retired; and, immediately writing a note, to say, that fram that moment he must declirie accompanyjnghis L0rdship in the remainder of tbeir proposed tour, he orderod his servarit to seek other apartments, and calling upon tho rnother of the lady, inf orined her of all he knew, not only with regard to her daughter, but also concerning the character of his Lordship. The assignation was prevented. Lord Ruthven next day merely sont hiſ scrvant to notify his complete assent to a separation; but did not hint any suspicion ofhis plans having been foiled by Aubrey's interposition.",
+    "ground_truth": "Aubrey determined upon leaving one, whose character had not yet shown a single bright point on which to rest the eye. He resolved to invent some plausible pretext for abandoning him altogether, purposing, in the mean while, to watch him more closely, and to let no slight circumstances pass by unnoticed. He entered into the same circle, and soon perceived, that his Lordship was endeavouring to work upon the inexperience of the daughter of the lady whose house he chiefly frequented. In Italy, it is seldom that an unmarried female is met with in society; he was therefore obliged to carry on his plans in secret; but Aubrey's eye followed him in all his windings, and soon discovered that an assignation had been appointed, which would most likely end in the ruin of an innocent, though thoughtless girl. Losing no time, he entered the apartment of Lord Ruthven, and abruptly asked him his intentions with respect to the lady, informing him at the same time that he was aware of his being about to meet her that very night. Lord Ruthven answered, that his intentions were such as he supposed all would have upon such an occasion; and upon being pressed whether he intended to marry her, merely laughed. Aubrey retired; and, immediately writing a note, to say, that from that moment he must decline accompanying his Lordship in the remainder of their proposed tour, he ordered his servant to seek other apartments, and calling upon the mother of the lady, informed her of all he knew, not only with regard to her daughter, but also concerning the character of his Lordship. The assignation was prevented. Lord Ruthven next day merely sent his servant to notify his complete assent to a separation; but did not hint any suspicion of his plans having been foiled by Aubrey's interposition.",
+    "model_outputs": [
+      {
+        "model_name": "Gemini-1.5-Flash",
+        "cleaned_text": "Aubrey determined upon leaving one, whose character had not yet shown a single bright point on which to rest the eye. He resolved to invent some plausible pretext for abandoning him altogether, purposing, in the mean while, to watch him more closely, and to let no slight circumstances pass by unnoticed. He entered into the same circle, and soon perceived, that his Lordship was endeavouring to work upon the inexperience of the daughter of the lady whose house he chiefly frequented. In Italy, it is seldom that an unmarried female is met with in society; he was therefore obliged to carry on his plans in secret; but Aubrey's eye followed him in all his windings, and soon discovered that an assignation had been appointed, which would most likely end in the ruin of an innocent, though thoughtless girl. Losing no time, he entered the apartment of Lord Ruthven, and abruptly asked him his intentions with respect to the lady, informing him at the same time that he was aware of his being about to meet her that very night. Lord Ruthven answered, that his intentions were such as he supposed all would have upon such an occasion; and upon being pressed whether he intended to marry her, merely laughed. Aubrey retired; and, immediately writing a note, to say, that from that moment he must decline accompanying his Lordship in the remainder of their proposed tour, he ordered his servant to seek other apartments, and calling upon the mother of the lady, informed her of all he knew, not only with regard to her daughter, but also concerning the character of his Lordship. The assignation was prevented. Lord Ruthven next day merely sent his servant to notify his complete assent to a separation; but did not hint any suspicion of his plans having been foiled by Aubrey's interposition.\n",
+        "metrics": {
+          "wer": 0.0,
+          "cer": 0.0,
+          "rouge": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": []
+      },
+      {
+        "model_name": "Llama",
+        "cleaned_text": "Aubrey determined upon leaving one, whose character had not yet shown a single bright point on which to rest the eye. He resolved to invent some plausible pretext for abandoning him altogether, purposing, in the mean while, to watch him more closely, and to let no slight circumstances pass by unnoticed. He entered into the same circle, and soon perceived, that his Lordship was endeavouring to work upon the inexperience of the daughter of the lady whose house he chiefly frequented. In Italy, it is seldom that an unmarried female is met with in society; he was therefore obliged to carry on his plans in secret; but Aubrey's eye followed him in all his windings, and soon discovered that an assignation had been appointed, which would most likely end in the ruin of an innocent, though thoughtless girl. Losing no time, he entered the apartment of Lord Ruthven, and abruptly asked him his intentions with respect to the lady, informing him at the same time that he was aware of his being about to meet her that very night. Lord Ruthven answered, that his intentions were such as he supposed all would have upon such an occasion; and upon being pressed whether he intended to marry her, merely laughed. Aubrey retired; and, immediately writing a note, to say, that from that moment he must decline accompanying his Lordship in the remainder of their proposed tour, he ordered his servant to seek other apartments, and calling upon the mother of the lady, informed her of all he knew, not only with regard to her daughter, but also concerning the character of his Lordship. The assignation was prevented. Lord Ruthven next day merely sent his servant to notify his complete assent to a separation; but did not hint any suspicion of his plans having been foiled by Aubrey's interposition.",
+        "metrics": {
+          "wer": 0.0,
+          "cer": 0.0,
+          "rouge": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": []
+      },
+      {
+        "model_name": "Mistral",
+        "cleaned_text": "Aubrey determined upon leaving one, whose character had not yet shown a single bright point on which to rest the eye. He resolved to invent some plausible pretext for abandoning him altogether, purposing, in the mean while, to watch him more closely, and to let no slight circumstances pass by unnoticed. He entered into the same circle, and soon perceived, that his Lordship was endeavouring to work upon the inexperience of the daughter of the lady whose house he chiefly frequented. In Italy, it is seldom that an unmarried female is met with in society; he was therefore obliged to carry on his plans in secret; but Aubrey's eye followed him in all his windings, and soon discovered that an assignation had been appointed, which would most likely and in the ruin of an innocent, though thoughtless girl. Losing no time, he entered the apartment of Lord Ruthven, and abruptly asked him his intentions with respect to the lady, informing him at the same time that he was aware of his being about to meet her that very night. Lord Ruthven answered, that his intentions were such as he supposed all would have upon such an occasion; and upon being pressed whether he intended to marry her, merely laughed. Aubrey retired; and, immediately writing a note, to say, that from that moment he must declare accompanying his Lordship in the remainder of their proposed tour, he ordered his servant to seek other apartments, and calling upon the mother of the lady, informed her of all he knew, not only with regard to her daughter, but also concerning the character of his Lordship. The assignation was prevented. Lord Ruthven next day merely sent his servant to notify his complete assent to a separation; but did not hint any suspicion of his plans having been foiled by Aubrey's interposition.",
+        "metrics": {
+          "wer": 0.006514657980456026,
+          "cer": 0.0016769144773616546,
+          "rouge": {
+            "rouge1": 0.9935275080906149,
+            "rouge2": 0.987012987012987,
+            "rougeL": 0.9935275080906149,
+            "rougeLsum": 0.9935275080906149
+          }
+        },
+        "judgement": {
+          "score": 4,
+          "raw_score_text": "4"
+        },
+        "differences": [
+          {
+            "type": "replace",
+            "ground_truth_slice": "end",
+            "model_cleaned_slice": "and"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "decline",
+            "model_cleaned_slice": "declare"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item_id": 3,
+    "original_ocr": "Having lest Rome, Aubrey djrected his steps towards Greece, and crossing the Peninsula, soon found himself at Athens. He then fixed his residence in the housc of a Greek; and soon occupied himself in tracing the faded records of anclent glory upon monuments that apparently, ashamed of chronicling thc deeds of freemen only before slaues, had hidden themsolves beneath the sheltering soil or many co1oured lichen. Under the same roof as hirnself, exlsted a being, so beautiful and delicate, thal she might have sormed the model for a pclinter wishing to pourtray on carivass tbe promised hope osthe saithful in Mahomet's parcldise, savothat her eyes spoke too much mind for any one to think she could belong to those who had no souls. As she danced upon the plajn, or tripped along the mountain's side, one would have thought the gazelle a poor typeof hcr becluties; for who would have exchangcd hcr eye, apparently the eye of animated nature, for that sleepy luxurlous look of the animaI suited but to the taste of an epicure. Tbe light step of Ianthe often accompanied Aubrey in his search after antiquities, and often wovld the unconscious girl, engaged in the pursuit of a Kafhmere bulterfly, show the whole beauty of her form, sloatirig as it were upon the wind, to thc eager gazc of him, who forgot lhe letters he had jvst decypbcred upori an almosl effaced ta6let, in the contemplation of her sylph-Iike figure. Oflen would her tresses falIing, as she flitted around, exhibit in the s un's ray such delica tely brilliant and swiftly fading hues, it might well excuse the forgetfulness of the antjquary, who lel escape from his mirid the very objecl he had before thaughl of vital importance to the proper interpretation os a passage in Pausanias. But why attempt to describe charms which all feel, but none can appreciate?—It was innocence, youth, and beauty, unaffected by crowded drawing-rooms and stisling balls. Whilst he drew those remains of which he wished to preseruo a memorjaI for hls future hours, she would stand by, and watch the magic effects of his pencil, in tracing the scenes of her native place; she would then describe to him the circling dance upon the open plain, would paint, to him in all thc glowing colours af youthsul memory,the marriage pomp ſhe remernbered viewing in her irifancy; and then, turning to subjoctsthat had evidentIy madc a greater impreſsion upon her mjnd, would tell him all the superriatural talcs of her nurse. Her earneslness and apparent belief of what she narratod, excited tho interest even of Aubrey; and oftenas she told him the tale of the living uampyre, wha had passed years amidst his fricnds, and dearest tles, forced every year, by feeding upon tbe life of a lovely semalc to prolong his existerice for the ensuing months, his blood would run cold, whilst be attempted to laugh her out of such id1e and horrible fantasles; but Ianthe citedto him the riames os oldrnen, who had at last detected one living among themselves, after several of their near relatives and children hod been found marked with lhe stamp of the fiend's appetite; and when she found hirn so incredulous, she begged of him to bclieve her, sor it had been, remarked, that those who had dared to question their existence, alwayſ had some proof giveri, which obljged them, with grief and heartbreaking, to con fess it was trve.She detailed to him the traditional appearance os these monsters, and hjs horror was increased, by hoaring a pretty accurate description os Lord Rulhven; he, hawevcr, ſtill persisted in persuclding her, that thore could 6e na truth in her fears, though at the same tirne he wondcred at the mariy coiricidencos which had all tended to excjte a belief in tho supernatural power of Lord Ruthuen.",
+    "ground_truth": "Having left Rome, Aubrey directed his steps towards Greece, and crossing the Peninsula, soon found himself at Athens. He then fixed his residence in the house of a Greek; and soon occupied himself in tracing the faded records of ancient glory upon monuments that apparently, ashamed of chronicling the deeds of freemen only before slaves, had hidden themselves beneath the sheltering soil or many coloured lichen. Under the same roof as himself, existed a being, so beautiful and delicate, that she might have formed the model for a painter wishing to pourtray on canvass the promised hope of the faithful in Mahomet's paradise, save that her eyes spoke too much mind for any one to think she could belong to those who had no souls. As she danced upon the plain, or tripped along the mountain's side, one would have thought the gazelle a poor type of her beauties; for who would have exchanged her eye, apparently the eye of animated nature, for that sleepy luxurious look of the animal suited but to the taste of an epicure. The light step of Ianthe often accompanied Aubrey in his search after antiquities, and often would the unconscious girl, engaged in the pursuit of a Kashmere butterfly, show the whole beauty of her form, floating as it were upon the wind, to the eager gaze of him, who forgot the letters he had just decyphered upon an almost effaced tablet, in the contemplation of her sylph-like figure. Often would her tresses falling, as she flitted around, exhibit in the sun's ray such delicately brilliant and swiftly fading hues, it might well excuse the forgetfulness of the antiquary, who let escape from his mind the very object he had before thought of vital importance to the proper interpretation of a passage in Pausanias. But why attempt to describe charms which all feel, but none can appreciate?—It was innocence, youth, and beauty, unaffected by crowded drawing-rooms and stifling balls. Whilst he drew those remains of which he wished to preserve a memorial for his future hours, she would stand by, and watch the magic effects of his pencil, in tracing the scenes of her native place; she would then describe to him the circling dance upon the open plain, would paint, to him in all the glowing colours of youthful memory, the marriage pomp she remembered viewing in her infancy; and then, turning to subjects that had evidently made a greater impression upon her mind, would tell him all the supernatural tales of her nurse. Her earnestness and apparent belief of what she narrated, excited the interest even of Aubrey; and often as she told him the tale of the living vampyre, who had passed years amidst his friends, and dearest ties, forced every year, by feeding upon the life of a lovely female to prolong his existence for the ensuing months, his blood would run cold, whilst he attempted to laugh her out of such idle and horrible fantasies; but Ianthe cited to him the names of old men, who had at last detected one living among themselves, after several of their near relatives and children had been found marked with the stamp of the fiend's appetite; and when she found him so incredulous, she begged of him to believe her, for it had been, remarked, that those who had dared to question their existence, always had some proof given, which obliged them, with grief and heartbreaking, to confess it was true. She detailed to him the traditional appearance of these monsters, and his horror was increased, by hearing a pretty accurate description of Lord Ruthven; he, however, still persisted in persuading her, that there could be no truth in her fears, though at the same time he wondered at the many coincidences which had all tended to excite a belief in the supernatural power of Lord Ruthven.",
+    "model_outputs": [
+      {
+        "model_name": "Gemini-1.5-Flash",
+        "cleaned_text": "Having left Rome, Aubrey directed his steps towards Greece, and crossing the Peninsula, soon found himself at Athens. He then fixed his residence in the house of a Greek; and soon occupied himself in tracing the faded records of ancient glory upon monuments that apparently, ashamed of chronicling the deeds of freemen only before slaves, had hidden themselves beneath the sheltering soil or many coloured lichen. Under the same roof as himself, existed a being, so beautiful and delicate, that she might have formed the model for a painter wishing to portray on canvass the promised hope of the faithful in Mahomet's paradise, save that her eyes spoke too much mind for any one to think she could belong to those who had no souls. As she danced upon the plain, or tripped along the mountain's side, one would have thought the gazelle a poor type of her beauties; for who would have exchanged her eye, apparently the eye of animated nature, for that sleepy luxurious look of the animal suited but to the taste of an epicure. The light step of Ianthe often accompanied Aubrey in his search after antiquities, and often would the unconscious girl, engaged in the pursuit of a Kashmir butterfly, show the whole beauty of her form, floating as it were upon the wind, to the eager gaze of him, who forgot the letters he had just deciphered upon an almost effaced tablet, in the contemplation of her sylph-like figure. Often would her tresses falling, as she flitted around, exhibit in the sun's ray such delicately brilliant and swiftly fading hues, it might well excuse the forgetfulness of the antiquary, who let escape from his mind the very object he had before thought of vital importance to the proper interpretation of a passage in Pausanias. But why attempt to describe charms which all feel, but none can appreciate?—It was innocence, youth, and beauty, unaffected by crowded drawing-rooms and stifling balls. Whilst he drew those remains of which he wished to preserve a memorial for his future hours, she would stand by, and watch the magic effects of his pencil, in tracing the scenes of her native place; she would then describe to him the circling dance upon the open plain, would paint to him in all the glowing colours of youthful memory, the marriage pomp she remembered viewing in her infancy; and then, turning to subjects that had evidently made a greater impression upon her mind, would tell him all the supernatural tales of her nurse. Her earnestness and apparent belief of what she narrated, excited the interest even of Aubrey; and often as she told him the tale of the living vampyre, who had passed years amidst his friends, and dearest ties, forced every year, by feeding upon the life of a lovely female to prolong his existence for the ensuing months, his blood would run cold, whilst he attempted to laugh her out of such idle and horrible fantasies; but Ianthe cited to him the names of old men, who had at last detected one living among themselves, after several of their near relatives and children had been found marked with the stamp of the fiend's appetite; and when she found him so incredulous, she begged of him to believe her, for it had been remarked, that those who had dared to question their existence, always had some proof given, which obliged them, with grief and heartbreaking, to confess it was true.She detailed to him the traditional appearance of these monsters, and his horror was increased, by hearing a pretty accurate description of Lord Ruthven; he, however, still persisted in persuading her, that there could be no truth in her fears, though at the same time he wondered at the many coincidences which had all tended to excite a belief in the supernatural power of Lord Ruthven.\n",
+        "metrics": {
+          "wer": 0.010852713178294573,
+          "cer": 0.0018726591760299626,
+          "rouge": {
+            "rouge1": 0.995398773006135,
+            "rouge2": 0.9907834101382489,
+            "rougeL": 0.995398773006135,
+            "rougeLsum": 0.995398773006135
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": [
+          {
+            "type": "replace",
+            "ground_truth_slice": "pourtray",
+            "model_cleaned_slice": "portray"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "Kashmere",
+            "model_cleaned_slice": "Kashmir"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "decyphered",
+            "model_cleaned_slice": "deciphered"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          }
+        ]
+      },
+      {
+        "model_name": "Llama",
+        "cleaned_text": "Having left Rome, Aubrey directed his steps towards Greece, and crossing the Peninsula, soon found himself at Athens. He then fixed his residence in the house of a Greek; and soon occupied himself in tracing the faded records of ancient glory upon monuments that apparently, ashamed of chronicling the deeds of freemen only before slaves, had hidden themselves beneath the sheltering soil or many coloured lichen. Under the same roof as himself, existed a being, so beautiful and delicate, that she might have seemed the model for a painter wishing to portray on canvas the promised hope of the faithful in Mahomet's paradise, save that her eyes spoke too much mind for any one to think she could belong to those who had no souls. As she danced upon the plain, or tripped along the mountain's side, one would have thought the gazelle a poor type of her beauties; for who would have exchanged her eye, apparently the eye of animated nature, for that sleepy luxurious look of the animal suited but to the taste of an epicure. The light step of Ianthe often accompanied Aubrey in his search after antiquities, and often would the unconscious girl, engaged in the pursuit of a Kashmir butterfly, show the whole beauty of her form, floating as it were upon the wind, to the eager gaze of him, who forgot the letters he had just deciphered upon an almost effaced tablet, in the contemplation of her sylph-like figure. Often would her tresses falling, as she flitted around, exhibit in the sun's ray such delicately brilliant and swiftly fading hues, it might well excuse the forgetfulness of the antiquary, who let escape from his mind the very object he had before thought of vital importance to the proper interpretation of a passage in Pausanias. But why attempt to describe charms which all feel, but none can appreciate?—It was innocence, youth, and beauty, unaffected by crowded drawing-rooms and stifling balls. Whilst he drew those remains of which he wished to preserve a memorial for his future hours, she would stand by, and watch the magic effects of his pencil, in tracing the scenes of her native place; she would then describe to him the circling dance upon the open plain, would paint, to him in all the glowing colours of youthful memory, the marriage pomp she remembered viewing in her infancy; and then, turning to subjects that had evidently made a greater impression upon her mind, would tell him all the supernatural tales of her nurse. Her earnestness and apparent belief of what she narrated, excited the interest even of Aubrey; and often as she told him the tale of the living vampyre, who had passed years amidst his friends, and dearest ties, forced every year, by feeding upon the life of a lovely female to prolong his existence for the ensuing months, his blood would run cold, whilst he attempted to laugh her out of such idle and horrible fantasies; but Ianthe cited to him the names of old men, who had at last detected one living among themselves, after several of their near relatives and children had been found marked with the stamp of the fiend's appetite; and when she found him so incredulous, she begged of him to believe her, for it had been remarked, that those who had dared to question their existence, always had some proof given, which obliged them, with grief and heart-breaking, to confess it was true. She detailed to him the traditional appearance of these monsters, and his horror was increased, by hearing a pretty accurate description of Lord Ruthven; he, however, still persisted in persuading her, that there could be no truth in her fears, though at the same time he wondered at the many coincidences which had all tended to excite a belief in the supernatural power of Lord Ruthven.",
+        "metrics": {
+          "wer": 0.010852713178294573,
+          "cer": 0.002675227394328518,
+          "rouge": {
+            "rouge1": 0.9900383141762451,
+            "rouge2": 0.9808135072908672,
+            "rougeL": 0.9900383141762451,
+            "rougeLsum": 0.9900383141762451
+          }
+        },
+        "judgement": {
+          "score": 4,
+          "raw_score_text": "4"
+        },
+        "differences": [
+          {
+            "type": "replace",
+            "ground_truth_slice": "formed",
+            "model_cleaned_slice": "seemed"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "pourtray",
+            "model_cleaned_slice": "portray"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "canvass",
+            "model_cleaned_slice": "canvas"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "Kashmere",
+            "model_cleaned_slice": "Kashmir"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "decyphered",
+            "model_cleaned_slice": "deciphered"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "heartbreaking",
+            "model_cleaned_slice": "heart - breaking"
+          }
+        ]
+      },
+      {
+        "model_name": "Mistral",
+        "cleaned_text": "Having lest Rome, Aubrey directed his steps towards Greece, and crossing the Peninsula, soon found himself at Athens. He then fixed his residence in the house of a Greek; and soon occupied himself in tracing the faded records of ancient glory upon monuments that apparently, ashamed of chronicling the deeds of freemen only before slaves, had hidden themselves beneath the sheltering soil or many coloured lichen. Under the same roof as himself, existed a being, so beautiful and delicate, that she might have formed the model for a painter wishing to portray on canvas the promised hope of the faithful in Mahomet's paradise, so that her eyes spoke too much mind for any one to think she could belong to those who had no souls. As she danced upon the plain, or tripped along the mountain's side, one would have thought the gazelle a poor type of her beauties; for who would have exchanged her eye, apparently the eye of animated nature, for that sleepy luxurious look of the animal suited but to the taste of an epicure. The light step of Ianthe often accompanied Aubrey in his search after antiquities, and often would the unconscious girl, engaged in the pursuit of a Kafhmere butterfly, show the whole beauty of her form, slotting as it were upon the wind, to the eager gaze of him, who forgot the letters he had just deciphered upon an almost effaced tablet, in the contemplation of her sylph-like figure. Often would her tresses falling, as she flitted around, exhibit in the sun's ray such delicately brilliant and swiftly fading hues, it might well excuse the forgetfulness of the antiquary, who let escape from his mind the very object he had before thought of vital importance to the proper interpretation of a passage in Pausanias. But why attempt to describe charms which all feel, but none can appreciate?—It was innocence, youth, and beauty, unaffected by crowded drawing-rooms and stisling balls. Whilst he drew those remains of which he wished to preserve a memorial for his future hours, she would stand by, and watch the magic effects of his pencil, in tracing the scenes of her native place; she would then describe to him the circling dance upon the open plain, would paint, to him in all the glowing colours of youthful memory, the marriage pomp she remembered viewing in her infancy; and then, turning to subjects that had evidently made a greater impression upon her mind, would tell him all the supernatural tales of her nurse. Her earnestness and apparent belief of what she narrated, excited the interest even of Aubrey; and often as she told him the tale of the living vampyre, who had passed years amidst his friends, and dearest ties, forced every year, by feeding upon the life of a lovely female to prolong his existence for the ensuing months, his blood would run cold, whilst he attempted to laugh her out of such idle and horrible fantasies; but Ianthe cited to him the times of old men, who had at last detected one living among themselves, after several of their near relatives and children had been found marked with the stamp of the fiend's appetite; and when she found him so incredulous, she begged of him to believe her, for it had been, remarked, that those who had dared to question their existence, always had some proof given, which obliged them, with grief and heartbreaking, to confess it was true. She detailed to him the traditional appearance of these monsters, and his horror was increased, by hearing a pretty accurate description of Lord Ruthven; he, however, still persisted in persuading her, that there could be no truth in her fears, though at the same time he wondered at the many coincidences which had all tended to excite a belief in the supernatural power of Lord Ruthven.",
+        "metrics": {
+          "wer": 0.013953488372093023,
+          "cer": 0.0034777956126270733,
+          "rouge": {
+            "rouge1": 0.9861963190184049,
+            "rouge2": 0.9723502304147466,
+            "rougeL": 0.9861963190184049,
+            "rougeLsum": 0.9861963190184049
+          }
+        },
+        "judgement": {
+          "score": 3,
+          "raw_score_text": "3"
+        },
+        "differences": [
+          {
+            "type": "replace",
+            "ground_truth_slice": "left",
+            "model_cleaned_slice": "lest"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "pourtray",
+            "model_cleaned_slice": "portray"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "canvass",
+            "model_cleaned_slice": "canvas"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "save",
+            "model_cleaned_slice": "so"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "Kashmere",
+            "model_cleaned_slice": "Kafhmere"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "floating",
+            "model_cleaned_slice": "slotting"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "decyphered",
+            "model_cleaned_slice": "deciphered"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "stifling",
+            "model_cleaned_slice": "stisling"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "names",
+            "model_cleaned_slice": "times"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item_id": 4,
+    "original_ocr": "Aubrey began to attoch himself more clnd more to Ianthe; her innoeence, so contrasted with all the affccted virtues of the women among whom he had sovght f0r bis visiori of romance, won his heart; and whlle he ridjculed the idca of a young man of English habits, marrying an uneducated Greek girl, still he found hiinself m0re and more ottachod to lhe almost fairy form before him. He would tear himself ottimes fr0m her, and, forming a plan for sorne antiquarian reseclrch, he would depart, determined not to return until his object wos attained; but he always fourid it lmpofsible to fix his attention upori the rvins around him, whi1st in his mind he retained an irnoge that seemed aIone the rightful possessor of his tboughts. Ianthe was unconscious of his love, and was ever the same frank insantile being he had first known. She always seemed to pclrt from him witb roluclarice; but it was becaufe she had rio longer any one with whom sbe could visit her favourite haunts, whilst her guardian was occupied in sketching or uncovering some sragmenl which bad yet escapcd the destructive hand of time. Shc had appeaIed ta her parents on the subject of Vampyres, andthey both, with sevcr al prefent, affirmed their existence, pole with horror at the very name. Soori after, Aubrey determined to proceed upon one of his excursionſ, which was to detain him sor a few hours; when they beard the name of the pla ce, thoy all at once be gged of him not to retvrn at night, as he must nocessarily pasf through a wood, where noGreek would ever remain, aster the day bad closed, vpon any conſideration. They described it as the resart of the vampyres in their nocturnal orgies, and denounced lhe most heavy evils as impending upon him who dared to cross their path. Aubrey rnade light of their representations, and tried to lavgh them out of lhe idea; bul when he saw them shudder at his darjng thus to mock a superiar, infernal power, the very name of which apparently made their blood freeze, he wos silent.",
+    "ground_truth": "Aubrey began to attach himself more and more to Ianthe; her innocence, so contrasted with all the affected virtues of the women among whom he had sought for his vision of romance, won his heart; and while he ridiculed the idea of a young man of English habits, marrying an uneducated Greek girl, still he found himself more and more attached to the almost fairy form before him. He would tear himself at times from her, and, forming a plan for some antiquarian research, he would depart, determined not to return until his object was attained; but he always found it impossible to fix his attention upon the ruins around him, whilst in his mind he retained an image that seemed alone the rightful possessor of his thoughts. Ianthe was unconscious of his love, and was ever the same frank infantile being he had first known. She always seemed to part from him with reluctance; but it was because she had no longer any one with whom she could visit her favourite haunts, whilst her guardian was occupied in sketching or uncovering some fragment which had yet escaped the destructive hand of time. She had appealed to her parents on the subject of Vampyres, and they both, with several present, affirmed their existence, pale with horror at the very name. Soon after, Aubrey determined to proceed upon one of his excursions, which was to detain him for a few hours; when they heard the name of the place, they all at once begged of him not to return at night, as he must necessarily pass through a wood, where no Greek would ever remain, after the day had closed, upon any consideration. They described it as the resort of the vampyres in their nocturnal orgies, and denounced the most heavy evils as impending upon him who dared to cross their path. Aubrey made light of their representations, and tried to laugh them out of the idea; but when he saw them shudder at his daring thus to mock a superior, infernal power, the very name of which apparently made their blood freeze, he was silent.",
+    "model_outputs": [
+      {
+        "model_name": "Gemini-1.5-Flash",
+        "cleaned_text": "Aubrey began to attach himself more and more to Ianthe; her innocence, so contrasted with all the affected virtues of the women among whom he had sought for his vision of romance, won his heart; and while he ridiculed the idea of a young man of English habits, marrying an uneducated Greek girl, still he found himself more and more attached to the almost fairy form before him. He would tear himself ottimes from her, and, forming a plan for some antiquarian research, he would depart, determined not to return until his object was attained; but he always found it impossible to fix his attention upon the ruins around him, whilst in his mind he retained an image that seemed alone the rightful possessor of his thoughts. Ianthe was unconscious of his love, and was ever the same frank infantile being he had first known. She always seemed to part from him with reluctance; but it was because she had no longer any one with whom she could visit her favourite haunts, whilst her guardian was occupied in sketching or uncovering some fragment which had yet escaped the destructive hand of time. She had appealed to her parents on the subject of Vampyres, and they both, with several present, affirmed their existence, pale with horror at the very name. Soon after, Aubrey determined to proceed upon one of his excursions, which was to detain him for a few hours; when they heard the name of the place, they all at once begged of him not to return at night, as he must necessarily pass through a wood, where no Greek would ever remain, after the day had closed, upon any consideration. They described it as the resort of the vampyres in their nocturnal orgies, and denounced the most heavy evils as impending upon him who dared to cross their path. Aubrey made light of their representations, and tried to laugh them out of the idea; but when he saw them shudder at his daring thus to mock a superior, infernal power, the very name of which apparently made their blood freeze, he was silent.\n",
+        "metrics": {
+          "wer": 0.005633802816901409,
+          "cer": 0.0010050251256281408,
+          "rouge": {
+            "rouge1": 0.995768688293371,
+            "rouge2": 0.9929278642149929,
+            "rougeL": 0.995768688293371,
+            "rougeLsum": 0.995768688293371
+          }
+        },
+        "judgement": {
+          "score": 4,
+          "raw_score_text": "4"
+        },
+        "differences": [
+          {
+            "type": "replace",
+            "ground_truth_slice": "at times",
+            "model_cleaned_slice": "ottimes"
+          }
+        ]
+      },
+      {
+        "model_name": "Llama",
+        "cleaned_text": "Aubrey began to attach himself more and more to Ianthe; her innocence, so contrasted with all the affected virtues of the women among whom he had sought for his visions of romance, won his heart; and while he ridiculed the idea of a young man of English habits, marrying an uneducated Greek girl, still he found himself more and more attached to the almost fairy form before him. He would tear himself often from her, and, forming a plan for some antiquarian research, he would depart, determined not to return until his object was attained; but he always found it impossible to fix his attention upon the ruins around him, whilst in his mind he retained an image that seemed alone the rightful possessor of his thoughts. Ianthe was unconscious of his love, and was ever the same frank insouciant being he had first known. She always seemed to part from him with reluctance; but it was because she had no longer any one with whom she could visit her favourite haunts, whilst her guardian was occupied in sketching or uncovering some fragment which had yet escaped the destructive hand of time. She had appealed to her parents on the subject of Vampyres, and they both, with several presents, affirmed their existence, pale with horror at the very name. Soon after, Aubrey determined to proceed upon one of his excursions, which was to detain him for a few hours; when they heard the name of the place, they all at once begged of him not to return at night, as he must necessarily pass through a wood, where no Greek would ever remain, after the day had closed, upon any consideration. They described it as the resort of the vampyres in their nocturnal orgies, and denounced the most heavy evils as impending upon him who dared to cross their path. Aubrey made light of their representations, and tried to laugh them out of the idea; but when he saw them shudder at his daring thus to mock a superior, infernal power, the very name of which apparently made their blood freeze, he was silent.",
+        "metrics": {
+          "wer": 0.014084507042253521,
+          "cer": 0.007537688442211055,
+          "rouge": {
+            "rouge1": 0.9873060648801129,
+            "rouge2": 0.9759547383309759,
+            "rougeL": 0.9873060648801129,
+            "rougeLsum": 0.9873060648801129
+          }
+        },
+        "judgement": {
+          "score": 4,
+          "raw_score_text": "4"
+        },
+        "differences": [
+          {
+            "type": "replace",
+            "ground_truth_slice": "vision",
+            "model_cleaned_slice": "visions"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "at times",
+            "model_cleaned_slice": "often"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "infantile",
+            "model_cleaned_slice": "insouciant"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "present",
+            "model_cleaned_slice": "presents"
+          }
+        ]
+      },
+      {
+        "model_name": "Mistral",
+        "cleaned_text": "Aubrey began to attach himself more and more to Ianthe; her innocence, so contrasted with all the affected virtues of the women among whom he had sought for his vision of romance, won his heart; and while he ridiculed the idea of a young man of English habits, marrying an uneducated Greek girl, still he found himself more and more attached to the almost fairy form before him. He would tear himself oftentimes from her, and, forming a plan for some antiquarian research, he would depart, determined not to return until his object was attained; but he always found it impossible to fix his attention upon the ruins around him, whilst in his mind he retained an image that seemed alone the rightful possessor of his thoughts. Ianthe was unconscious of his love, and was ever the same frank insantile being he had first known. She always seemed to part from him with reluctance; but it was because she had no longer any one with whom she could visit her favourite haunts, whilst her guardian was occupied in sketching or uncovering some fragment which had yet escaped the destructive hand of time. She had appealed to her parents on the subject of Vampyres, and they both, with several present, affirmed their existence, pole with horror at the very name. Soon after, Aubrey determined to proceed upon one of his excursions, which was to detain him for a few hours; when they heard the name of the place, they all at once begged of him not to return at night, as he must necessarily pass through a wood, where no Greek would ever remain, after the day had closed, upon any consideration. They described it as the resort of the vampyres in their nocturnal orgies, and denounced the most heavy evils as impending upon him who dared to cross their path. Aubrey made light of their representations, and tried to laugh them out of the idea; but when he saw them shudder at his daring thus to mock a superior, infernal power, the very name of which apparently made their blood freeze, he was silent.",
+        "metrics": {
+          "wer": 0.011267605633802818,
+          "cer": 0.003015075376884422,
+          "rouge": {
+            "rouge1": 0.9901269393511989,
+            "rouge2": 0.9816124469589816,
+            "rougeL": 0.9901269393511989,
+            "rougeLsum": 0.9901269393511989
+          }
+        },
+        "judgement": {
+          "score": 4,
+          "raw_score_text": "4"
+        },
+        "differences": [
+          {
+            "type": "replace",
+            "ground_truth_slice": "at times",
+            "model_cleaned_slice": "oftentimes"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "infantile",
+            "model_cleaned_slice": "insantile"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "pale",
+            "model_cleaned_slice": "pole"
+          }
+        ]
+      }
+    ]
+  }
+]

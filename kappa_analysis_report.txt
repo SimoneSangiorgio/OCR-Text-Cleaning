@@ -1,0 +1,40 @@
+Found 21 samples with both human and LLM judge scores.
+
+--- Data Used for Calculation ---
+    item_id        model_name  human_score  llm_judge_score
+0         4  Gemini-1.5-Flash            5                5
+1         4             Llama            5                5
+2         4           Mistral            4                4
+3         5  Gemini-1.5-Flash            5                4
+4         5             Llama            4                4
+5         5           Mistral            3                4
+6         9  Gemini-1.5-Flash            5                5
+7         9             Llama            4                4
+8         9           Mistral            2                3
+9        14  Gemini-1.5-Flash            5                4
+10       14             Llama            5                5
+11       14           Mistral            4                4
+12       15  Gemini-1.5-Flash            5                4
+13       15             Llama            5                4
+14       15           Mistral            5                4
+15       16  Gemini-1.5-Flash            3                3
+16       16             Llama            5                5
+17       16           Mistral            4                4
+18       21  Gemini-1.5-Flash            5                5
+19       21             Llama            4                4
+20       21           Mistral            4                4
+
+--- Raw Score Lists ---
+Your Scores (Rater 1):      [5, 5, 4, 5, 4, 3, 5, 4, 2, 5, 5, 4, 5, 5, 5, 3, 5, 4, 5, 4, 4]
+LLM Judge Scores (Rater 2): [5, 5, 4, 4, 4, 4, 5, 4, 3, 4, 5, 4, 4, 4, 4, 3, 5, 4, 5, 4, 4]
+
+--- Agreement Analysis ---
+Simple Agreement:                 66.67%
+Cohen's Kappa (Unweighted):       0.475
+Cohen's Kappa (Quadratic Weighted): 0.687  <-- This is the recommended metric
+
+--- Interpretation of Weighted Kappa ---
+The score of 0.687 indicates: Substantial Agreement
+
+--- Recommendation ---
+The agreement is substantial. You can have a good degree of confidence in the LLM Judge's scoring on the rest of the dataset.

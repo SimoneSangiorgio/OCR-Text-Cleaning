@@ -1,0 +1,308 @@
+[
+  {
+    "item_id": 1,
+    "original_ocr": "In theLond0n Journal, of March, 1732, is a curiovs, and, of course, credible account of a particular case of vampyrifin, which is stated to hove accurred at Madreyga, in Hungary. It appears, that upon an examination of the cornmander-in-chief arid magistrates of tbe place, they positively and unanimously affirmed, that, about five years before, a certairi Heyduke, named Arnold Paul, had bcen beclrd to say, that, at Cassovia, ori the fr0ntiers of the Turkish Servio, he had been tormented by a vampyre, but had found a way to rid himself of the euj1, by eating some of the earth out of the vampyre's grove, and rubbing himſelf with his blood. This prccaution, however, did not prevent him from bccoming a vampyre himſels; sor, about twenty or thirty days after his death and burial, many persons complainod of hauing 6een tormented by him, and a deposition was made, that four persons had been deprived os life by his attacks. To prevent further mischief, the lnhabitants havjng consulted their Hadagni, took up the body, and f ound it (aſ is supposed to be usual in cafes of uampyrism) fresh, and entjrely free from corruptjon, and emitting at the rnouth, riose, and ears, pure and fIorid blood. Proof having been thus obtained, they resorted to the accustomed remedy. A stake was driven entirely lhrough the bearl and body of Arnold Paul, at which he is reported to hauecried out cls dreadfully as is he had been olive. This done, they cut ofs his head, burned his body, and threw lhe asbes into his grave. The same measures were adopted with the corses of th ose persons who had previously dicd from varnpyrism, lest they should, in theirturn, become clgentf upan others who survived them.",
+    "ground_truth": "In the London Journal, of March, 1732, is a curious, and, of course, credible account of a particular case of vampyrism, which is stated to have occurred at Madreyga, in Hungary. It appears, that upon an examination of the commander-in-chief and magistrates of the place, they positively and unanimously affirmed, that, about five years before, a certain Heyduke, named Arnold Paul, had been heard to say, that, at Cassovia, on the frontiers of the Turkish Servia, he had been tormented by a vampyre, but had found a way to rid himself of the evil, by eating some of the earth out of the vampyre's grave, and rubbing himself with his blood. This precaution, however, did not prevent him from becoming a vampyre himself; for, about twenty or thirty days after his death and burial, many persons complained of having been tormented by him, and a deposition was made, that four persons had been deprived of life by his attacks. To prevent further mischief, the inhabitants having consulted their Hadagni, took up the body, and found it (as is supposed to be usual in cases of vampyrism) fresh, and entirely free from corruption, and emitting at the mouth, nose, and ears, pure and florid blood. Proof having been thus obtained, they resorted to the accustomed remedy. A stake was driven entirely through the heart and body of Arnold Paul, at which he is reported to have cried out as dreadfully as if he had been alive. This done, they cut off his head, burned his body, and threw the ashes into his grave. The same measures were adopted with the corses of those persons who had previously died from vampyrism, lest they should, in their turn, become agents upon others who survived them.",
+    "model_outputs": [
+      {
+        "model_name": "Gemini-1.5-Flash",
+        "cleaned_text": "In the London Journal, of March, 1732, is a curious, and, of course, credible account of a particular case of vampyrism, which is stated to have occurred at Madreyga, in Hungary. It appears, that upon an examination of the commander-in-chief and magistrates of the place, they positively and unanimously affirmed, that, about five years before, a certain Heyduke, named Arnold Paul, had been heard to say, that, at Cassovia, on the frontiers of the Turkish Servia, he had been tormented by a vampyre, but had found a way to rid himself of the evil, by eating some of the earth out of the vampyre's grave, and rubbing himself with his blood. This precaution, however, did not prevent him from becoming a vampyre himself; for, about twenty or thirty days after his death and burial, many persons complained of having been tormented by him, and a deposition was made, that four persons had been deprived of life by his attacks. To prevent further mischief, the inhabitants having consulted their Hadagni, took up the body, and found it (as is supposed to be usual in cases of vampyrism) fresh, and entirely free from corruption, and emitting at the mouth, nose, and ears, pure and florid blood. Proof having been thus obtained, they resorted to the accustomed remedy. A stake was driven entirely through the heart and body of Arnold Paul, at which he is reported to have cried out as dreadfully as is he had been alive. This done, they cut off his head, burned his body, and threw the ashes into his grave. The same measures were adopted with the corses of those persons who had previously died from vampyrism, lest they should, in their turn, become agents upon others who survived them.\n",
+        "metrics": {
+          "wer": 0.003424657534246575,
+          "cer": 0.0005934718100890207,
+          "rouge": {
+            "rouge1": 0.9966101694915255,
+            "rouge2": 0.9931972789115646,
+            "rougeL": 0.9966101694915255,
+            "rougeLsum": 0.9966101694915255
+          }
+        },
+        "judgement": {
+          "score": 4,
+          "raw_score_text": "4"
+        },
+        "differences": [
+          {
+            "type": "replace",
+            "ground_truth_slice": "if",
+            "model_cleaned_slice": "is"
+          }
+        ]
+      },
+      {
+        "model_name": "Llama",
+        "cleaned_text": "In the London Journal, of March, 1732, is a curious, and, of course, credible account of a particular case of vampyrism, which is stated to have occurred at Madreyga, in Hungary. It appears, that upon an examination of the commander-in-chief and magistrates of the place, they positively and unanimously affirmed, that, about five years before, a certain Heyduke, named Arnold Paul, had been heard to say, that, at Cassovia, on the frontiers of the Turkish Servia, he had been tormented by a vampyre, but had found a way to rid himself of the evil, by eating some of the earth out of the vampyre's grave, and rubbing himself with his blood. This precaution, however, did not prevent him from becoming a vampyre himself; so, about twenty or thirty days after his death and burial, many persons complained of having been tormented by him, and a deposition was made, that four persons had been deprived of life by his attacks. To prevent further mischief, the inhabitants having consulted their Hadagni, took up the body, and found it (as is supposed to be usual in cases of vampyrism) fresh, and entirely free from corruption, and emitting at the mouth, nose, and ears, pure and florid blood. Proof having been thus obtained, they resorted to the accustomed remedy. A stake was driven entirely through the breast and body of Arnold Paul, at which he is reported to have cried out as dreadfully as if he had been alive. This done, they cut off his head, burned his body, and threw the ashes into his grave. The same measures were adopted with the corses of those persons who had previously died from vampyrism, lest they should, in their turn, become agents upon others who survived them.",
+        "metrics": {
+          "wer": 0.00684931506849315,
+          "cer": 0.002967359050445104,
+          "rouge": {
+            "rouge1": 0.9932203389830508,
+            "rouge2": 0.9863945578231292,
+            "rougeL": 0.9932203389830508,
+            "rougeLsum": 0.9932203389830508
+          }
+        },
+        "judgement": {
+          "score": 4,
+          "raw_score_text": "4"
+        },
+        "differences": [
+          {
+            "type": "replace",
+            "ground_truth_slice": "for",
+            "model_cleaned_slice": "so"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "heart",
+            "model_cleaned_slice": "breast"
+          }
+        ]
+      },
+      {
+        "model_name": "Mistral",
+        "cleaned_text": "In the London Journal, of March, 1732, is a curious, and, of course, credible account of a particular case of vampyrism, which is stated to have occurred at Madreyga, in Hungary. It appears, that upon an examination of the commander-in-chief and magistrates of the place, they positively and unanimously affirmed, that, about five years before, a certain Heyduke, named Arnold Paul, had been believed to say, that, at Cassovia, on the frontiers of the Turkish Servio, he had been tormented by a vampyre, but had found a way to rid himself of the evil, by eating some of the earth out of the vampyre's grave, and rubbing himself with his blood. This precaution, however, did not prevent him from becoming a vampyre himself; so, about twenty or thirty days after his death and burial, many persons complained of having been tormented by him, and a deposition was made, that four persons had been deprived of life by his attacks. To prevent further mischief, the inhabitants having consulted their Hadagni, took up the body, and found it (as is supposed to be usual in cases of vampyrism) fresh, and entirely free from corruption, and emitting at the mouth, nose, and ears, pure and florid blood. Proof having been thus obtained, they resorted to the accustomed remedy. A stake was driven entirely through the heart and body of Arnold Paul, at which he is reported to have cried out as dreadfully as if he had been alive. This done, they cut off his head, burned his body, and threw the ashes into his grave. The same measures were adopted with the corpses of those persons who had previously died from vampyrism, lest they should, in their turn, become agents upon others who survived them.",
+        "metrics": {
+          "wer": 0.0136986301369863,
+          "cer": 0.005934718100890208,
+          "rouge": {
+            "rouge1": 0.9864406779661017,
+            "rouge2": 0.9727891156462585,
+            "rougeL": 0.9864406779661017,
+            "rougeLsum": 0.9864406779661017
+          }
+        },
+        "judgement": {
+          "score": 4,
+          "raw_score_text": "4"
+        },
+        "differences": [
+          {
+            "type": "replace",
+            "ground_truth_slice": "heard",
+            "model_cleaned_slice": "believed"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "Servia",
+            "model_cleaned_slice": "Servio"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "for",
+            "model_cleaned_slice": "so"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "corses",
+            "model_cleaned_slice": "corpses"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item_id": 2,
+    "original_ocr": "The universa1 belief js, that a person sucked by a vampyre becomes a vampyre himself, arid sucks in his turn.",
+    "ground_truth": "The universal belief is, that a person sucked by a vampyre becomes a vampyre himself, and sucks in his turn.",
+    "model_outputs": [
+      {
+        "model_name": "Gemini-1.5-Flash",
+        "cleaned_text": "The universal belief is, that a person sucked by a vampyre becomes a vampyre himself, and sucks in his turn.\n",
+        "metrics": {
+          "wer": 0.0,
+          "cer": 0.0,
+          "rouge": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": []
+      },
+      {
+        "model_name": "Llama",
+        "cleaned_text": "The universal belief is, that a person sucked by a vampyre becomes a vampyre himself, and sucks in his turn.",
+        "metrics": {
+          "wer": 0.0,
+          "cer": 0.0,
+          "rouge": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": []
+      },
+      {
+        "model_name": "Mistral",
+        "cleaned_text": "The universal belief is, that a person sucked by a vampyre becomes a vampyre himself, and sucks in his turn.",
+        "metrics": {
+          "wer": 0.0,
+          "cer": 0.0,
+          "rouge": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": []
+      }
+    ]
+  },
+  {
+    "item_id": 3,
+    "original_ocr": "Chlef bai1iff.",
+    "ground_truth": "Chief bailiff.",
+    "model_outputs": [
+      {
+        "model_name": "Gemini-1.5-Flash",
+        "cleaned_text": "Chief bailiff.\n",
+        "metrics": {
+          "wer": 0.0,
+          "cer": 0.0,
+          "rouge": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": []
+      },
+      {
+        "model_name": "Llama",
+        "cleaned_text": "Chieff bailiff.",
+        "metrics": {
+          "wer": 0.5,
+          "cer": 0.07142857142857142,
+          "rouge": {
+            "rouge1": 0.5,
+            "rouge2": 0.0,
+            "rougeL": 0.5,
+            "rougeLsum": 0.5
+          }
+        },
+        "judgement": {
+          "score": 4,
+          "raw_score_text": "4"
+        },
+        "differences": [
+          {
+            "type": "replace",
+            "ground_truth_slice": "Chief",
+            "model_cleaned_slice": "Chieff"
+          }
+        ]
+      },
+      {
+        "model_name": "Mistral",
+        "cleaned_text": "Chief bailiff.",
+        "metrics": {
+          "wer": 0.0,
+          "cer": 0.0,
+          "rouge": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": []
+      }
+    ]
+  },
+  {
+    "item_id": 4,
+    "original_ocr": "This monstrous rodomontade is here related, because it seems betler adapted to illustrate the subject of the prcsent o6servations than any other iristance which could be adduced. In many parts of Greece it is considered as a sort of pvnishment after doatb, for some hein ous crime commjtted whilst in existence, that the deceased is not anly doomed to vampyrise, but oompelled to confine bis infernal vjsitations solely to thofe beings he loved most while upon earth—those to whom be was bound by ties of kindr od and affeclion.—A supposition alluded to in the \"Giaour.\"",
+    "ground_truth": "This monstrous rodomontade is here related, because it seems better adapted to illustrate the subject of the present observations than any other instance which could be adduced. In many parts of Greece it is considered as a sort of punishment after death, for some heinous crime committed whilst in existence, that the deceased is not only doomed to vampyrise, but compelled to confine his infernal visitations solely to those beings he loved most while upon earth—those to whom he was bound by ties of kindred and affection.—A supposition alluded to in the \"Giaour.\"",
+    "model_outputs": [
+      {
+        "model_name": "Gemini-1.5-Flash",
+        "cleaned_text": "This monstrous rodomontade is here related, because it seems better adapted to illustrate the subject of the present observations than any other instance which could be adduced. In many parts of Greece it is considered as a sort of punishment after death, for some heinous crime committed whilst in existence, that the deceased is not only doomed to vampyrise, but compelled to confine his infernal visitations solely to those beings he loved most while upon earth—those to whom he was bound by ties of kindred and affection.—A supposition alluded to in the \"Giaour.\"\n",
+        "metrics": {
+          "wer": 0.0,
+          "cer": 0.0,
+          "rouge": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": []
+      },
+      {
+        "model_name": "Llama",
+        "cleaned_text": "This monstrous rodomontade is here related, because it seems better adapted to illustrate the subject of the present observations than any other instance which could be adduced. In many parts of Greece it is considered as a sort of punishment after death, for some heinous crime committed whilst in existence, that the deceased is not only doomed to vampyrise, but compelled to confine his infernal visits solely to those beings he loved most while upon earth—those to whom he was bound by ties of kindred and affection.—A supposition alluded to in the \"Giaour.\"",
+        "metrics": {
+          "wer": 0.010752688172043012,
+          "cer": 0.008818342151675485,
+          "rouge": {
+            "rouge1": 0.9894736842105263,
+            "rouge2": 0.9787234042553191,
+            "rougeL": 0.9894736842105263,
+            "rougeLsum": 0.9894736842105263
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": [
+          {
+            "type": "replace",
+            "ground_truth_slice": "visitations",
+            "model_cleaned_slice": "visits"
+          }
+        ]
+      },
+      {
+        "model_name": "Mistral",
+        "cleaned_text": "This monstrous rodomontade is here related, because it seems better adapted to illustrate the subject of the present observations than any other instance which could be adduced. In many parts of Greece it is considered as a sort of punishment after death, for some heinous crime committed whilst in existence, that the deceased is not only doomed to vampyrise, but compelled to confine his infernal visitations solely to those beings he loved most while upon earth—those to whom he was bound by ties of kindred and affection.—A supposition alluded to in the \"Giaour.\"",
+        "metrics": {
+          "wer": 0.0,
+          "cer": 0.0,
+          "rouge": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+          }
+        },
+        "judgement": {
+          "score": 5,
+          "raw_score_text": "5"
+        },
+        "differences": []
+      }
+    ]
+  }
+]
