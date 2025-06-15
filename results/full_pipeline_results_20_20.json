@@ -1,0 +1,359 @@
+[
+  {
+    "item_id": 1,
+    "original_ocr": "XX. \nLiberato dalla prigione, si avvia per tornare a casa della Fata; \nma lungo la strada trova un serpente orribile, e poi rimane \npreso alla tagliuola. \nFiguratevi l’allegrezza di Pinocchio quando \nsi sentì libero. Senza stare a dire che è e che \nnon è, uscì subito fuori della città e rijjrese la \nstrada che doveva ri condurlo alla Casina della \nFata. \nA cagione del tempo i)iovigginoso, la strada \nera diventata tutta un pantano e ci si andava \nfino a mezza gamba. \nMa il burattino non se ne dava per inteso. \nTormentato dalla passione di rivedere il suo \nbabbo e la sua sorellina dai capelli turchini, correva a salti come un can levriero, e nel correre \nle pillacchere gli schizzavano fin sopra il berretto^ Intanto andava dicendo fra sè e sè: \n— Quante disgrazie mi sono accadute.... Pj me \nle merito! perchè io sono un burattino testardo e \nI)iccoso..., voglio far semijre tutte le cose a modo \n\n\nmio, senza dar retta a quelli che mi voglion bene \ne che hanno mille volte più giudizio di me!... Ma \nda questa volta in là, faccio proponimento di cambiar vita e di diventare un ragazzo ammodo e \nubbidiente!... Tanto ormai ho beli’e visto che i \nragazzi, a essere disubbidienti, ci scapitano sempre e non ne infilano mai una per il su’verso. E il \nmio babbo mi avrà aspettato?... Ce lo troverò a \ncasa della Fata? È tanto tempo, pover’uomo, che \nnon lo vedo più, e che mi struggo di fargli mille \ncarezze e di finirlo dai baci! E la Fata mi perdonerà la brutta azione che le ho fatta?... E pensare che ho ricevuto da lei tante attenzioni e \ntante cure amorose.... e pensare che se oggi son \nsempre vivo, lo debbo a lei! Ma si può dare un \nragazzo più ingrato e più senza cuore di me?... — \nIS’el tempo che diceva così, si fermò tutt’a un \ntratto spaventato, e fece quattro passi indietro. \nChe cosa aveva veduto? \nAveva veduto un grosso serpente, disteso attraverso alla strada, che aveva la x>elle verde, \ngli occhi di fuoco e la coda appuntata che gli \nfumava come una cappa di camino. \nImpossibile immaginarsi la paura del burattino: il quale, allontanandosi più di mezzo chilometro, si mise a sedere sopra un monticello di \nsassi, aspettando che il serpente se ne andasse \n\n\nuna buona volta per i fatti suoi e lasciasse libero il passo della strada. \nAspettò un’ora; due ore: tre ore: ma il serpente era sempre là, e anche di lontano, si vedeva il rosseggiare de’suoi occhi di fuoco e la \ncolonna di fumo che gli usciva dalla punta della \ncoda. \nAllora Pinoccbio, figurandosi di aver coraggio, si avvicinò a pochi passi di distanza, e facendo una vocina dolce, insinuante e sottile, disse \nal serpente: \n— Scusi, signor Serpente, che mi farebbe il \npiacere di tirarsi un pochino da una i^arte, tanto \nda lasciarmi passare? — \nFu lo stesso che dire al muro. Nessuno si mosse. \nAllora riprese colla solita vocina: \n— Deve sapere, signor Serpente, che io vado \na casa, dove c’è il mio babbo che mi aspetta e \nche è tanto tempo che non lo vedo più!... Si contenta dunque, che io seguiti per la mia strada? — \nAsj)ettò un seguo di risposta a quella domanda: \nma la risposta non venne: anzi il serpente, che \nfin allora pareva arzillo e pieno di vita, diventò \nimmobile e quasi irrigidito. Gli occhi gli si chiusero, e la coda gli smesse di fumare. \n— Ohe sia morto davvero? — disse Pinocchio, \ndandosi una fregatina di mani dalla gran con\n\nlentezza; e senza mettere tempo in mezzo, fece \nl’atto di scavalcarlo, per passare dall’altra parte \ndella strada. Ma non aveva ancora finito di alzare la gamba, che il Serpente si rizzò all’im\nCadde così male, che restò col capo conficcato nel fango della strada..,. \nprovviso come una molla scattata: e il burattino, nel tirarsi indietro spaventato, inciampò e \ncadde per terra. \nE per l’appunto cadde così male, che restò \ncol capo conficcato nel fango della strada e colle \ngambe ritte su in aria. \nAlla vista di quel burattino, che sgambettava \n\n\na capofitto con una velocità incredibile, il serpente fu preso da una tal convulsione di risa che \nridi, ridi, ridi, alla fine, dallo sforzo del troppo \nridere, gli si strappò una vena sul petto: e quella \nvolta morì davvero. \nAllora Pinocchio ricominciò a correre per arrivare a casa della Fata avanti che si facesse buio. \nMa lungo la strada, non potendo più reggere ai \nmorsi terribili della fame, saltò in un campo colP intenzione di cogliere poche ciocche d’uva moscadella. Non l’avesse mai fatto! \nAppena giunto sotto la vite, crac,.,, sentì stringersi le gambe da due ferri taglienti, che gli fecero vedere quante stelle c’erano in cielo. \nIl povero burattino era rimasto preso a una \ntagliuola appostata là da alcuni contadini per \nbeccarvi alcune grosse faine, che erano il flagello di tutti i polli del vicinato.",
+    "ground_truth": "XX.\n\nLiberato dalla prigione, si avvia per tornare a casa della Fata; ma lungo la strada trova un serpente orribile, e poi rimane preso alla tagliuola.\n\nFiguratevi l’allegrezza di Pinocchio, quando si sentì libero. Senza stare a dire che è e che non è, uscì subito fuori della città e riprese la strada che doveva ricondurlo alla Casina della Fata.\nA motivo del tempo piovigginoso, la strada era diventata tutta un pantano e ci si andava fino a mezza gamba.\nMa il burattino non se ne dava per inteso.\nTormentato dalla passione di rivedere il suo babbo e la sua sorellina dai capelli turchini, correva a salti come un can levriero, e nel correre le pillacchere gli schizzavano fin sopra il berretto. Intanto andava dicendo fra sè e sè:\n— Quante disgrazie mi sono accadute.... E me le merito! perchè io sono un burattino testardo e piccoso..., e voglio far sempre tutte le cose a modo\nmio, senza dar retta a quelli che mi voglion bene e che hanno mille volte più giudizio di me!… Ma da questa volta in là, faccio proponimento di cambiar vita e di diventare un ragazzo ammodo e ubbidiente… Tanto ormai ho bell’e visto che i ragazzi, a essere disubbidienti, ci scapitano sempre e non ne infilano mai una per il su’ verso. E il mio babbo mi avrà aspettato?… Ce lo troverò a casa della Fata? È tanto tempo, pover’uomo, che non lo vedo più, che mi struggo di fargli mille carezze e di finirlo dai baci! E la Fata mi perdonerà la brutta azione che le ho fatto?… E pensare che ho ricevuto da lei tante attenzioni e tante cure amorose… e pensare che se oggi son sempre vivo, lo debbo a lei! Ma si può dare un ragazzo più ingrato e più senza cuore di me?… ―\nNel tempo che diceva così, si fermò tutt’a un tratto spaventato e fece quattro passi indietro.\nChe cosa aveva veduto?\nAveva veduto un grosso serpente, disteso attraverso alla strada, che aveva la pelle verde, gli occhi di fuoco e la coda appuntuta, che gli fumava come una cappa di camino.\nImpossibile immaginarsi la paura del burattino: il quale, allontanatosi più di mezzo chilometro, si mise a sedere sopra un monticello di sassi, aspettando che il serpente se ne andasse\nuna buona volta per i fatti suoi e lasciasse libero il passo della strada.\nAspettò un’ora; due ore: tre ore: ma il serpente era sempre là, e anche di lontano, si vedeva il rosseggiare de’ suoi occhi di fuoco e la colonna di fumo che gli usciva dalla punta della coda.\nAllora Pinocchio, figurandosi di aver coraggio, si avvicinò a pochi passi di distanza, e facendo una vocina dolce, insinuante e sottile, disse al serpente:\n— Scusi, signor Serpente, che mi farebbe il piacere di tirarsi un pochino da una parte, tanto da lasciarmi passare? —\nFu lo stesso che dire al muro. Nessuno si mosse.\nAllora riprese colla solita vocina:\n— Deve sapere, signor Serpente, che io vado a casa, dove c’è il mio babbo che mi aspetta e che è tanto tempo che non lo vedo più!… Si contenta dunque, che io seguiti per la mia strada? —\nAspettò un segno di risposta a quella domanda: ma la risposta non venne: anzi il serpente, che fin allora pareva arzillo e pieno di vita, diventò immobile e quasi irrigidito. Gli occhi gli si chiusero e la coda gli smesse di fumare.\n— Che sia morto davvero? — disse Pinocchio, dandosi una fregatina di mani dalla gran\ncontentezza; e senza mettere tempo in mezzo, fece l’atto di scavalcarlo, per passare dall’altra parte della strada. Ma non aveva ancora finito di alzare la gamba, che il Serpente si rizzò all’improvviso\nCadde così male, che restò col capo conficcato nel fango della strada....\n\nimprovviso come una molla scattata: e il burattino, nel tirarsi indietro spaventato, inciampò e cadde per terra.\nE per l’appunto cadde così male, che restò col capo conficcato nel fango della strada e colle gambe ritte su in aria.\nAlla vista di quel burattino, che sgambettava\na capofitto con una velocità incredibile il serpente fu preso da una tal convulsione di risa, che ridi, ridi, ridi, alla fine, dallo sforzo del troppo ridere, gli si strappò una vena sul petto: e quella volta morì davvero.\nAllora Pinocchio ricominciò a correre per arrivare a casa della Fata avanti che si facesse buio. Ma lungo la strada non potendo più reggere ai morsi terribili della fame, saltò in un campo coll’intenzione di cogliere poche ciocche d’uva moscadella. Non l’avesse mai fatto!\nAppena giunto sotto la vite, crac… sentì stringersi le gambe da due ferri taglienti, che gli fecero vedere quante stelle c’erano in cielo.\nIl povero burattino era rimasto preso da una tagliuola appostata là da alcuni contadini per beccarvi alcune grosse faine, che erano il flagello di tutti i pollai del vicinato.",
+    "model_outputs": [
+      {
+        "model_name": "Gemini-1.5-Flash",
+        "cleaned_text": "XX.\nLiberato dalla prigione, si avvia per tornare a casa della Fata; ma lungo la strada trova un serpente orribile, e poi rimane preso alla tagliuola.\n\nFiguratevi l’allegrezza di Pinocchio quando si sentì libero. Senza stare a dire che è e che non è, uscì subito fuori della città e riprese la strada che doveva ricondurlo alla Casina della Fata.\n\nA cagione del tempo piovigginoso, la strada era diventata tutta un pantano e ci si andava fino a mezza gamba.\n\nMa il burattino non se ne dava per inteso. Tormentato dalla passione di rivedere il suo babbo e la sua sorellina dai capelli turchini, correva a salti come un can levriero, e nel correre le pillacchere gli schizzavano fin sopra il berretto. Intanto andava dicendo fra sè e sè:\n\n— Quante disgrazie mi sono accadute.... Me le merito! perchè io sono un burattino testardo e piccoso..., voglio far sempre tutte le cose a modo mio, senza dar retta a quelli che mi voglion bene e che hanno mille volte più giudizio di me!... Ma da questa volta in là, faccio proponimento di cambiar vita e di diventare un ragazzo ammodo e ubbidiente!... Tanto ormai ho bell’e visto che i ragazzi, a essere disubbidienti, ci scapitano sempre e non ne infilano mai una per il su’ verso. E il mio babbo mi avrà aspettato?... Ce lo troverò a casa della Fata? È tanto tempo, pover’uomo, che non lo vedo più, e che mi struggo di fargli mille carezze e di finirlo dai baci! E la Fata mi perdonerà la brutta azione che le ho fatta?... E pensare che ho ricevuto da lei tante attenzioni e tante cure amorose.... e pensare che se oggi son sempre vivo, lo debbo a lei! Ma si può dare un ragazzo più ingrato e più senza cuore di me?... —\n\nNel tempo che diceva così, si fermò tutt’a un tratto spaventato, e fece quattro passi indietro.\nChe cosa aveva veduto?\n\nAveva veduto un grosso serpente, disteso attraverso alla strada, che aveva la pelle verde, gli occhi di fuoco e la coda appuntata che gli fumava come una cappa di camino.\n\nImpossibile immaginarsi la paura del burattino: il quale, allontanandosi più di mezzo chilometro, si mise a sedere sopra un monticello di sassi, aspettando che il serpente se ne andasse una buona volta per i fatti suoi e lasciasse libero il passo della strada.\n\nAspettò un’ora; due ore: tre ore: ma il serpente era sempre là, e anche di lontano, si vedeva il rosseggiare de’ suoi occhi di fuoco e la colonna di fumo che gli usciva dalla punta della coda.\n\nAllora Pinocchio, figurandosi di aver coraggio, si avvicinò a pochi passi di distanza, e facendo una vocina dolce, insinuante e sottile, disse al serpente:\n\n— Scusi, signor Serpente, che mi farebbe il piacere di tirarsi un pochino da una parte, tanto da lasciarmi passare? —\n\nFu lo stesso che dire al muro. Nessuno si mosse.\n\nAllora riprese colla solita vocina:\n— Deve sapere, signor Serpente, che io vado a casa, dove c’è il mio babbo che mi aspetta e che è tanto tempo che non lo vedo più!... Si contenta dunque, che io seguiti per la mia strada? —\n\nAspettò un segno di risposta a quella domanda: ma la risposta non venne: anzi il serpente, che fin allora pareva arzillo e pieno di vita, diventò immobile e quasi irrigidito. Gli occhi gli si chiusero, e la coda gli smesse di fumare.\n\n— Che sia morto davvero? — disse Pinocchio, dandosi una fregatina di mani dalla gran contentezza; e senza mettere tempo in mezzo, fece l’atto di scavalcarlo, per passare dall’altra parte della strada. Ma non aveva ancora finito di alzare la gamba, che il Serpente si rizzò all’improvviso come una molla scattata: e il burattino, nel tirarsi indietro spaventato, inciampò e cadde per terra.\n\nCadde così male, che restò col capo conficcato nel fango della strada...\n\nE per l’appunto cadde così male, che restò col capo conficcato nel fango della strada e colle gambe ritte su in aria.\n\nAlla vista di quel burattino, che sgambettava a capofitto con una velocità incredibile, il serpente fu preso da una tal convulsione di risa che ridi, ridi, ridi, alla fine, dallo sforzo del troppo ridere, gli si strappò una vena sul petto: e quella volta morì davvero.\n\nAllora Pinocchio ricominciò a correre per arrivare a casa della Fata avanti che si facesse buio. Ma lungo la strada, non potendo più reggere ai morsi terribili della fame, saltò in un campo coll’intenzione di cogliere poche ciocche d’uva moscadella. Non l’avesse mai fatto!\n\nAppena giunto sotto la vite, crac,.., sentì stringersi le gambe da due ferri taglienti, che gli fecero vedere quante stelle c’erano in cielo.\n\nIl povero burattino era rimasto preso a una tagliuola appostata là da alcuni contadini per beccarvi alcune grosse faine, che erano il flagello di tutti i polli del vicinato.\n",
+        "metrics": {
+          "wer": 0.12151898734177215,
+          "cer": 0.048711842390127734,
+          "rouge": {
+            "rouge1": 0.991421568627451,
+            "rouge2": 0.9766871165644171,
+            "rougeL": 0.9754901960784313,
+            "rougeLsum": 0.991421568627451
+          }
+        },
+        "judgement": {
+          "score": 4,
+          "raw_score_text": "4"
+        },
+        "differences": [
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "motivo",
+            "model_cleaned_slice": "cagione"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "E me",
+            "model_cleaned_slice": "Me"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "e",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ". . ."
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": "! . . ."
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ". . ."
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": "e"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "fatto",
+            "model_cleaned_slice": "fatta"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ". . ."
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ". . . ."
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "… ―",
+            "model_cleaned_slice": ". . . —"
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "appuntuta ,",
+            "model_cleaned_slice": "appuntata"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "allontanatosi",
+            "model_cleaned_slice": "allontanandosi"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ". . ."
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": "come una molla scattata : e il burattino , nel tirarsi indietro spaventato , inciampò e cadde per terra ."
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ". improvviso come una molla scattata : e il burattino , nel tirarsi indietro spaventato , inciampò e cadde per terra .",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ", . . ,"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "da",
+            "model_cleaned_slice": "a"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "pollai",
+            "model_cleaned_slice": "polli"
+          }
+        ]
+      },
+      {
+        "model_name": "Mistral",
+        "cleaned_text": "XX.\nLiberato dalla prigione, si avvia per tornare a casa della Fata;\nma lungo la strada trova un serpente orribile, e poi rimane preso alla tagliuola.\nFiguratevi l’allegrezza di Pinocchio quando si sentì libero. Senza stare a dire che è e che non è, uscì subito fuori della città e ripercorse la strada che doveva ricondurlo alla Casina della Fata.\nA cagione del tempo piovigginoso, la strada era diventata tutta un pantano e ci si andava fino a mezza gamba.\nMa il burattino non se ne dava per inteso.\nTormentato dalla passione di rivedere il suo babbo e la sua sorellina dai capelli turchini, correva a salti come un cane levriero, e nel correre le pillacchere gli schizzavano fin sopra il berretto. Intanto andava dicendo fra sé e sé:\n— Quante disgrazie mi sono accadute... Pj me le merito! perché io sono un burattino testardo e diccoso..., voglio far sembrare tutte le cose a modo mio, senza dar retta a quelli che mi voglion bene e che hanno mille volte più giudizio di me!... Ma da questa volta in là, faccio proponimento di cambiar vita e di diventare un ragazzo ammodo e ubbidiente!... Tanto ormai ho bel e visto che i ragazzi, a essere disubbidienti, ci scapitano sempre e non ne infilano mai una per il verso. E il mio babbo mi avrà aspettato?... Ce lo troverò a casa della Fata? È tanto tempo, pover’uomo, che non lo vedo più, e che mi struggo di fargli mille carezze e di finirlo dai baci! E la Fata mi perdonerà la brutta azione che le ho fatta?... E pensare che ho ricevuto da lei tante attenzioni e tante cure amorose.... e pensare che se oggi son sempre vivo, lo debbo a lei! Ma si può dare un ragazzo più ingrato e più senza cuore di me?...\nIl tempo che diceva così, si fermò tutt’a un tratto spaventato, e fece quattro passi indietro.\nChe cosa aveva veduto?\nAveva veduto un grosso serpente, disteso attraverso alla strada, che aveva la pelle verde, gli occhi di fuoco e la coda appuntata che gli fumava come una cappa di camino.\nImpossibile immaginarsi la paura del burattino: il quale, allontanandosi più di mezzo chilometro, si mise a sedere sopra un monticello di sassi, aspettando che il serpente se ne andasse una buona volta per i fatti suoi e lasciasse libero il passo della strada.\nAspettò un’ora; due ore; tre ore: ma il serpente era sempre là, e anche di lontano, si vedeva il rosseggiare dei suoi occhi di fuoco e la colonna di fumo che gli usciva dalla punta della coda.\nAllora Pinocchio, figurandosi di aver coraggio, si avvicinò a pochi passi di distanza, e facendo una vocina dolce, insinuante e sottile, disse al serpente:\n— Scusi, signor Serpente, che mi farebbe il piacere di tirarsi un pochino da una parte, tanto da lasciarmi passare? —\nFu lo stesso che dire al muro. Nessuno si mosse.\nAllora riprese colla solita vocina:\n— Deve sapere, signor Serpente, che io vado a casa, dove c’è il mio babbo che mi aspetta e che è tanto tempo che non lo vedo più!... Si contenta dunque, che io seguiti per la mia strada? —\nAspettò un seguito di risposta a quella domanda: ma la risposta non venne: anzi il serpente, che fin allora pareva arzillo e pieno di vita, diventò immobile e quasi irrigidito. Gli occhi gli si chiusero, e la coda gli smesse di fumare.\n— Ohe sia morto davvero? — disse Pinocchio, dandosi una fregatina di mani dalla gran contentezza; e senza mettere tempo in mezzo, fece l’atto di scavalcarlo, per passare dall’altra parte della strada. Ma non aveva ancora finito di alzare la gamba, che il Serpente si rizzò all’improvviso come una molla scattata: e il burattino, nel tirarsi indietro spaventato, inciampò e cadde per terra.\nE per l’appunto cadde così male, che restò col capo conficcato nel fango della strada e colle gambe ritte su in aria.\nAlla vista di quel burattino, che sgambettava a capofitto con una velocità incredibile, il serpente fu preso da una tal convulsione di risa che ridi, ridi, ridi, alla fine, dallo sforzo del troppo ridere, gli si strappò una vena sul petto: e quella volta morì davvero.\nAllora Pinocchio ricominciò a correre per arrivare a casa della Fata avanti che si facesse buio.\nMa lungo la strada, non potendo più reggere ai morsi terribili della fame, saltò in un campo col’intenzione di cogliere poche ciocche d’uva moscadella. Non l’avesse mai fatto!\nAppena giunto sotto la vite, crac, sentì stringersi le gambe da due ferri taglienti, che gli fecero vedere quante stelle c’erano in cielo.\nIl povero burattino era rimasto preso a una tagliuola appostata là da alcuni contadini per beccarvi alcune grosse faine, che erano il flagello di tutti i polli del vicinato.",
+        "metrics": {
+          "wer": 0.08607594936708861,
+          "cer": 0.037021000216497076,
+          "rouge": {
+            "rouge1": 0.971604938271605,
+            "rouge2": 0.9456118665018541,
+            "rougeL": 0.9691358024691358,
+            "rougeLsum": 0.971604938271605
+          }
+        },
+        "judgement": {
+          "score": 3,
+          "raw_score_text": "3"
+        },
+        "differences": [
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "riprese",
+            "model_cleaned_slice": "ripercorse"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "motivo",
+            "model_cleaned_slice": "cagione"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "can",
+            "model_cleaned_slice": "cane"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "sè e sè",
+            "model_cleaned_slice": "sé e sé"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": ". E",
+            "model_cleaned_slice": "Pj"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "perchè",
+            "model_cleaned_slice": "perché"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "piccoso . . . , e",
+            "model_cleaned_slice": "diccoso . . . ,"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "sempre",
+            "model_cleaned_slice": "sembrare"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ". . ."
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": "! . . ."
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "bell ’",
+            "model_cleaned_slice": "bel"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "su ’",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ". . ."
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": "e"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "fatto",
+            "model_cleaned_slice": "fatta"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ". . ."
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ". . . ."
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "… ― Nel",
+            "model_cleaned_slice": ". . . Il"
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "appuntuta ,",
+            "model_cleaned_slice": "appuntata"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "allontanatosi",
+            "model_cleaned_slice": "allontanandosi"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": ":",
+            "model_cleaned_slice": ";"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "de ’",
+            "model_cleaned_slice": "dei"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ". . ."
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "segno",
+            "model_cleaned_slice": "seguito"
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "Che",
+            "model_cleaned_slice": "Ohe"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "Cadde",
+            "model_cleaned_slice": "come una molla scattata : e il burattino , nel tirarsi indietro spaventato , inciampò e cadde per terra . E per l ’ appunto cadde"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ". . . . improvviso come una molla scattata : e il burattino , nel tirarsi indietro spaventato , inciampò e cadde per terra . E per l ’ appunto cadde così male , che restò col capo conficcato nel fango della strada",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "coll",
+            "model_cleaned_slice": "col"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "da",
+            "model_cleaned_slice": "a"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "pollai",
+            "model_cleaned_slice": "polli"
+          }
+        ]
+      }
+    ]
+  }
+]

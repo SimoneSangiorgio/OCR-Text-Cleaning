@@ -1,0 +1,299 @@
+[
+  {
+    "item_id": 1,
+    "original_ocr": "IV. \nLa storia di Pinocchio col Grillo-parlante, dove si vede come i ragazzi cattivi lianno a iioja di sentirsi correggere da chi ne sa più di loro. \nVi dirò dunque, ragazzi, che mentre il povero Geppetto era condotto senza sua colica in prigione, quel monello di Pinocchio, rimasto libero dalle grinfie del carabiniere, se la dava a gambe giù attraverso ai campi, i)er far più presto a tornarsene a casa; e nella gran furia del correre saltava greppi altissimi, siepi di pruni e fossi pieni d’acqua, tale e quale come avrebbe potuto fare lui capretto o un leprottino inseguito dai cacciatori. \nGiunto dinanzi a casa, trovò l’uscio di strada socchiuso. Lo spinse, entrò dentro, e appena ebbe messo tanto di i)aletto, si gettò a sedere per terra, lasciando andare un gran sospirone di contentezza. \nMa quella contentezza durò poco, perchè sentì nella stanza qualcuno che fece: \n— Cri-cri-cri! \n\n\n— Olii è che mi chiama? — disse Pinocchio tutto impaurito. \n— Sono io! ^Pinocchio si voltò, e ’vide un grosso grillo che saliva lentamente su su per il muro. \n— Dimmi, Grillo, e tu chi sei I — Io sono il Grillo-parlante, e abito in questa stanza da più di cent’anni. \n— Oggi però questa stanza è mia, — disse il burattino ^ e se vuoi farmi uh vero piacere, vattene subito, senza nemmeno voltarsi indietro. \n— Io non me ne anderò di qui, — rispose il Grillo — se prima non ti avrò detto una gran verità. \n— Dimmela, e spicciati. \n— Guai a quei ragazzi che si ribellano ai loro genitori, e che abbandonano capricciosamente la casa paterna. Xon avranno mai bene in questo mondo; e prima o poi dovranno pentirsene amaramente. \n— Canta pure. Grillo mio, come ti pare e piace: \nma io so che domani, all’alba, voglio andarmene di qui, perchè se rimango qui, avverrà a me quel che avviene a tutti gli altri ragazzi, vale a dire mi manderanno a scuola, e per amore o per forza mi toccherà a studiare; e io, a dirtela iu confidenza, di studiare non ho punta voglia e mi diverto più a correre dietro alle farfalle e a salire su per gli alberi a prendere gii uccellini di nido. \n— Povero grullerello!- Ma non sai che, facendo così, diventerai da grande un bellissimo somaro, e che tutti si piglieranno gioco di te 1 \n— Chetati, grillaecio del mal’augurio! — gridò Pinocchio. \nMa il grillo, che era paziente e filosofo, invece di aversi a male di questa impertinenza, continuò con lo stesso tono di voce: \n— E se non ti garba di andare a scuola, perchè non impari almeno un mestiere tanto da guadagnarti onestamente un pezzo di panel — Vuoi che te lo dica! — rei)licò Pinocchio, che cominciava a perdere la pazienza. — Fra i mestieri del mondo non ce n’è che uno solo, che veramente mi vada a genio. \n— r E questo mestiere sarebbe 1 \n— Quello di mangiare, bere, dormire, divertirmi, e fare dalla mattina alla sera la vita del vagabondo. \n— Per tua regola — disse il Grillo-parlante con la sua solita calma — tutti quelli che fanno codesto mestiere, finiscono quasi sempre allo spedale o in prigione. \n\n\n— Bada, grillaccio del mal’augurio!... se mi monta la bizza, guai a te!... \n— Povero Pinocchio: mi fai proimo compassione!... 1 \n— Perchè ti faccio compassione 1 \n— Perchè sei un burattino e, quel che è peggio, perchè hai la testa Ui legno. — \nA queste ultime parole, Pinocchio saltò su tutt’infuriato, e preso di sul banco un martello di legno, lo scagliò contro il Grillo-parlante. \nForse non credeva nemmeno di colpirlo; \nma disgraziatamente lo colse per l’appunto nel capo, tanto che il povero Grillo ebbe appena il fiato di fare crì-crì-crì^ e poi rimase lì stecchito e appiccicato alla x^^i’ete. \n\nCIP Preso di sul banco un raartello di legno, lo scagliò contro il Gì ilio parlante.",
+    "ground_truth": "IV.\n\nLa storia di Pinocchio col Grillo-parlante, dove si vede come i ragazzi cattivi hanno a noia di sentirsi correggere da chi ne sa più di loro.\n\nVi dirò dunque, ragazzi, che mentre il povero Geppetto era condotto senza sua colpa in prigione, quel monello di Pinocchio, rimasto libero dalle grinfie del carabiniere, se la dava a gambe giù attraverso ai campi, per far più presto a tornarsene a casa; e nella gran furia del correre saltava greppi altissimi, siepi di pruni e fossi pieni d’acqua, tale e quale come avrebbe potuto fare un capretto o un leprottino inseguito dai cacciatori.\nGiunto dinanzi a casa, trovò l’uscio di strada socchiuso. Lo spinse, entrò dentro, e appena ebbe messo tanto di paletto, si gettò a sedere per terra, lasciando andare un gran sospirone di contentezza.\nMa quella contentezza durò poco, perchè sentì nella stanza qualcuno che fece:\n— Crì-crì-crì!\n— Chi è che mi chiama? — disse Pinocchio tutto impaurito.\n— Sono io! —\nPinocchio si voltò, e vide un grosso Grillo che saliva lentamente su su per il muro.\n— Dimmi, Grillo, e tu chi sei?\n— Io sono il Grillo-parlante, e abito in questa stanza da più di cent’anni.\n— Oggi però questa stanza è mia, — disse il burattino — e se vuoi farmi un vero piacere, vattene subito, senza nemmeno voltarsi indietro.\n— Io non me ne anderò di qui, — rispose il Grillo — se prima non ti avrò detto una gran verità.\n— Dimmela, e spicciati.\n— Guai a quei ragazzi che si ribellano ai loro genitori, e che abbandonano capricciosamente la casa paterna. Non avranno mai bene in questo mondo; e prima o poi dovranno pentirsene amaramente.\n— Canta pure, Grillo mio, come ti pare e piace: ma io so che domani, all’alba, voglio andarmene di qui, perchè se rimango qui, avverrà a me quel che avviene a tutti gli altri ragazzi, vale a dire mi manderanno a scuola, e per amore o per forza mi toccherà studiare; e io, a dirtela\nin confidenza, di studiare non ho punto voglia e mi diverto più a correre dietro alle farfalle e a salire su per gli alberi a prendere gli uccellini di nido.\n— Povero grullerello! Ma non sai che, facendo così, diventerai da grande un bellissimo somaro, e che tutti si piglieranno gioco di te?\n— Chetati, Grillaccio del mal’augurio! — gridò Pinocchio.\nMa il Grillo, che era paziente e filosofo, invece di aversi a male di questa impertinenza, continuò con lo stesso tono di voce:\n— E se non ti garba di andare a scuola, perchè non impari almeno un mestiere tanto da guadagnarti onestamente un pezzo di pane?\n— Vuoi che te lo dica? — replicò Pinocchio, che cominciava a perdere la pazienza. — Fra tutti i mestieri del mondo non ce n’è che uno solo, che veramente mi vada a genio.\n— E questo mestiere sarebbe?\n— Quello di mangiare, bere, dormire, divertirmi, e fare dalla mattina alla sera la vita del vagabondo.\n— Per tua regola — disse il Grillo-parlante con la sua solita calma — tutti quelli che fanno codesto mestiere, finiscono sempre allo spedale o in prigione.\n— Bada, Grillaccio del mal’augurio!… se mi monta la bizza, guai a te!…\n— Povero Pinocchio! Mi fai proprio compassione!…\n— Perchè ti faccio compassione?\n— Perchè sei un burattino e, quel che è peggio, perchè hai la testa di legno. —\nA queste ultime parole, Pinocchio saltò su tutt’infuriato e preso sul banco un martello di legno, lo scagliò contro il Grillo-parlante.\nForse non credeva nemmeno di colpirlo; ma disgraziatamente lo colse per l’appunto nel capo, tanto che il povero Grillo ebbe appena il fiato di fare crì-crì-crì, e poi rimase lì stecchito e appiccicato alla parete.",
+    "model_outputs": [
+      {
+        "model_name": "Gemini-1.5-Flash",
+        "cleaned_text": "IV.\n\nLa storia di Pinocchio col Grillo-parlante, dove si vede come i ragazzi cattivi hanno a noia di sentirsi correggere da chi ne sa più di loro.\n\nVi dirò dunque, ragazzi, che mentre il povero Geppetto era condotto senza sua colpa in prigione, quel monello di Pinocchio, rimasto libero dalle grinfie del carabiniere, se la dava a gambe giù attraverso ai campi, per far più presto a tornarsene a casa; e nella gran furia del correre saltava greppi altissimi, siepi di pruni e fossi pieni d’acqua, tale e quale come avrebbe potuto fare un capretto o un leprottino inseguito dai cacciatori.\n\nGiunto dinanzi a casa, trovò l’uscio di strada socchiuso. Lo spinse, entrò dentro, e appena ebbe messo tanto di paletto, si gettò a sedere per terra, lasciando andare un gran sospirone di contentezza.\n\nMa quella contentezza durò poco, perchè sentì nella stanza qualcuno che fece:\n\n— Cri-cri-cri!\n\n— Chi è che mi chiama? — disse Pinocchio tutto impaurito.\n\n— Sono io! Pinocchio si voltò, e vide un grosso grillo che saliva lentamente su su per il muro.\n\n— Dimmi, Grillo, e tu chi sei?\n\n— Io sono il Grillo-parlante, e abito in questa stanza da più di cent’anni.\n\n— Oggi però questa stanza è mia, — disse il burattino — e se vuoi farmi un vero piacere, vattene subito, senza nemmeno voltarti indietro.\n\n— Io non me ne anderò di qui, — rispose il Grillo — se prima non ti avrò detto una gran verità.\n\n— Dimmela, e spicciati.\n\n— Guai a quei ragazzi che si ribellano ai loro genitori, e che abbandonano capricciosamente la casa paterna. Non avranno mai bene in questo mondo; e prima o poi dovranno pentirsene amaramente.\n\n— Canta pure, Grillo mio, come ti pare e piace: ma io so che domani, all’alba, voglio andarmene di qui, perchè se rimango qui, avverrà a me quel che avviene a tutti gli altri ragazzi, vale a dire mi manderanno a scuola, e per amore o per forza mi toccherà a studiare; e io, a dirtela in confidenza, di studiare non ho punta voglia e mi diverto più a correre dietro alle farfalle e a salire su per gli alberi a prendere gli uccellini di nido.\n\n— Povero grullerello! Ma non sai che, facendo così, diventerai da grande un bellissimo somaro, e che tutti si piglieranno gioco di te?\n\n— Chetati, grillaccio del mal’augurio! — gridò Pinocchio.\n\nMa il grillo, che era paziente e filosofo, invece di aversi a male di questa impertinenza, continuò con lo stesso tono di voce:\n\n— E se non ti garba di andare a scuola, perchè non impari almeno un mestiere tanto da guadagnarti onestamente un pezzo di pane?\n\n— Vuoi che te lo dica? — replicò Pinocchio, che cominciava a perdere la pazienza. — Fra i mestieri del mondo non ce n’è che uno solo, che veramente mi vada a genio.\n\n— E questo mestiere sarebbe?\n\n— Quello di mangiare, bere, dormire, divertirmi, e fare dalla mattina alla sera la vita del vagabondo.\n\n— Per tua regola — disse il Grillo-parlante con la sua solita calma — tutti quelli che fanno codesto mestiere, finiscono quasi sempre allo spedale o in prigione.\n\n— Bada, grillaccio del mal’augurio!... se mi monta la bizza, guai a te!...\n\n— Povero Pinocchio: mi fai proprio compassione!...\n\n— Perchè ti faccio compassione?\n\n— Perchè sei un burattino e, quel che è peggio, perchè hai la testa di legno. —\n\nA queste ultime parole, Pinocchio saltò su tutt’infuriato, e preso di sul banco un martello di legno, lo scagliò contro il Grillo-parlante.\n\nForse non credeva nemmeno di colpirlo; ma disgraziatamente lo colse per l’appunto nel capo, tanto che il povero Grillo ebbe appena il fiato di fare crì-crì-crì, e poi rimase lì stecchito e appiccicato alla parete.\n\nPreso di sul banco un martello di legno, lo scagliò contro il Grillo parlante.\n",
+        "metrics": {
+          "wer": 0.13856427378964942,
+          "cer": 0.04169030062393647,
+          "rouge": {
+            "rouge1": 0.9772357723577236,
+            "rouge2": 0.9657980456026058,
+            "rougeL": 0.9772357723577236,
+            "rougeLsum": 0.9772357723577236
+          }
+        },
+        "judgement": {
+          "score": 4,
+          "raw_score_text": "4"
+        },
+        "differences": [
+          {
+            "type": "replace",
+            "ground_truth_slice": "Crì",
+            "model_cleaned_slice": "Cri"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "crì",
+            "model_cleaned_slice": "cri"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "crì",
+            "model_cleaned_slice": "cri"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "—",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "Grillo",
+            "model_cleaned_slice": "grillo"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "voltarsi",
+            "model_cleaned_slice": "voltarti"
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": "a"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "punto",
+            "model_cleaned_slice": "punta"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "Grillaccio",
+            "model_cleaned_slice": "grillaccio"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "Grillo",
+            "model_cleaned_slice": "grillo"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "tutti",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": "quasi"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "Grillaccio",
+            "model_cleaned_slice": "grillaccio"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ". . ."
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ". . ."
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "! Mi",
+            "model_cleaned_slice": ": mi"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ". . ."
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": "di"
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": "Preso di sul banco un martello di legno , lo scagliò contro il Grillo parlante ."
+          }
+        ]
+      },
+      {
+        "model_name": "Mistral",
+        "cleaned_text": "IV.\n\nLa storia di Pinocchio col Grillo-parlante, dove si vede come i ragazzi cattivi hanno la gioia di sentirsi correggere da chi ne sa più di loro.\n\nVi dirò dunque, ragazzi, che mentre il povero Geppetto era condotto senza sua colpa in prigione, quel monello di Pinocchio, rimasto libero dalle grinfie del carabiniere, se la dava a gambe giù attraverso ai campi, per far più presto a tornarsene a casa; e nella gran furia del correre saltava greppi altissimi, siepi di pruni e fossi pieni d’acqua, tale e quale come avrebbe potuto fare lui capretto o un leprottino inseguito dai cacciatori.\n\nGiunto dinanzi a casa, trovò l’uscio di strada socchiuso. Lo spinse, entrò dentro, e appena ebbe messo tanto di letto, si gettò a sedere per terra, lasciando andare un gran sospirone di contentezza.\n\nMa quella contentezza durò poco, perché sentì nella stanza qualcuno che fece:\n\n— Cri-cri-cri!\n\n— Oh, chi è che mi chiama? — disse Pinocchio tutto impaurito.\n\n— Sono io! — Pinocchio si voltò, e vide un grosso grillo che saliva lentamente su per il muro.\n\n— Dimmi, Grillo, e tu chi sei?\n\n— Io sono il Grillo-parlante, e abito in questa stanza da più di cent’anni.\n\n— Oggi però questa stanza è mia, — disse il burattino — e se vuoi farmi un vero piacere, vattene subito, senza nemmeno voltarti indietro.\n\n— Io non me ne anderò di qui, — rispose il Grillo — se prima non ti avrò detto una gran verità.\n\n— Dimmela, e spicciati.\n\n— Guai a quei ragazzi che si ribellano ai loro genitori, e che abbandonano capricciosamente la casa paterna. Non avranno mai bene in questo mondo; e prima o poi dovranno pentirsene amaramente.\n\n— Canta pure, Grillo mio, come ti pare e piace:\n\nma io so che domani, all’alba, voglio andarmene di qui, perché se rimango qui, avverrà a me quel che avviene a tutti gli altri ragazzi, vale a dire mi manderanno a scuola, e per amore o per forza mi toccherà a studiare; e io, a dirtela in confidenza, di studiare non ho punta voglia e mi diverto più a correre dietro alle farfalle e a salire su per gli alberi a prendere gli uccellini di nido.\n\n— Povero grullerello! Ma non sai che, facendo così, diventerai da grande un bellissimo somaro, e che tutti si piglieranno gioco di te!\n\n— Chetati, grillaecio del mal’augurio! — gridò Pinocchio.\n\nMa il grillo, che era paziente e filosofo, invece di aversi a male di questa impertinenza, continuò con lo stesso tono di voce:\n\n— E se non ti garba di andare a scuola, perché non impari almeno un mestiere tanto da guadagnarti onestamente un pezzo di pane?\n\n— Vuoi che te lo dica! — replicò Pinocchio, che cominciava a perdere la pazienza. — Fra i mestieri del mondo non ce n’è che uno solo, che veramente mi vada a genio.\n\n— E questo mestiere sarebbe?\n\n— Quello di mangiare, bere, dormire, divertirmi, e fare dalla mattina alla sera la vita del vagabondo.\n\n— Per tua regola — disse il Grillo-parlante con la sua solita calma — tutti quelli che fanno codesto mestiere, finiscono quasi sempre allo spedale o in prigione.\n\n— Bada, grillaccio del mal’augurio!... se mi monta la bizza, guai a te!...\n\n— Povero Pinocchio: mi fai proprio compassione!...\n\n— Perché ti faccio compassione?\n\n— Perché sei un burattino e, quel che è peggio, perché hai la testa di legno.\n\nA queste ultime parole, Pinocchio saltò su tutt’infuriato, e preso di sul banco un martello di legno, lo scagliò contro il Grillo-parlante.\n\nForse non credeva nemmeno di colpirlo;\n\nma disgraziatamente lo colse per l’appunto nel capo, tanto che il povero Grillo ebbe appena il fiato di fare crì-crì-crì e poi rimase lì stecchito e appiccicato alla parete.\n\nCIP Preso di sul banco un martello di legno, lo scagliò contro il Grillo-parlante.",
+        "metrics": {
+          "wer": 0.1636060100166945,
+          "cer": 0.05104934770277935,
+          "rouge": {
+            "rouge1": 0.9699431356620634,
+            "rouge2": 0.9487388120423108,
+            "rougeL": 0.966693744922827,
+            "rougeLsum": 0.9699431356620634
+          }
+        },
+        "judgement": {
+          "score": 2,
+          "raw_score_text": "2"
+        },
+        "differences": [
+          {
+            "type": "replace",
+            "ground_truth_slice": "a noia",
+            "model_cleaned_slice": "la gioia"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "un",
+            "model_cleaned_slice": "lui"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "paletto",
+            "model_cleaned_slice": "letto"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "perchè",
+            "model_cleaned_slice": "perché"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "Crì - crì - crì ! — Chi",
+            "model_cleaned_slice": "Cri - cri - cri ! — Oh , chi"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "Grillo",
+            "model_cleaned_slice": "grillo"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "su",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "voltarsi",
+            "model_cleaned_slice": "voltarti"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "perchè",
+            "model_cleaned_slice": "perché"
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": "a"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "punto",
+            "model_cleaned_slice": "punta"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "?",
+            "model_cleaned_slice": "!"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "Grillaccio",
+            "model_cleaned_slice": "grillaecio"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "Grillo",
+            "model_cleaned_slice": "grillo"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "perchè",
+            "model_cleaned_slice": "perché"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "?",
+            "model_cleaned_slice": "!"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "tutti",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": "quasi"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "Grillaccio",
+            "model_cleaned_slice": "grillaccio"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ". . ."
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ". . ."
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "! Mi",
+            "model_cleaned_slice": ": mi"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "… — Perchè",
+            "model_cleaned_slice": ". . . — Perché"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "Perchè",
+            "model_cleaned_slice": "Perché"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "perchè",
+            "model_cleaned_slice": "perché"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "—",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": "di"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": "CIP Preso di sul banco un martello di legno , lo scagliò contro il Grillo - parlante ."
+          }
+        ]
+      }
+    ]
+  }
+]

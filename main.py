@@ -10,7 +10,7 @@ import difflib
 from groq import Groq
 
 
-from cleaner_LLM import clean_with_gemini, clean_with_groq, corrector_gemini, corrector_groq
+from pulitore_LLM import clean_with_gemini, clean_with_groq, corrector_gemini, corrector_groq
 from judge_LLM import judge_with_gemini
 from pre_clean import *
 from pathinator import *
@@ -22,7 +22,7 @@ load_dotenv()
 INPUT_PATH = dataset_subset
 
 START_INDEX = 1
-END_INDEX = 2  # Modifica questo valore o impostalo su None per andare fino alla fine
+END_INDEX = 3  # Modifica questo valore o impostalo su None per andare fino alla fine
 
 OUTPUT_PATH = results / f"full_pipeline_results_{START_INDEX}_{END_INDEX}.json"
 
@@ -31,7 +31,11 @@ MODELS_TO_RUN = [{
         "type": "gemini",
         "function": clean_with_gemini,
         "model_id_or_client": None },
-
+    {
+        "name": "Llama",
+        "type": "groq",
+        "function": clean_with_groq,
+        "model_id_or_client": "llama-3.3-70b-versatile"},
     {
         "name": "Mistral",
         "type": "groq",
@@ -136,7 +140,7 @@ def main():
         print(f"\n{'='*20} Processing item {i+1}/{len(subset_to_process)} {'='*20}")
         
         ocr_text = item.get('ocr', '')
-        ocr_text = replacement_rules(ocr_text)
+        ocr_text = replacement_rules_pro(ocr_text)
 
         ground_truth = item.get('clean', '')
         
@@ -160,11 +164,13 @@ def main():
             if model_config["type"] == "gemini":
                 cleaned_text = cleaning_function(gemini_client, ocr_text)
                 cleaned_text = corrector_gemini(gemini_client, cleaned_text)
+                cleaned_text = replacement_rules_post(cleaned_text)
                 #cleaned_text = replacement_rules(cleaned_text)
             elif model_config["type"] == "groq":
                 model_id = model_config["model_id_or_client"]
                 cleaned_text = cleaning_function(groq_client, ocr_text, model_id)
                 cleaned_text = corrector_groq(groq_client, cleaned_text, model_id)
+                cleaned_text = replacement_rules_post(cleaned_text)
                 #cleaned_text = replacement_rules(cleaned_text)
 
             #ocr_text = correct_spelling(ocr_text)
