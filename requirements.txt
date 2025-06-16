@@ -1,5 +1,4 @@
 google-genai
-python-dotenv
 jiwer
 evaluate
 rouge-score
@@ -7,3 +6,13 @@ rouge-score
 
 prometheus-eval
 vllm
+
+
+google-generativeai
+python-dotenv
+torch # Often a dependency for evaluate or transformers
+transformers # Often a dependency for evaluate
+pandas
+scikit-learn
+groq
+pyspellchecker
