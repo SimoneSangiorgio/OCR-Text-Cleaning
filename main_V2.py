@@ -10,7 +10,7 @@ import difflib
 from groq import Groq
 
 
-from cleaner_LLM import clean_with_gemini, clean_with_groq, corrector_gemini, corrector_groq
+from cleaner_LLM_V2 import clean_with_gemini, clean_with_groq, corrector_gemini, corrector_groq
 from judge_LLM import judge_with_gemini
 from pre_clean import *
 from pathinator import *
