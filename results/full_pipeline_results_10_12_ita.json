@@ -1,0 +1,1693 @@
+[
+  {
+    "item_id": 1,
+    "original_ocr": "X. \nI burattini riconoscono il loro fratello Pinocchio e gli fanno una grandissima festa; ma sul piìi bello esce fuori il burattinaio Mangiafoco, e Pinocchio corre pericolo di fare una brutta fine. \nQuando Pinocchio entrò nel teatrino delle marionette, accadde un fatto clie destò una mezza rivoluzione. \nBisogna sapere che il sipario era tirato su, e la commedia era già incominciata. \nSulla scena si vedevano Arlecchino e Pulcinella, che bisticciavano fra di loro e, secondo il solito, minacciavano da un momento all’altro di scambiarsi un carico di schiaffi e di bastonate. \nLa platea tutta attenta, si mandava a male dalle grandi risate, nel sentire il battibecco di quei due burattini, che gestivano e si trattavano d’ogni vitupero con tanta verità, come se fossero proprio due animali ragionevoli e due persone di questo mondo. \nQuando all’improvviso, che è che non è, Arlecchino smette di recitare, e voltandosi verso il pubblico e accennando colla mano qualcuno in \\ \n\n\nfondo alla pfatea, comincia a urlare in tono drammatico: \n— Numi del iìrmamento! sogno o son desto? \nEppure quello laggiù è Pinocchio!... \n— È Pinocchio davvero! — grida Pulcinellr^. \n\n.... Eppure quello laggiù è Pinocchio!... \n— È proprio lui! — strilla la signora Eosaura, facendo capolino in fondo alla scena. \n— È Pinocchio! è Pinocchio! — urlarono in coro tutti i burattini, uscendo a salti fuori delle quinte. \n— È Pinocchio! È il nostro fratello Pinocchio! \nEvviva Pinocchio!... \n— Pinocchio, vieni quassù da me! — grida Arlecchino — vieni a gettarti fra le braccia dei tuoi fratelli di legno! — \n\n\nA questo affettuoso invito, Pinoccliio spicca un salto, e di fondo alla platea va nei posti distìnti; poi con un altro salto, dai posti distinti monta sulla testa del direttore d’orchestra, e di lì schizza sul palcoscenico. \nÈ impossibile figurarsi gli abbracciamenti, gli strizzoni di collo, i pizzicotti dell’amicizia e lo zuccate della vera e sincera fratellanza, che Pinocchio ricevè in mezzo a tanto arruffìo degli attori e delle attrici di quella compagnia drammatico-vegetale. \nQuesto spettacolo era commovente, non c’è che dire: ma il pubblico della platea, vedendo che la commedia non andava più avanti, s’imI)azientì e prese a gridare: — Vogliamo la commedia! vogliamo la commedia! — \nTutto fiato buttato via, perchè i burattini, inVecè di continuare la recita, raddoppiarono il chiasso e le grida, e, postosi Pinocchio sulle spalle, se lo i^ortarono in trionfo ai lumi della ribalta. \nAllora uscì fuori il burattinaio, un omone così brutto, che metteva paura soltanto a guardarlo. \nAveva una barbacela nera come uno scarabocchio d’inchiostro, e tanto lunga, che gii scendeva dal mento fino a terra: basta dire che, quando camminava se la pestava coi piedi. La sua bocca era larga come un forno, i suoi occhi parevano due lanterne di vetro rosso, col lume acceso di dietro; e con le mani schioccava una grossa frusta, fatta di serpenti e di code di volpe attorcisfliate insieme. \n\nAll’apparizione inaspettata del burattinaio, ammutolirono tutti. \nAll’apparizione inaspettata del burattinaio, ammutolirono tutti: nessuno fiatò più. Si sarebbe sentito volare una mosca. Quei poveri burattini, maschi e femmine, tremavano come tante foglie. \n\n\n— Perchè sei venuto a mettere lo scompiglio nel mio teatro? — domandò il burattinaio a Pinocchio, con Tin vocione d’Orco gravemente infreddato di testa. \n— La creda, illustrissimo, che la colpa non è stata mia!... \n— Basta così! stasera faremo i nostri conti. — \nDifatti, finita la recita della commedia, il burattinaio andò in cucina, dov’egli s’era preparato per cena un bel montone, che girava lentamente infilato nello spiede. E perchè gli mancavano le legna per finirlo di cuocere e di rosolare, chiamò Arlecchino e Pulcinella e disse loro: \n— Portatemi di qua quel burattino, che troverete attaccato al chiodo. Mi pare un burattino fatto di un legname molto asciutto, e sono sicuro che a buttarlo sul fuoco, mi darà una bellissima fiammata all’arrosto. — \nArlecchino e Pulcinella da principio esitarono; \nma impauriti da un’occhiataccia del loro padrone, obbedirono: e dopo tornarono in cucina portando sulle braccia il povero Pinocchio, il quale, divincolandosi come un’anguilla fuori dell’acqua, strillava disperatamente: — Babbo mio, salvatemi! Non voglio morire, no, non voglio morire!... —",
+    "ground_truth": "X.\n\nI burattini riconoscono il loro fratello Pinocchio e gli fanno una grandissima festa; ma sul più bello, esce fuori il burattinaio Mangiafoco, e Pinocchio corre il pericolo di fare una brutta fine.\n\nQuando Pinocchio entrò nel teatrino delle marionette, accadde un fatto che destò mezza rivoluzione.\nBisogna sapere che il sipario era tirato su e la commedia era già incominciata.\nSulla scena si vedevano Arlecchino e Pulcinella, che bisticciavano fra di loro e, secondo il solito, minacciavano da un momento all’altro di scambiarsi un carico di schiaffi e di bastonate.\nLa platea, tutta attenta, si mandava a male dalle grandi risate, nel sentire il battibecco di quei due burattini, che gestivano e si trattavano d’ogni vitupero con tanta verità, come se fossero proprio due animali ragionevoli e due persone di questo mondo.\nQuando all’improvviso, che è che non è, Arlecchino smette di recitare, e voltandosi verso il pubblico e accennando colla mano qualcuno in\nfondo alla platea, comincia a urlare in tono drammatico:\n— Numi del firmamento! sogno o son desto? Eppure quello laggiù è Pinocchio!…\n— È Pinocchio davvero! — grida Pulcinella.\n....Eppure quello laggiù è Pinocchio!…\n\n— È proprio lui! — strilla la signora Rosaura, facendo capolino di fondo alla scena.\n— È Pinocchio! è Pinocchio! — urlano in coro tutti i burattini, uscendo a salti fuori delle quinte. — È Pinocchio! È il nostro fratello Pinocchio! Evviva Pinocchio!…\n— Pinocchio, vieni quassù da me, — grida Arlecchino, — vieni a gettarti fra le braccia dei tuoi fratelli di legno! ―\nA questo affettuoso invito, Pinocchio spicca un salto, e di fondo alla platea va nei posti distinti; poi con un altro salto, dai posti distinti monta sulla testa del direttore d’orchestra, e di lì schizza sul palcoscenico.\nÈ impossibile figurarsi gli abbracciamenti, gli strizzoni di collo, i pizzicotti dell’amicizia e le zuccate della vera e sincera fratellanza, che Pinocchio ricevè in mezzo a tanto arruffìo degli attori e delle attrici di quella compagnia drammatico-vegetale.\nQuesto spettacolo era commovente, non c’è che dire: ma il pubblico della platea, vedendo che la commedia non andava più avanti, s’impazientì e prese a gridare: — Vogliamo la commedia! vogliamo la commedia! —\nTutto fiato buttato via, perchè i burattini, invece di continuare la recita, raddoppiarono il chiasso e le grida, e, postosi Pinocchio sulle spalle, se lo portarono in trionfo davanti ai lumi della ribalta.\nAllora uscì fuori il burattinaio, un omone così brutto, che metteva paura soltanto a guardarlo. Aveva una barbaccia nera come uno scarabocchio d’inchiostro, e tanto lunga, che gli scendeva dal mento fino a terra: basta dire che, quando camminava se la pestava coi piedi. La sua bocca era larga come un forno, i suoi occhi parevano\ndue lanterne di vetro rosso, col lume acceso di dietro; e con le mani faceva schioccare una grossa frusta, fatta di serpenti e di code di volpe attorcigliate insieme.\nAll’apparizione inaspettata del burattinaio, ammutolirono tutti.\n\nAll’apparizione inaspettata del burattinaio, ammutolirono tutti: nessuno fiatò più. Si sarebbe sentito volare una mosca. Quei poveri burattini, maschi e femmine, tremavano tutti come tante foglie.\n\n— Perchè sei venuto a mettere lo scompiglio nel mio teatro? — domandò il burattinaio a Pinocchio, con un vocione d’Orco gravemente infreddato di testa.\n— La creda, illustrissimo, che la colpa non è stata mia!...\n— Basta così! Stasera faremo i nostri conti. —\nDifatti, finita la recita della commedia, il burattinaio andò in cucina, dov’egli s’era preparato per cena un bel montone, che girava lentamente infilato nello spiede. E perchè gli mancavano la legna per finirlo di cuocere e di rosolare, chiamò Arlecchino e Pulcinella e disse loro:\n— Portatemi di qua quel burattino che troverete attaccato al chiodo. Mi pare un burattino fatto di un legname molto asciutto, e sono sicuro che, a buttarlo sul fuoco, mi darà una bellissima fiammata all’arrosto. —\nArlecchino e Pulcinella da principio esitarono; ma impauriti da un’occhiataccia del loro padrone, obbedirono: e dopo poco tornarono in cucina, portando sulle braccia il povero Pinocchio, il quale, divincolandosi come un’anguilla fuori dell’acqua, strillava disperatamente: — Babbo mio, salvatemi! Non voglio morire, non voglio morire!... —",
+    "model_outputs": [
+      {
+        "model_name": "Gemini-1.5-Flash",
+        "cleaned_text": "X.\nI burattini riconoscono il loro fratello Pinocchio e gli fanno una grandissima festa; ma sul più bello esce fuori il burattinaio Mangiafoco, e Pinocchio corre pericolo di fare una brutta fine.\nQuando Pinocchio entrò nel teatrino delle marionette, accadde un fatto che destò una mezza rivoluzione.\nBisogna sapere che il sipario era tirato su, e la commedia era già incominciata.\nSulla scena si vedevano Arlecchino e Pulcinella, che bisticciavano fra di loro e, secondo il solito, minacciavano da un momento all’altro di scambiarsi un carico di schiaffi e di bastonate.\nLa platea tutta attenta, si mandava a male dalle grandi risate, nel sentire il battibecco di quei due burattini, che gestivano e si trattavano d’ogni vitupero con tanta verità, come se fossero proprio due animali ragionevoli e due persone di questo mondo.\nQuando all’improvviso, che è che non è, Arlecchino smette di recitare, e voltandosi verso il pubblico e accennando colla mano qualcuno in fondo alla platea, comincia a urlare in tono drammatico:\n— Numi del firmamento! sogno o son desto?\nEppure quello laggiù è Pinocchio!...\n— È Pinocchio davvero! — grida Pulcinella.\n\n.... Eppure quello laggiù è Pinocchio!...\n— È proprio lui! — strilla la signora Rosaura, facendo capolino in fondo alla scena.\n— È Pinocchio! è Pinocchio! — urlarono in coro tutti i burattini, uscendo a salti fuori delle quinte.\n— È Pinocchio! È il nostro fratello Pinocchio!\nEvviva Pinocchio!...\n— Pinocchio, vieni quassù da me! — grida Arlecchino — vieni a gettarti fra le braccia dei tuoi fratelli di legno! —\n\nA questo affettuoso invito, Pinocchio spicca un salto, e di fondo alla platea va nei posti distinti; poi con un altro salto, dai posti distinti monta sulla testa del direttore d’orchestra, e di lì schizza sul palcoscenico.\nÈ impossibile figurarsi gli abbracciamenti, gli strizzoni di collo, i pizzicotti dell’amicizia e le zuccate della vera e sincera fratellanza, che Pinocchio ricevè in mezzo a tanto arruffio degli attori e delle attrici di quella compagnia drammatico-vegetale.\nQuesto spettacolo era commovente, non c’è che dire: ma il pubblico della platea, vedendo che la commedia non andava più avanti, s’impatientì e prese a gridare: — Vogliamo la commedia! vogliamo la commedia! —\nTutto fiato buttato via, perchè i burattini, invece di continuare la recita, raddoppiarono il chiasso e le grida, e, postosi Pinocchio sulle spalle, se lo portarono in trionfo ai lumi della ribalta.\nAllora uscì fuori il burattinaio, un omone così brutto, che metteva paura soltanto a guardarlo.\nAveva una barbacela nera come uno scarabocchio d’inchiostro, e tanto lunga, che gli scendeva dal mento fino a terra: basta dire che, quando camminava se la pestava coi piedi. La sua bocca era larga come un forno, i suoi occhi parevano due lanterne di vetro rosso, col lume acceso di dietro; e con le mani schioccava una grossa frusta, fatta di serpenti e di code di volpe attorcigliate insieme.\n\nAll’apparizione inaspettata del burattinaio, ammutolirono tutti.\nAll’apparizione inaspettata del burattinaio, ammutolirono tutti: nessuno fiatò più. Si sarebbe sentito volare una mosca. Quei poveri burattini, maschi e femmine, tremavano come tante foglie.\n\n— Perchè sei venuto a mettere lo scompiglio nel mio teatro? — domandò il burattinaio a Pinocchio, con un vocione d’Orco gravemente infreddato di testa.\n— La creda, illustrissimo, che la colpa non è stata mia!...\n— Basta così! stasera faremo i nostri conti. —\nDifatti, finita la recita della commedia, il burattinaio andò in cucina, dov’egli s’era preparato per cena un bel montone, che girava lentamente infilato nello spiede. E perchè gli mancavano le legna per finirlo di cuocere e di rosolare, chiamò Arlecchino e Pulcinella e disse loro:\n— Portatemi di qua quel burattino, che troverete attaccato al chiodo. Mi pare un burattino fatto di un legname molto asciutto, e sono sicuro che a buttarlo sul fuoco, mi darà una bellissima fiammata all’arrosto. —\nArlecchino e Pulcinella da principio esitarono;\nma impauriti da un’occhiataccia del loro padrone, obbedirono: e dopo tornarono in cucina portando sulle braccia il povero Pinocchio, il quale, divincolandosi come un’anguilla fuori dell’acqua, strillava disperatamente: — Babbo mio, salvatemi! Non voglio morire, no, non voglio morire!... —\n",
+        "metrics": {
+          "wer": 0.08157099697885196,
+          "cer": 0.018810961449140733,
+          "rouge": {
+            "rouge1": 0.9834586466165414,
+            "rouge2": 0.9638554216867471,
+            "rougeL": 0.9834586466165414,
+            "rougeLsum": 0.9834586466165414
+          }
+        },
+        "judgement": {
+          "score": 4,
+          "raw_score_text": "4"
+        },
+        "differences": [
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "il",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": "una"
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ". . ."
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ". . ."
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "di",
+            "model_cleaned_slice": "in"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "urlano",
+            "model_cleaned_slice": "urlarono"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ". . ."
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": "!"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "―",
+            "model_cleaned_slice": "—"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "arruffìo",
+            "model_cleaned_slice": "arruffio"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "impazientì",
+            "model_cleaned_slice": "impatientì"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "davanti",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "barbaccia",
+            "model_cleaned_slice": "barbacela"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "faceva schioccare",
+            "model_cleaned_slice": "schioccava"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "tutti",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "Stasera",
+            "model_cleaned_slice": "stasera"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "la",
+            "model_cleaned_slice": "le"
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "poco",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": "no ,"
+          }
+        ]
+      },
+      {
+        "model_name": "Llama",
+        "cleaned_text": "X.\n\nI burattini riconoscono il loro fratello Pinocchio e gli fanno una grandissima festa; ma sul più bello esce fuori il burattinaio Mangiafoco, e Pinocchio corre pericolo di fare una brutta fine.\n\nQuando Pinocchio entrò nel teatrino delle marionette, accadde un fatto che destò una mezza rivoluzione.\nBisogna sapere che il sipario era tirato su, e la commedia era già incominciata.\nSulla scena si vedevano Arlecchino e Pulcinella, che bisticciavano fra di loro e, secondo il solito, minacciavano da un momento all’altro di scambiarsi un carico di schiaffi e di bastonate.\nLa platea tutta attenta, si mandava a male dalle grandi risate, nel sentire il battibecco di quei due burattini, che gestivano e si trattavano d’ogni vitupero con tanta verità, come se fossero proprio due animali ragionevoli e due persone di questo mondo.\n\nQuando all’improvviso, che è che non è, Arlecchino smette di recitare, e voltandosi verso il pubblico e accennando colla mano qualcuno in fondo alla platea, comincia a urlare in tono drammatico:\n— Numi del firmamento! Sogno o son desto?\nEppure quello laggiù è Pinocchio!...\n— È Pinocchio davvero! — grida Pulcinella.\n— È proprio lui! — strilla la signora Rosa, facendo capolino in fondo alla scena.\n— È Pinocchio! È Pinocchio! — urlarono in coro tutti i burattini, uscendo a salti fuori delle quinte.\n— È Pinocchio! È il nostro fratello Pinocchio!\nEvviva Pinocchio!...\n— Pinocchio, vieni quassù da me! — grida Arlecchino — vieni a gettarti fra le braccia dei tuoi fratelli di legno!\n\nA questo affettuoso invito, Pinocchio spicca un salto, e di fondo alla platea va nei posti distinti; poi con un altro salto, dai posti distinti monta sulla testa del direttore d’orchestra, e di lì schizza sul palcoscenico.\nÈ impossibile figurarsi gli abbracciamenti, gli strizzoni di collo, i pizzicotti dell’amicizia e le zuccate della vera e sincera fratellanza, che Pinocchio ricevè in mezzo a tanto arruffìo degli attori e delle attrici di quella compagnia drammatico-vegetale.\nQuesto spettacolo era commovente, non c’è che dire: ma il pubblico della platea, vedendo che la commedia non andava più avanti, s’impazientì e prese a gridare: — Vogliamo la commedia! vogliamo la commedia! —\nTutto fiato buttato via, perchè i burattini, invece di continuare la recita, raddoppiarono il chiasso e le grida, e, postosi Pinocchio sulle spalle, se lo portarono in trionfo ai lumi della ribalta.\n\nAllora uscì fuori il burattinaio, un omone così brutto, che metteva paura soltanto a guardarlo.\nAveva una barbacela nera come uno scarabocchio d’inchiostro, e tanto lunga, che gli scendeva dal mento fino a terra: basta dire che, quando camminava se la pestava coi piedi. La sua bocca era larga come un forno, i suoi occhi parevano due lanterne di vetro rosso, col lume acceso di dietro; e con le mani schioccava una grossa frusta, fatta di serpenti e di code di volpe attorcigliate insieme.\n\nAll’apparizione inaspettata del burattinaio, ammutolirono tutti.\nAll’apparizione inaspettata del burattinaio, ammutolirono tutti: nessuno fiatò più. Si sarebbe sentito volare una mosca. Quei poveri burattini, maschi e femmine, tremavano come tante foglie.\n\n— Perchè sei venuto a mettere lo scompiglio nel mio teatro? — domandò il burattinaio a Pinocchio, con un vocione d’Orco gravemente infreddato di testa.\n— La creda, illustrissimo, che la colpa non è stata mia!...\n— Basta così! stasera faremo i nostri conti. —\nDifatti, finita la recita della commedia, il burattinaio andò in cucina, dov’egli s’era preparato per cena un bel montone, che girava lentamente infilato nello spiede. E perchè gli mancavano le legna per finirlo di cuocere e di rosolare, chiamò Arlecchino e Pulcinella e disse loro:\n— Portatemi di qua quel burattino, che troverete attaccato al chiodo. Mi pare un burattino fatto di un legname molto asciutto, e sono sicuro che a buttarlo sul fuoco, mi darà una bellissima fiammata all’arrosto. —\nArlecchino e Pulcinella da principio esitarono;\nma impauriti da un’occhiataccia del loro padrone, obbedirono: e dopo tornarono in cucina portando sulle braccia il povero Pinocchio, il quale, divincolandosi come un’anguilla fuori dell’acqua, strillava disperatamente: — Babbo mio, salvatemi! Non voglio morire, no, non voglio morire!... —",
+        "metrics": {
+          "wer": 0.08308157099697885,
+          "cer": 0.027635856943799348,
+          "rouge": {
+            "rouge1": 0.982667671439337,
+            "rouge2": 0.9630188679245283,
+            "rougeL": 0.982667671439337,
+            "rougeLsum": 0.982667671439337
+          }
+        },
+        "judgement": {
+          "score": 4,
+          "raw_score_text": "4"
+        },
+        "differences": [
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "il",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": "una"
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "sogno",
+            "model_cleaned_slice": "Sogno"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ". . ."
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ". . . . Eppure quello laggiù è Pinocchio ! …",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "Rosaura",
+            "model_cleaned_slice": "Rosa"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "di",
+            "model_cleaned_slice": "in"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "è Pinocchio ! — urlano",
+            "model_cleaned_slice": "È Pinocchio ! — urlarono"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ". . ."
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": "!"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "―",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "davanti",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "barbaccia",
+            "model_cleaned_slice": "barbacela"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "faceva schioccare",
+            "model_cleaned_slice": "schioccava"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "tutti",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "Stasera",
+            "model_cleaned_slice": "stasera"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "la",
+            "model_cleaned_slice": "le"
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "poco",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": "no ,"
+          }
+        ]
+      },
+      {
+        "model_name": "Mistral",
+        "cleaned_text": "X.\n\nI burattini riconoscono il loro fratello Pinocchio e gli fanno una grandissima festa; ma sul più bello esce fuori il burattinaio Mangiafoco, e Pinocchio corre pericolo di fare una brutta fine.\n\nQuando Pinocchio entrò nel teatrino delle marionette, accadde un fatto che destò una mezza rivoluzione.\n\nBisogna sapere che il sipario era tirato su, e la commedia era già incominciata.\n\nSulla scena si vedevano Arlecchino e Pulcinella, che bisticciavano fra di loro e, secondo il solito, minacciavano da un momento all’altro di scambiarsi un carico di schiaffi e di bastonate.\n\nLa platea tutta attenta, si mandava a male dalle grandi risate, nel sentire il battibecco di quei due burattini, che gestivano e si trattavano d’ogni vitupero con tanta verità, come se fossero proprio due animali ragionevoli e due persone di questo mondo.\n\nQuando all’improvviso, che è che non è, Arlecchino smette di recitare, e voltandosi verso il pubblico e accennando colla mano qualcuno in fondo alla platea, comincia a urlare in tono drammatico:\n\n— Numi del cielo! sogno o son desto?\n\nEppure quello laggiù è Pinocchio!...\n\n— È Pinocchio davvero! — grida Pulcinella.\n\n— Eppure quello laggiù è Pinocchio!... — strilla la signora Eosaura, facendo capolino in fondo alla scena.\n\n— È Pinocchio! è Pinocchio! — urlarono in coro tutti i burattini, uscendo a salti fuori delle quinte.\n\n— È Pinocchio! È il nostro fratello Pinocchio!\n\nEvviva Pinocchio!...\n\n— Pinocchio, vieni quassù da me! — grida Arlecchino — vieni a gettarti fra le braccia dei tuoi fratelli di legno! —\n\nA questo affettuoso invito, Pinocchio spicca un salto, e di fondo alla platea va nei posti distinti; poi con un altro salto, dai posti distinti monta sulla testa del direttore d’orchestra, e di lì schizza sul palcoscenico.\n\nÈ impossibile figurarsi gli abbracciamenti, gli strizzoni di collo, i pizzicotti dell’amicizia e lo zuccate della vera e sincera fratellanza, che Pinocchio ricevè in mezzo a tanto arruffìo degli attori e delle attrici di quella compagnia drammatico-vegetale.\n\nQuesto spettacolo era commovente, non c’è che dire: ma il pubblico della platea, vedendo che la commedia non andava più avanti, s’impatientò e prese a gridare:\n\n— Vogliamo la commedia! vogliamo la commedia! —\n\nTutto fiato buttato via, perchè i burattini, invece di continuare la recita, raddoppiarono il chiasso e le grida, e, postosi Pinocchio sulle spalle, se lo portarono in trionfo ai lumi della ribalta.\n\nAllora uscì fuori il burattinaio, un omone così brutto, che metteva paura soltanto a guardarlo.\n\nAveva una barbaccia nera come uno scarabocchio d’inchiostro, e tanto lunga, che gli scendeva dal mento fino a terra: basta dire che, quando camminava se la pestava coi piedi. La sua bocca era larga come un forno, i suoi occhi parevano due lanterne di vetro rosso, col lume acceso di dietro; e con le mani schioccava una grossa frusta, fatta di serpenti e di code di volpe attorcigliate insieme.\n\nAll’apparizione inaspettata del burattinaio, ammutolirono tutti.\n\nAll’apparizione inaspettata del burattinaio, ammutolirono tutti: nessuno fiatò più. Si sarebbe sentito volare una mosca. Quei poveri burattini, maschi e femmine, tremavano come tante foglie.\n\n— Perchè sei venuto a mettere lo scompiglio nel mio teatro? — domandò il burattinaio a Pinocchio, con la vocione d’Orco gravemente infreddato di testa.\n\n— La creda, illustrissimo, che la colpa non è stata mia!...\n\n— Basta così! stasera faremo i nostri conti.\n\nDifatti, finita la recita della commedia, il burattinaio andò in cucina, dov’egli s’era preparato per cena un bel montone, che girava lentamente infilato nello spiedo. E perchè gli mancavano le legna per finirlo di cuocere e di rosolare, chiamò Arlecchino e Pulcinella e disse loro:\n\n— Portatemi di qua quel burattino, che troverete attaccato al chiodo. Mi pare un burattino fatto di un legname molto asciutto, e sono sicuro che a buttarlo sul fuoco, mi darà una bellissima fiammata all’arrosto.\n\nArlecchino e Pulcinella da principio esitarono;\n\nma impauriti da un’occhiataccia del loro padrone, obbedirono: e dopo tornarono in cucina portando sulle braccia il povero Pinocchio, il quale, divincolandosi come un’anguilla fuori dell’acqua, strillava disperatamente:\n\n— Babbo mio, salvatemi! Non voglio morire, no, non voglio morire!...",
+        "metrics": {
+          "wer": 0.11329305135951662,
+          "cer": 0.03158383650719926,
+          "rouge": {
+            "rouge1": 0.981188863807374,
+            "rouge2": 0.9525244913338359,
+            "rougeL": 0.9781790820165539,
+            "rougeLsum": 0.981188863807374
+          }
+        },
+        "judgement": {
+          "score": 4,
+          "raw_score_text": "4"
+        },
+        "differences": [
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "il",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": "una"
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "firmamento",
+            "model_cleaned_slice": "cielo"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ". . ."
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": ". . . .",
+            "model_cleaned_slice": "—"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "… — È proprio lui !",
+            "model_cleaned_slice": ". . ."
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "Rosaura",
+            "model_cleaned_slice": "Eosaura"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "di",
+            "model_cleaned_slice": "in"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "urlano",
+            "model_cleaned_slice": "urlarono"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ". . ."
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": "!"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "―",
+            "model_cleaned_slice": "—"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "le",
+            "model_cleaned_slice": "lo"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "impazientì",
+            "model_cleaned_slice": "impatientò"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "davanti",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "faceva schioccare",
+            "model_cleaned_slice": "schioccava"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "tutti",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "un",
+            "model_cleaned_slice": "la"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "Stasera",
+            "model_cleaned_slice": "stasera"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "—",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "spiede",
+            "model_cleaned_slice": "spiedo"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "la",
+            "model_cleaned_slice": "le"
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "—",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "poco",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": "no ,"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "—",
+            "model_cleaned_slice": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item_id": 2,
+    "original_ocr": "XI. \nMangiafoco starnutisce e perdona a Pinocchio, il quale poi difende dalla morte il suo amico Arlecchino. \nIl burattinaio Maugiafoco (che questo era il suo nome) pareva un uomo spaventoso, non dico di no, specie con quella sua barbacela nera cbe, a uso gremlbiale, gli copriva tutto il petto e tutte le gambe; ma nel fondo poi non era un cattiv’uomo. Prova ne sia, che quando vide portarsi davanti quel povero Pinocchio, che si dibatteva per ogni verso, urlando « Non voglio morire, non voglio morire! » principiò subito a commuoversi e a impietosirsi; e dopo aver resistito un bel pezzo, alla fine non ne potè più, e lasciò andare un sonorosissimo starnuto. \nA quello starnuto. Arlecchino che fino allora era stato afflitto e ripiegato come un salcio piangente, si fece tutto allegro in viso, e chinatosi verso Pinocchio gli bisbigUò sottovoce: \n— Buone nuove, fratello! Il burattinaio ha starnutito, e questo è segno che s’è mosso a compassione per te, e oramai sei salvo. — \nPerchè bisogna sapere che, mentre tutti gii nomÌDÌ quando si sentono impietositi per qualcuno, o piangono, o per lo meno fanno fìnta di rasciugarsi^ gli occhi, Mangiafoco, invece, ogni volta elle s’inteneriva davvero, aveva il vizio di starnutire. Era un modo come un altro, per dare a conoscere agli altri la sensibilità del suo cuore. \nDopo avere starnutito, il burattinaio, seguitando a fare il burbero, gridò a Pinocchio: \n— Finiscila di piangere! I tuoi lamenti mi hanno messo un’uggiolina qui in fondo allo stomaco.... sento uno spasimo, che quasi quasi.... \netcì^ etcì! — e fece altri due starnuti. \n— Felicità! — disse Pinocchio. \n— Grazie. E il tuo babbo e la tua mamma sono sempre vivi? — domandò Mangiafoco. \n— Il babbo, sì; la mamma non l’ho mai conosciuta. . , — Chi lo sa che dispiacere sarebbe per il tuo vecchio padre, se ora ti facessi gettare fra quei carboni ardenti. Povero vecchio! lo compatisco.... \netcì^ etcì, etGÌy — e fece altri tre starnuti. \n— Felicità! — disse Pinocchio. \n— Grazie. Del resto bisogna compatire anche me, perchè come vedi, non ho più legna per finire di cuocere quel montone arrosto, e tu, dico la verità, in questo caso mi avresti fatto un gran comodo! Ma orinai mi sono impietosito e ci vuol pazienza. luACce di te, metterò a bruciare sotto mia compagnia. \n\n\nlo spiccie qualche burattino della Olà, giandarmi! — \nA questo comando comparvero subito due giandarmi di legno, lunghi lunghi, secchi secchi, — Pigliatemi li qnell’Arlecchino., col cappello a lucerna in testa e colla sciabola sfoderata in mano. \nAllora il burattinaio disse loro con voce rantolosa: \n- Pigliatemi lì quelP Arlecchino, legatelo ben bene, e poi gettatelo a bruciare sul fuoco. Io voglio che il mio montone sia arrostito bene! — \nFiguratevi il povero Arlecchino! Fu tanto il suo spavento, che le gambe gli si ripiegarono e cadde bocconi per terra. \nPinocchio alla vista di quello spettacolo straziante, andò a gettarsi ai inedì del burattinaio, e piangendo dirottamente e bagnandogli di lacrime tutti i peli della lunghissima barba, comiuciò a dire con voce supplichevole: \n— Pietà, signor Mangiafoco!... \n— Qui non ci sono signori! — replicò duramente il burattinaio. \n— Pietà, signor Cavaliere!... \n— Qui non ci sono cavalieri! \n— Pietà, signor Commendatore! \n— Qui non ci sono commendatori! \n— Pietà, Eccellenza!... — \nA sentirsi chiamare Eccellenza, il burattinaio fece subito il bocchino tondo, e diventato tutt’a un tratto più umano e i3iìi trattabile, disse a Pinocchio: \n— Ebbene, che cosa vuoi da me I — Vi domando grazia per il povero Arlecchino!... \n— Qui non c’è grazia che tenga. Se ho risparmiato te, bisogna che faccia mettere sul fuoco lui, perchè io voglio che il mio montone sia arrostito bene. \n\n\n— In questo caso — gridò fieramente Pinocchio, rizzandosi e gettando via il suo berretto di midolla di pane — in questo caso conosco qual è il mio dovere. Avanti, signori giandarnìi! Legatemi e gettatemi là fra quelle fiamme. No, non è giusta che il povero Arlecchino, il vero amico mio, debba morire per me! — \nQueste parole, pronunziate con voce alta e con accento eroico, fecero piangere tutti i burattini che erano presenti a quella scena. Gli stessi giandarmi, sebbene fossero di legno, piangevano come due agnellini di latte. \nMangiafoco, sul principio, rimase duro e immobile come un pezzo di ghiaccio: ma poi, adagio adagio, cominciò anche lui a commuoversi e a starnutire. E fatti quattro o cinque starnuti, aprì affettuosamente le braccia e disse a Pinocchio: \n— Tu sei un gran bravo ragazzo! Vieni qua da me, e dammi un bacio. — \nPinocchio corse subito, e arràmi5icandosi come uno scoiattolo su per la barba del burattinaio, andò a posargli un bellissimo bacio sulla punta del naso. \n— Dunque la grazia è fatta? — domandò il povero Arlecchino, con un fil di voce che si sentiva appena. \n\nE arrampicandosi con. \n\ni per lu barba del burattinaio.... \n\n\n— La grazia è fatta! — rispose Mangiafoco; \nl)oi soggiunse sospirando e tentennando il capo: \n— Pazienza! per questa sera mi rassegnerò a mangiare il montone mezzo crudo: ma un’altra volta, guai a chi toccherà!... — \nAlla notizia della grazia ottenuta, i burattini corsero tutti sul palcoscenico e, accesi i lumi e i lampadari come in serata di gala, cominciarono a saltare e a ballare. \nEra l’alba e ballavano sempre. \n\n^Sf/^^J^^^^^^^^^^ Q^<^\\\\j;VY»t«Jt",
+    "ground_truth": "XI.\n\nMangiafoco starnutisce e perdona a Pinocchio, il quale poi difende dalla morte il suo amico Arlecchino.\n\nIl burattinaio Mangiafoco (che questo era il suo nome) pareva un uomo spaventoso, non dico di no, specie con quella sua barbaccia nera che, a uso grembiale, gli copriva tutto il petto e tutte le gambe; ma nel fondo poi non era un cattiv’uomo. Prova ne sia, che quando vide portarsi davanti quel povero Pinocchio, che si dibatteva per ogni verso, urlando «Non voglio morire, non voglio morire!», principiò subito a commuoversi e a impietosirsi; e dopo aver resistito un bel pezzo, alla fine non ne potè più, e lasciò andare un sonorosissimo starnuto.\nA quello starnuto, Arlecchino, che fin allora era stato afflitto e ripiegato come un salcio piangente, si fece tutto allegro in viso, e chinatosi verso Pinocchio, gli bisbigliò sottovoce:\n— Buone nuove, fratello. Il burattinaio ha starnutito, e questo è segno che s’è mosso a compassione per te, e oramai sei salvo. —\nPerchè bisogna sapere che, mentre tutti gli\nuomini quando si sentono impietositi per qualcuno, o piangono, o per lo meno fanno finta di rasciugarsi gli occhi, Mangiafoco, invece, ogni volta che s’inteneriva davvero, aveva il vizio di starnutire. Era un modo come un altro, per dare a conoscere agli altri la sensibilità del suo cuore.\nDopo aver starnutito, il burattinaio, seguitando a fare il burbero, gridò a Pinocchio:\n— Finiscila di piangere! I tuoi lamenti mi hanno messo un’uggiolina in fondo allo stomaco.... sento uno spasimo, che quasi quasi.... etcì, etcì! — e fece altri due starnuti.\n— Felicità! — disse Pinocchio.\n— Grazie. E il tuo babbo e la tua mamma sono sempre vivi? — domandò Mangiafoco.\n— Il babbo, sì; la mamma non l’ho mai conosciuta.\n— Chi lo sa che dispiacere sarebbe per il tuo vecchio padre, se ora ti facessi gettare fra quei carboni ardenti! Povero vecchio! lo compatisco.... etcì, etcì, etcì, — e fece altri tre starnuti.\n— Felicità! — disse Pinocchio.\n— Grazie. Del resto bisogna compatire anche me, perchè, come vedi, non ho più legna per finire di cuocere quel montone arrosto, e tu, dico la verità, in questo caso mi avresti fatto un gran comodo! Ma oramai mi sono impietosito e ci vuol pazienza. Invece di te, metterò a bruciare sotto\nlo spiede qualche burattino della mia compagnia. Olà, giandarmi! —\nA questo comando comparvero subito due giandarmi di legno, lunghi lunghi, secchi secchi, col cappello a lucerna in testa e colla sciabola sfoderata in mano.\n— Pigliatemi lì quell’Arlecchino....\n\nAllora il burattinaio disse loro con voce rantolosa:\n— Pigliatemi lì quell’Arlecchino, legatelo ben\nbene, e poi gettatelo a bruciare sul fuoco. Io voglio che il mio montone sia arrostito bene! —\nFiguratevi il povero Arlecchino! Fu tanto il suo spavento, che le gambe gli si ripiegarono e cadde bocconi per terra.\nPinocchio, alla vista di quello spettacolo straziante, andò a gettarsi ai piedi del burattinaio e piangendo dirottamente e bagnandogli di lacrime tutti i peli della lunghissima barba, cominciò a dire con voce supplichevole:\n— Pietà, signor Mangiafoco!...\n— Qui non ci son signori! — replicò duramente il burattinaio.\n— Pietà, signor Cavaliere!...\n— Qui non ci son cavalieri!\n— Pietà, signor Commendatore!...\n— Qui non ci son commendatori!\n— Pietà, Eccellenza!... —\nA sentirsi chiamare Eccellenza, il burattinaio fece subito il bocchino tondo, e diventato tutt’a un tratto più umano e più trattabile, disse a Pinocchio:\n— Ebbene, che cosa vuoi da me?\n— Vi domando grazia per il povero Arlecchino!...\n— Qui non c’è grazia che tenga. Se ho risparmiato te, bisogna che faccia mettere sul fuoco lui, perchè io voglio che il mio montone sia arrostito bene.\n— In questo caso, — gridò fieramente Pinocchio, rizzandosi e gettando via il suo berretto di midolla di pane, — in questo caso conosco qual è il mio dovere. Avanti, signori giandarmi! Legatemi e gettatemi là fra quelle fiamme. No, non è giusta che il povero Arlecchino, il vero amico mio, debba morire per me!…\nQueste parole, pronunziate con voce alta e con accento eroico, fecero piangere tutti i burattini che erano presenti a quella scena. Gli stessi giandarmi, sebbene fossero di legno, piangevano come due agnellini di latte.\nMangiafoco, sul principio, rimase duro e immobile come un pezzo di ghiaccio: ma poi, adagio adagio, cominciò anche lui a commuoversi e a starnutire. E fatti quattro o cinque starnuti, aprì affettuosamente le braccia e disse a Pinocchio:\n— Tu sei un gran bravo ragazzo! Vieni qua da me e dammi un bacio. —\nPinocchio corse subito, e arrampicandosi come uno scoiattolo su per la barba del burattinaio, andò a posargli un bellissimo bacio sulla punta del naso.\n— Dunque la grazia è fatta? — domandò il povero Arlecchino, con un fil di voce che si sentiva appena.\nE arrampicandosi come uno scoiattolo su per la barba del burattinaio....\n— La grazia è fatta! — rispose Mangiafoco; poi soggiunse sospirando e tentennando il capo:\n— Pazienza! per questa sera mi rassegnerò a mangiare il montone mezzo crudo: ma un’altra volta, guai a chi toccherà!... —\nAlla notizia della grazia ottenuta, i burattini corsero tutti sul palcoscenico e, accesi i lumi e i lampadari come in serata di gala, cominciarono a saltare e a ballare.\nEra l’alba e ballavano sempre.",
+    "model_outputs": [
+      {
+        "model_name": "Gemini-1.5-Flash",
+        "cleaned_text": "XI.\nMangiafoco starnutisce e perdona a Pinocchio, il quale poi difende dalla morte il suo amico Arlecchino.\nIl burattinaio Mangiafoco (che questo era il suo nome) pareva un uomo spaventoso, non dico di no, specie con quella sua barbacela nera che, a uso grembiule, gli copriva tutto il petto e tutte le gambe; ma nel fondo poi non era un cattiv’uomo. Prova ne sia, che quando vide portarsi davanti quel povero Pinocchio, che si dibatteva per ogni verso, urlando «Non voglio morire, non voglio morire!» principiò subito a commuoversi e a impietosirsi; e dopo aver resistito un bel pezzo, alla fine non ne potè più, e lasciò andare un sonorosissimo starnuto.\nA quello starnuto, Arlecchino che fino allora era stato afflitto e ripiegato come un salcio piangente, si fece tutto allegro in viso, e chinatosi verso Pinocchio gli bisbigliò sottovoce:\n— Buone nuove, fratello! Il burattinaio ha starnutito, e questo è segno che s’è mosso a compassione per te, e oramai sei salvo. —\nPerchè bisogna sapere che, mentre tutti gli uomini quando si sentono impietositi per qualcuno, o piangono, o per lo meno fanno finta di rasciugarsi gli occhi, Mangiafoco, invece, ogni volta che s’inteneriva davvero, aveva il vizio di starnutire. Era un modo come un altro, per dare a conoscere agli altri la sensibilità del suo cuore.\nDopo avere starnutito, il burattinaio, seguitando a fare il burbero, gridò a Pinocchio:\n— Finiscila di piangere! I tuoi lamenti mi hanno messo un’uggiolina qui in fondo allo stomaco.... sento uno spasimo, che quasi quasi....\netcì, etcì! — e fece altri due starnuti.\n— Felicità! — disse Pinocchio.\n— Grazie. E il tuo babbo e la tua mamma sono sempre vivi? — domandò Mangiafoco.\n— Il babbo, sì; la mamma non l’ho mai conosciuta. . . — Chi lo sa che dispiacere sarebbe per il tuo vecchio padre, se ora ti facessi gettare fra quei carboni ardenti. Povero vecchio! lo compatisco....\netcì, etcì, etcì, — e fece altri tre starnuti.\n— Felicità! — disse Pinocchio.\n— Grazie. Del resto bisogna compatire anche me, perchè come vedi, non ho più legna per finire di cuocere quel montone arrosto, e tu, dico la verità, in questo caso mi avresti fatto un gran comodo! Ma oramai mi sono impietosito e ci vuol pazienza. Invece di te, metterò a bruciare sotto qualche burattino della mia compagnia. Olà, giandarmi! —\nA questo comando comparvero subito due giandarmi di legno, lunghi lunghi, secchi secchi, — Pigliatemi lì quell’Arlecchino, col cappello a lucerna in testa e colla sciabola sfoderata in mano.\nAllora il burattinaio disse loro con voce rantolosa:\n- Pigliatemi lì quell’Arlecchino, legatelo ben bene, e poi gettatelo a bruciare sul fuoco. Io voglio che il mio montone sia arrostito bene! —\nFiguratevi il povero Arlecchino! Fu tanto il suo spavento, che le gambe gli si ripiegarono e cadde bocconi per terra.\nPinocchio alla vista di quello spettacolo straziante, andò a gettarsi ai piedi del burattinaio, e piangendo dirottamente e bagnandogli di lacrime tutti i peli della lunghissima barba, cominciò a dire con voce supplichevole:\n— Pietà, signor Mangiafoco!...\n— Qui non ci sono signori! — replicò duramente il burattinaio.\n— Pietà, signor Cavaliere!...\n— Qui non ci sono cavalieri!\n— Pietà, signor Commendatore!\n— Qui non ci sono commendatori!\n— Pietà, Eccellenza!... —\nA sentirsi chiamare Eccellenza, il burattinaio fece subito il bocchino tondo, e diventato tutt’a un tratto più umano e più trattabile, disse a Pinocchio:\n— Ebbene, che cosa vuoi da me? — Vi domando grazia per il povero Arlecchino!...\n— Qui non c’è grazia che tenga. Se ho risparmiato te, bisogna che faccia mettere sul fuoco lui, perchè io voglio che il mio montone sia arrostito bene.\n\n— In questo caso — gridò fieramente Pinocchio, rizzandosi e gettando via il suo berretto di midolla di pane — in questo caso conosco qual è il mio dovere. Avanti, signori giandarmi! Legatemi e gettatemi là fra quelle fiamme. No, non è giusto che il povero Arlecchino, il vero amico mio, debba morire per me! —\nQueste parole, pronunziate con voce alta e con accento eroico, fecero piangere tutti i burattini che erano presenti a quella scena. Gli stessi giandarmi, sebbene fossero di legno, piangevano come due agnellini di latte.\nMangiafoco, sul principio, rimase duro e immobile come un pezzo di ghiaccio: ma poi, adagio adagio, cominciò anche lui a commuoversi e a starnutire. E fatti quattro o cinque starnuti, aprì affettuosamente le braccia e disse a Pinocchio:\n— Tu sei un gran bravo ragazzo! Vieni qua da me, e dammi un bacio. —\nPinocchio corse subito, e arrampicandosi come uno scoiattolo su per la barba del burattinaio, andò a posargli un bellissimo bacio sulla punta del naso.\n— Dunque la grazia è fatta? — domandò il povero Arlecchino, con un fil di voce che si sentiva appena.\n\nE arrampicandosi con i piedi per la barba del burattinaio....\n\n— La grazia è fatta! — rispose Mangiafoco;\nPoi soggiunse sospirando e tentennando il capo:\n— Pazienza! per questa sera mi rassegnerò a mangiare il montone mezzo crudo: ma un’altra volta, guai a chi toccherà!... —\nAlla notizia della grazia ottenuta, i burattini corsero tutti sul palcoscenico e, accesi i lumi e i lampadari come in serata di gala, cominciarono a saltare e a ballare.\nEra l’alba e ballavano sempre.\n",
+        "metrics": {
+          "wer": 0.07738095238095238,
+          "cer": 0.027814821870832538,
+          "rouge": {
+            "rouge1": 0.9845788849347569,
+            "rouge2": 0.9679334916864609,
+            "rougeL": 0.9798339264531435,
+            "rougeLsum": 0.9845788849347569
+          }
+        },
+        "judgement": {
+          "score": 3,
+          "raw_score_text": "3"
+        },
+        "differences": [
+          {
+            "type": "replace",
+            "ground_truth_slice": "barbaccia",
+            "model_cleaned_slice": "barbacela"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "grembiale",
+            "model_cleaned_slice": "grembiule"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": ", che fin",
+            "model_cleaned_slice": "che fino"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": ".",
+            "model_cleaned_slice": "!"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "aver",
+            "model_cleaned_slice": "avere"
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": "qui"
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ". ."
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "!",
+            "model_cleaned_slice": "."
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "lo spiede",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": "— Pigliatemi lì quell ’ Arlecchino ,"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ". — Pigliatemi lì quell ’ Arlecchino . . .",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "—",
+            "model_cleaned_slice": "-"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "son",
+            "model_cleaned_slice": "sono"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "son",
+            "model_cleaned_slice": "sono"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ". . .",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "son",
+            "model_cleaned_slice": "sono"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "giusta",
+            "model_cleaned_slice": "giusto"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": "—"
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "come uno scoiattolo su",
+            "model_cleaned_slice": "con i piedi"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "poi",
+            "model_cleaned_slice": "Poi"
+          }
+        ]
+      },
+      {
+        "model_name": "Llama",
+        "cleaned_text": "XI. \nMangiafoco starnutisce e perdona a Pinocchio, il quale poi difende dalla morte il suo amico Arlecchino. \nIl burattinaio Mangiafoco (che questo era il suo nome) pareva un uomo spaventoso, non dico di no, specie con quella sua barbaccia nera che, all'uso greco, gli copriva tutto il petto e tutte le gambe; ma nel fondo poi non era un cattiv'uomo. Prova ne sia, che quando vide portarsi davanti quel povero Pinocchio, che si dibatteva per ogni verso, urlando « Non voglio morire, non voglio morire! » principiò subito a commuoversi e a impietosirsi; e dopo aver resistito un bel pezzo, alla fine non ne potè più, e lasciò andare un sonorosissimo starnuto. \nA quello starnuto, Arlecchino che fino allora era stato afflitto e ripiegato come un salcio piangente, si fece tutto allegro in viso, e chinatosi verso Pinocchio gli bisbigliò sottovoce: \n— Buone nuove, fratello! Il burattinaio ha starnutito, e questo è segno che s'è mosso a compassione per te, e oramai sei salvo. — \nPerchè bisogna sapere che, mentre tutti gli uomini quando si sentono impietositi per qualcuno, o piangono, o per lo meno fanno finta di rasciugarsi gli occhi, Mangiafoco, invece, ogni volta che s'inteneriva davvero, aveva il vizio di starnutire. Era un modo come un altro, per dare a conoscere agli altri la sensibilità del suo cuore. \nDopo aver starnutito, il burattinaio, seguitando a fare il burbero, gridò a Pinocchio: \n— Finiscila di piangere! I tuoi lamenti mi hanno messo un'uggiolina qui in fondo allo stomaco.... sento uno spasimo, che quasi quasi.... \netcì, etcì! — e fece altri due starnuti. \n— Felicità! — disse Pinocchio. \n— Grazie. E il tuo babbo e la tua mamma sono sempre vivi? — domandò Mangiafoco. \n— Il babbo, sì; la mamma non l'ho mai conosciuta. — Chi lo sa che dispiacere sarebbe per il tuo vecchio padre, se ora ti facessi gettare fra quei carboni ardenti. Povero vecchio! lo compatisco.... \netcì, etcì, etcì! — e fece altri tre starnuti. \n— Felicità! — disse Pinocchio. \n— Grazie. Del resto bisogna compatire anche me, perchè come vedi, non ho più legna per finire di cuocere quel montone arrosto, e tu, dico la verità, in questo caso mi avresti fatto un gran comodo! Ma ormai mi sono impietosito e ci vuol pazienza. Luogo di te, metterò a bruciare sotto mia compagnia. \nLo spiccie qualche burattino della Compagnia! Giandarmi! — \nA questo comando comparvero subito due giandarmi di legno, lunghi lunghi, secchi secchi. — Pigliatemi lì quel Pinocchio, col cappello a lucerna in testa e colla sciabola sfoderata in mano. \nAllora il burattinaio disse loro con voce rantolosa: \n— Pigliatemi lì quel Pinocchio, legatelo ben bene, e poi gettatelo a bruciare sul fuoco. Io voglio che il mio montone sia arrostito bene! — \nFiguratevi il povero Pinocchio! Fu tanto il suo spavento, che le gambe gli si ripiegarono e cadde bocconi per terra. \nPinocchio alla vista di quello spettacolo straziante, andò a gettarsi ai piedi del burattinaio, e piangendo dirottamente e bagnandogli di lacrime tutti i peli della lunghissima barba, cominciò a dire con voce supplichevole: \n— Pietà, signor Mangiafoco!... \n— Qui non ci sono signori! — replicò duramente il burattinaio. \n— Pietà, signor Cavaliere!... \n— Qui non ci sono cavalieri! \n— Pietà, signor Commendatore! \n— Qui non ci sono commendatori! \n— Pietà, Eccellenza!... — \nA sentirsi chiamare Eccellenza, il burattinaio fece subito il bocchino tondo, e diventato tutt'a un tratto più umano e trattabile, disse a Pinocchio: \n— Ebbene, che cosa vuoi da me? — Vi domando grazia per il povero Arlecchino!... \n— Qui non c'è grazia che tenga. Se ho risparmiato te, bisogna che faccia mettere sul fuoco lui, perchè io voglio che il mio montone sia arrostito bene. \n— In questo caso — gridò fieramente Pinocchio, rizzandosi e gettando via il suo berretto di midolla di pane — in questo caso conosco qual è il mio dovere. Avanti, signori giandarmi! Legatemi e gettatemi là fra quelle fiamme. No, non è giusta che il povero Arlecchino, il vero amico mio, debba morire per me! — \nQueste parole, pronunziate con voce alta e con accento eroico, fecero piangere tutti i burattini che erano presenti a quella scena. Gli stessi giandarmi, sebbene fossero di legno, piangevano come due agnellini di latte. \nMangiafoco, sul principio, rimase duro e immobile come un pezzo di ghiaccio: ma poi, adagio adagio, cominciò anche lui a commuoversi e a starnutire. E fatti quattro o cinque starnuti, aprì affettuosamente le braccia e disse a Pinocchio: \n— Tu sei un gran bravo ragazzo! Vieni qua da me, e dammi un bacio. — \nPinocchio corse subito, e arrampicandosi come uno scoiattolo su per la barba del burattinaio, andò a posargli un bellissimo bacio sulla punta del naso. \n— Dunque la grazia è fatta? — domandò il povero Arlecchino, con un fil di voce che si sentiva appena. \nE arrampicandosi con lui per la barba del burattinaio.... \n— La grazia è fatta! — rispose Mangiafoco; e soggiunse sospirando e tentennando il capo: \n— Pazienza! per questa sera mi rassegnerò a mangiare il montone mezzo crudo: ma un'altra volta, guai a chi toccherà!... — \nAlla notizia della grazia ottenuta, i burattini corsero tutti sul palcoscenico e, accesi i lumi e i lampadari come in serata di gala, cominciarono a saltare e a ballare. \nEra l'alba e ballavano sempre.",
+        "metrics": {
+          "wer": 0.16547619047619047,
+          "cer": 0.044008382549056965,
+          "rouge": {
+            "rouge1": 0.9762752075919335,
+            "rouge2": 0.9513064133016627,
+            "rougeL": 0.9727164887307237,
+            "rougeLsum": 0.9762752075919335
+          }
+        },
+        "judgement": {
+          "score": 2,
+          "raw_score_text": "2"
+        },
+        "differences": [
+          {
+            "type": "replace",
+            "ground_truth_slice": "a",
+            "model_cleaned_slice": "all '"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "grembiale",
+            "model_cleaned_slice": "greco"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "’",
+            "model_cleaned_slice": "'"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": ", che fin",
+            "model_cleaned_slice": "che fino"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": ".",
+            "model_cleaned_slice": "!"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "’",
+            "model_cleaned_slice": "'"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "’",
+            "model_cleaned_slice": "'"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "’",
+            "model_cleaned_slice": "'"
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": "qui"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "’",
+            "model_cleaned_slice": "'"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "!",
+            "model_cleaned_slice": "."
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": "!"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "oramai",
+            "model_cleaned_slice": "ormai"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "Invece",
+            "model_cleaned_slice": "Luogo"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "lo spiede",
+            "model_cleaned_slice": "mia compagnia . Lo spiccie"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "mia compagnia . Olà , giandarmi",
+            "model_cleaned_slice": "Compagnia ! Giandarmi"
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ". — Pigliatemi lì quel Pinocchio"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ". — Pigliatemi lì quell ’ Arlecchino . . .",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "quell ’ Arlecchino",
+            "model_cleaned_slice": "quel Pinocchio"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "Arlecchino",
+            "model_cleaned_slice": "Pinocchio"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "son",
+            "model_cleaned_slice": "sono"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "son",
+            "model_cleaned_slice": "sono"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ". . .",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "son",
+            "model_cleaned_slice": "sono"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "’",
+            "model_cleaned_slice": "'"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "più",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "’",
+            "model_cleaned_slice": "'"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": "—"
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "come uno scoiattolo su",
+            "model_cleaned_slice": "con lui"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "poi",
+            "model_cleaned_slice": "e"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "’",
+            "model_cleaned_slice": "'"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "’",
+            "model_cleaned_slice": "'"
+          }
+        ]
+      },
+      {
+        "model_name": "Mistral",
+        "cleaned_text": "XI.\nMangiafoco starnutisce e perdona a Pinocchio, il quale poi difende dalla morte il suo amico Arlecchino.\nIl burattinaio Mangiafoco (che questo era il suo nome) pareva un uomo spaventoso, non dico di no, specie con quella sua barbaccia nera che, a uso gremlbiale, gli copriva tutto il petto e tutte le gambe; ma nel fondo poi non era un cattivo uomo. Prova ne sia, che quando vide portarsi davanti quel povero Pinocchio, che si dibatteva per ogni verso, urlando «Non voglio morire, non voglio morire!», principiò subito a commuoversi e a impietosirsi; e dopo aver resistito un bel pezzo, alla fine non ne potè più, e lasciò andare un sonorosissimo starnuto.\nA quello starnuto, Arlecchino che fino allora era stato afflitto e ripiegato come un salcio piangente, si fece tutto allegro in viso, e chinatosi verso Pinocchio gli bisbigliò sottovoce:\n— Buone nuove, fratello! Il burattinaio ha starnutito, e questo è segno che s’è mosso a compassione per te, e oramai sei salvo.\nPerchè bisogna sapere che, mentre tutti gli uomini quando si sentono impietositi per qualcuno, o piangono, o per lo meno fanno finta di asciugarsi gli occhi, Mangiafoco, invece, ogni volta che s’inteneriva davvero, aveva il vizio di starnutire. Era un modo come un altro, per dare a conoscere agli altri la sensibilità del suo cuore.\nDopo avere starnutito, il burattinaio, seguitando a fare il burbero, gridò a Pinocchio:\n— Finiscila di piangere! I tuoi lamenti mi hanno messo un’uggiolina qui in fondo allo stomaco... sento uno spasimo, che quasi quasi...\netcì etcì! — e fece altri due starnuti.\n— Felicità! — disse Pinocchio.\n— Grazie. E il tuo babbo e la tua mamma sono sempre vivi? — domandò Mangiafoco.\n— Il babbo, sì; la mamma non l’ho mai conosciuta.\n— Chi lo sa che dispiacere sarebbe per il tuo vecchio padre, se ora ti facessi gettare fra quei carboni ardenti. Povero vecchio! lo compatisco...\netcì etcì, etcì — e fece altri tre starnuti.\n— Felicità! — disse Pinocchio.\n— Grazie. Del resto bisogna compatire anche me, perchè come vedi, non ho più legna per finire di cuocere quel montone arrosto, e tu, dico la verità, in questo caso mi avresti fatto un gran comodo! Ma ora mi sono impietosito e ci vuol pazienza. Lascia di te, metterò a bruciare sotto mia compagnia.\nIo spiccio qualche burattino della Ola, giandarmi! —\nA questo comando comparvero subito due giandarmi di legno, lunghi lunghi, secchi secchi, — Pigliatemi lì quell’Arlecchino, col cappello a lucerna in testa e colla sciabola sfoderata in mano.\nAllora il burattinaio disse loro con voce rantolosa:\n— Pigliatemi lì quelP Arlecchino, legatelo ben bene, e poi gettatelo a bruciare sul fuoco. Io voglio che il mio montone sia arrostito bene! —\nFiguratevi il povero Arlecchino! Fu tanto il suo spavento, che le gambe gli si ripiegarono e cadde bocconi per terra.\nPinocchio alla vista di quello spettacolo straziante, andò a gettarsi ai piedi del burattinaio, e piangendo dirottamente e bagnandogli di lacrime tutti i peli della lunghissima barba, cominciò a dire con voce supplichevole:\n— Pietà, signor Mangiafoco!...\n— Qui non ci sono signori! — replicò duramente il burattinaio.\n— Pietà, signor Cavaliere!...\n— Qui non ci sono cavalieri!\n— Pietà, signor Commendatore!...\n— Qui non ci sono commendatori!\n— Pietà, Eccellenza!...\nA sentirsi chiamare Eccellenza, il burattinaio fece subito il bocchino tondo, e diventato tutt’a un tratto più umano e più trattabile, disse a Pinocchio:\n— Ebbene, che cosa vuoi da me?\n— Vi domando grazia per il povero Arlecchino!...\n— Qui non c’è grazia che tenga. Se ho risparmiato te, bisogna che faccia mettere sul fuoco lui, perchè io voglio che il mio montone sia arrostito bene.\n— In questo caso — gridò fieramente Pinocchio, rizzandosi e gettando via il suo berretto di midolla di pane — in questo caso conosco qual è il mio dovere. Avanti, signori giandarmi! Legatemi e gettatemi là fra quelle fiamme. No, non è giusta che il povero Arlecchino, il vero amico mio, debba morire per me! —\nQueste parole, pronunziate con voce alta e con accento eroico, fecero piangere tutti i burattini che erano presenti a quella scena. Gli stessi giandarmi, sebbene fossero di legno, piangevano come due agnellini di latte.\nMangiafoco, sul principio, rimase duro e immobile come un pezzo di ghiaccio: ma poi, adagio adagio, cominciò anche lui a commuoversi e a starnutire. E fatti quattro o cinque starnuti, aprì affettuosamente le braccia e disse a Pinocchio:\n— Tu sei un gran bravo ragazzo! Vieni qua da me, e dammi un bacio.\nPinocchio corse subito, e arrampicandosi come uno scoiattolo su per la barba del burattinaio, andò a posargli un bellissimo bacio sulla punta del naso.\n— Dunque la grazia è fatta? — domandò il povero Arlecchino, con un fil di voce che si sentiva appena.\nE arrampicandosi con i per la barba del burattinaio....\n— La grazia è fatta! — rispose Mangiafoco;\nlui soggiunse sospirando e tentennando il capo:\n— Pazienza! per questa sera mi rassegnerò a mangiare il montone mezzo crudo: ma un’altra volta, guai a chi toccherà!... —\nAlla notizia della grazia ottenuta, i burattini corsero tutti sul palcoscenico e, accesi i lumi e i lampadari come in serata di gala, cominciarono a saltare e a ballare.\nEra l’alba e ballavano sempre.",
+        "metrics": {
+          "wer": 0.08095238095238096,
+          "cer": 0.034673271099257004,
+          "rouge": {
+            "rouge1": 0.978067575577949,
+            "rouge2": 0.9543026706231453,
+            "rougeL": 0.970954356846473,
+            "rougeLsum": 0.978067575577949
+          }
+        },
+        "judgement": {
+          "score": 3,
+          "raw_score_text": "3"
+        },
+        "differences": [
+          {
+            "type": "replace",
+            "ground_truth_slice": "grembiale",
+            "model_cleaned_slice": "gremlbiale"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "cattiv ’",
+            "model_cleaned_slice": "cattivo"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": ", che fin",
+            "model_cleaned_slice": "che fino"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": ".",
+            "model_cleaned_slice": "!"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "—",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "rasciugarsi",
+            "model_cleaned_slice": "asciugarsi"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "aver",
+            "model_cleaned_slice": "avere"
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": "qui"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ".",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ".",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "!",
+            "model_cleaned_slice": "."
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ".",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "oramai",
+            "model_cleaned_slice": "ora"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "Invece",
+            "model_cleaned_slice": "Lascia"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "lo spiede",
+            "model_cleaned_slice": "mia compagnia . Io spiccio"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "mia compagnia . Olà",
+            "model_cleaned_slice": "Ola"
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": "— Pigliatemi lì quell ’ Arlecchino ,"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ". — Pigliatemi lì quell ’ Arlecchino . . .",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "quell ’",
+            "model_cleaned_slice": "quelP"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "son",
+            "model_cleaned_slice": "sono"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "son",
+            "model_cleaned_slice": "sono"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "son",
+            "model_cleaned_slice": "sono"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "—",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": "—"
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "—",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "come uno scoiattolo su",
+            "model_cleaned_slice": "con i"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "poi",
+            "model_cleaned_slice": "lui"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item_id": 3,
+    "original_ocr": "XII. \nIl burjittinaio Mangiafoco regala cinque monete d’oro a Pinoccliio perchè le porti al suo babbo Geppetto: e Pinocchio, invece, si lascia abbindolare dalla Volpe e dal Gatto e se ne va con loro. \nIl giorno dipoi Mangiafoco chiamò in clisj)arte Pinocchio e gli domandò: \n— Come si chiama tuo padre ì — Geppetto. \n— E che mestiere fa? \n— Il povero. \n— Guadagna molto? \n— Guadagna tanto quanto ci vuole per non aver mai un centesimo in tasca. Si figuri che per comprarmi l’Abbecedario della scuola dovè vendere l’unica casacca che aveva addosso: una casacca che, fra toppe e rimendi, era tutta una piaga. \n— Povero diavolo! Mi fa quasi compassione. \nEcco qui cinque monete d’oro. Va’subito a portargliele, e salutalo tanto da parte mia. — \nPinocchio, come è facile immaginarselo, ringraziò mille volte il burattinaio: abbracciò, a uno a uno, tutti i burattini della compagnia, anche i giandarmi; e fuori di sè dalla contentezza, si mise in viaggio per ritornarsene a casa sua. \nMa non aveva fatto ancora mezzo chilometro, che incontrò per la strada una Volpe zoppa da — Com* è che sai il mio nome? \nun piede e un Gatto cieco da tutt’e due gli occhi, che se ne andavano là là, aiutandosi fra di loro, da buoni compagni di sventura. La Volpe, che era zoppa, camminava appoggiandosi al Gatto: e il Gatto, che era cieco, si lasciava guidare dalla Volpe. \n— Buon giorno. Pinocchio, — gli disse la Volpe, salutandolo garbatamente. \n\n— Com’è che sai il mio nome? — domandò il burattino. \n— Conosco bene il tuo babbo. \n— Dove r hai veduto ì — L’ho veduto ieri sulla porta di casa sua. \n— E che cosa faceva? \n— Era in maniche di camicia e tremava dal freddo. \n— Povero babbo! Ma, se Dio vuole, da oggi in poi non tremerà più! \n— Perchè! \n— Perchè io sono diventato un gran signore. \n— Un gran signore tu? — disse la Volpe, e cominciò a ridere di un riso sguaiato e canzonatore: e il Gatto rideva anche lui, ma per non darlo a vedere, si pettinava i baffi colle zampine davanti. \n— C è poco da ridere — gridò Pinocchio impermalito. — Mi dispiace davvero di farvi venire l’acquolina in bocca, ma queste qui, se ve ne in^ \ntendete, sono cinque bellissime monete d’oro. — \nE tirò fuori le monete avute in regalo da Mangiafoco. \nAl simpatico suono di quelle monete, la Volpe per un moto involontario allungò la gamba che pareva rattrappita, e il Gatto spalancò tutt’e due gli occhi, che parvero due lanterne verdi; \n\nma poi li richiuse subito, tant’è vero che Pinocchio non si accòrse di nulla. \n— E ora — gli domandò la Volpe — che cosa vuoi farne di codeste monete? \n— Prima di tutto — rispose il burattino — voglio comprare per il mio babbo una bella casacca nuova, tutta d’oro e d’argento, e coi bottoni di brillanti: e poi voglio comprare un Abbecedario per me. \n— Per te? \n— Davvero: perchè voglio andare a scuola e mettermi a studiare a buono. \n— Guarda me! — disse la Volpe. — Per la passione sciocca di studiare ho i)erduto una gamba. \n— Guarda me! — disse il Gatto. — Per la passione sciocca di studiare ho perduto la vista di tutt’e due gli occhi. — \nIn quel mentre un Merlo bianco, che se ne stava appollaiato sulla siepe della strada, fece il suo solito verso e disse: \n— Pinocchio, non dar retta ai consigli dei cattivi compagni: se no, te ne pentirai! — \nPovero Merlo, non l’avesse mai detto! Il Gatto spiccando un gran salto, gli si avventò addosso, e senza dargli nemmeno il tempo di dire oM/se lo mangiò in un boccone con le penne e tutto. \n\nMangiato che l’ebbe e ripulitosi la bocca, chiuse gii occhi daccapo e ricominciò a fare il cieco come prima. \n— Povero Merlo! — disse Pinocchio al Gatto — perchè l’hai trattato così male? \nSpiccando un gran salto, gli si avventò addosso. \n\n— Ho fatto per dargli nna lezione. Così un’altra volta imparerà a non metter bocca nei discorsi degli altri. — \nErano giunti più che a mezza strada, quando la Volpe, fermandosi di punto in bianco, disse al burattino: \n— Vuoi tu raddoppiare le tue monete d’oro? \n— Cioè? \n— Vuoi tu, di cinque miserabili zecchini, farne cento, mille, duemila? \n— Magari! e la maniera? \n— La maniera è facilissima. Invece di tornartene a casa tua, dovresti venir con noi. \n— E dove mi volete condurre! \n— Kel paese dei Barbagianni. — \nPinocchio ci pensò un poco, e poi disse risolutamente: \n— Xo, non ci voglio venire. Oramai sono vicino a casa, e voglio andarmene a casa, dove c’è il mio babbo che m’aspetta. Chi lo sa, povero vecchio, quanto ha sospirato ieri, a non vedermi tornare. Purtroppo io sono stato un figliuolo cattivo, e il Grillo-parlante aveva ragione quando diceva: « I ragazzi disobbedienti non possono aver bene in questo mondo. » Ed io l’ho provato a mie spese, perchè mi sono capitate molte disgrazie, e anche ieri sera in casa di Mangiafoco ho corso pericolo.... Brrr! mi viene i bordoni soltanto a pensarci! \n— Dunque, — disse la Volpe — vuoi proprio andare a casa tua 1 Allora va’pure, e tanto peggio per te. \n— Tanto peggio per te! — ripetè il Gatto. \nj — Pensaci bene. Pinocchio, perchè tu dai un calcio alla fortuna. \n— Alla fortuna! — ripetè il Gatto. \n— I tuoi cinque zecchini, dall’oggi al domani sarebbero diventati duemila. \n— Duemila! — ripetè il Gatto. \n— Ma com’è mai possibile che diventino tanti? \n— domandò Pinocchio, restando a bocca aperta dallo stupore. \n— Te lo spiego subito; — disse la Volpe — bisogna sapere che nel paese dei Barbagianni e’è un campo benedetto chiamato da tutti il Campo dei miracoli. Tu fai in questo campò una piccola buca e ci metti dentro, per esempio, uno zecchino d’oro. Poi ricopri la buca con un po’di terra: l’annaffi con due secchie d’acqua di fontana, ci getti sopra una presa di sale, e la sera te ne vai tranquillamente a letto. Intanto, durante la notte, lo zecchino germoglia e fiorisce, e la mattina dopo di levata, ritornando nel campo, che cosa trovi? Trovi un bell’albero carico di tanti zecchini d’oro quanti chicchi di grano può avere una bella spiga nel mese di. giugno. \n— Sicchè dunque — disse Pinocchio sempre più sbalordito — se io sotterrassi in quel campo i miei cinque zecchini, la mattina dopo quanti zecchini vi troverei! \n— È un conto facilissimo; — rispose la Volpe — un conto che puoi farlo sulla punta delle dita. \n\nPoni che ogni zecchino ti faccia nn grappolo di cinquecento zecchini: moltiplica il cinquecento per cinque, e la mattina dopo trovi in tasca duemilacinquecento zecchini lampanti e sonanti. \n— Oh che bella cosa! — gridò Pinocchio, ballando dall’allegrezza. — Appena che questi zecchini li avrò raccolti, ne prenderò per me duemila e gli altri cinquecento di più li darò in regalo a voialtri due. \n— Un regalo a noi? — gridò la Volpe sdegnandosi e chiamandosi offesa. — Dio te ne liberi! \n— Te ne liberi! — ripetè il Gatto. \n riprese la Volpe — non lavoriamo per il vile interesse; noi lavoriamo per arricchire gli altri. \n— Gli altri! — ripetè il Gatto. \n— Ohe brave persone! — pensò dentro di sè Pinocchio: e dimenticandosi lì sul tamburo, del suo babbo, della casacca nuova, dell’Abbecedario e di tutti i buoni proponimenti fatti, disse alla Volpe e al Gatto: \n— Andiamo subito, io vengo con voi. —",
+    "ground_truth": "XII.\n\nIl burattinaio Mangiafoco regala cinque monete d’oro a Pinocchio perchè le porti al suo babbo Geppetto: e Pinocchio, invece, si lascia abbindolare dalla Volpe e dal Gatto e se ne va con loro.\n\nIl giorno dipoi Mangiafoco chiamò in disparte Pinocchio e gli domandò:\n— Come si chiama tuo padre?\n— Geppetto.\n— E che mestiere fa?\n— Il povero.\n— Guadagna molto?\n— Guadagna tanto quanto ci vuole per non aver mai un centesimo in tasca. Si figuri che per comprarmi l’Abbecedario della scuola dovè vendere l’unica casacca che aveva addosso: una casacca che, fra toppe e rimendi, era tutta una piaga.\n— Povero diavolo! Mi fa quasi compassione. Ecco qui cinque monete d’oro. Va’ subito a portargliele, e salutalo tanto da parte mia. —\nPinocchio, come è facile immaginarselo, ringraziò\nringraziò mille volte il burattinaio: abbraccio’, a uno a uno, tutti i burattini della compagnia, anche i giandarmi; e fuori di se’ dalla contentezza, si mise in viaggio per ritornarsene a casa sua.\nMa non aveva fatto ancora mezzo chilometro, che incontrò per la strada una Volpe zoppa da\n\n- Com'è che sai il mio nome?\n\nun piede e un Gatto cieco da tutt’e due gli occhi, che se ne andavano là là, aiutandosi fra di loro, da buoni compagni di sventura. La Volpe che era zoppa, camminava appoggiandosi al Gatto: e il Gatto, che era cieco, si lasciava guidare dalla Volpe.\n— Buon giorno, Pinocchio, — gli disse la Volpe, salutandolo garbatamente.\n— Com’è che sai il mio nome? — domandò il burattino.\n— Conosco bene il tuo babbo.\n— Dove l’hai veduto?\n— L’ho veduto ieri sulla porta di casa sua.\n— E che cosa faceva?\n— Era in maniche di camicia e tremava dal freddo.\n— Povero babbo! Ma, se Dio vuole, da oggi in poi non tremerà più!…\n— Perchè?\n— Perchè io sono diventato un gran signore.\n— Un gran signore tu? — disse la Volpe, e cominciò a ridere di un riso sguaiato e canzonatore: e il Gatto rideva anche lui, ma per non darlo a vedere, si pettinava i baffi colle zampe davanti.\n— C’è poco da ridere, — gridò Pinocchio impermalito. — Mi dispiace davvero di farvi venire l’acquolina in bocca, ma queste qui, se ve ne intendete, sono cinque bellissime monete d’oro.\nE tirò fuori le monete avute in regalo da Mangiafoco.\nAl simpatico suono di quelle monete la Volpe, per un moto involontario, allungò la gamba che pareva rattrappita, e il Gatto spalancò tutt’e due gli occhi, che parvero due lanterne verdi;\nma poi li richiuse subito, tant’è vero che Pinocchio non si accòrse di nulla.\n— E ora, — gli domandò la Volpe, — che cosa vuoi farne di codeste monete?\n— Prima di tutto, — rispose il burattino, — voglio comprare per il mio babbo una bella casacca nuova, tutta d’oro e d’argento e coi bottoni di brillanti: e poi voglio comprare un Abbecedario per me.\n— Per te?\n— Davvero: perchè voglio andare a scuola e mettermi a studiare a buono.\n— Guarda me! — disse la Volpe. — Per la passione sciocca di studiare ho perduto una gamba.\n— Guarda me! — disse il Gatto. — Per la passione sciocca di studiare ho perduto la vista di tutti e due gli occhi.\nIn quel mentre un Merlo bianco, che se ne stava appollaiato sulla siepe della strada, fece il solito verso e disse:\n— Pinocchio, non dar retta ai consigli dei cattivi compagni: se no, te ne pentirai!\nPovero Merlo, non l’avesse mai detto! Il Gatto, spiccando un gran salto, gli si avventò addosso, e senza dargli nemmeno il tempo di dire ohi, se lo mangiò in un boccone con le penne e tutto.\n\nMangiato che l’ebbe e ripulitosi la bocca, chiuse gli occhi daccapo e ricominciò a fare il cieco come prima.\n— Povero Merlo! — disse Pinocchio al Gatto — perchè l’hai trattato così male?\nSpiccando un gran salto, gli si avventò addosso.\n\n— Ho fatto per dargli una lezione. Così un’altra volta imparerà a non metter bocca nei discorsi degli altri.—\nErano giunti più che a mezza strada, quando la Volpe, fermandosi di punto in bianco, disse al burattino:\n— Vuoi tu raddoppiare le tue monete d’oro?\n— Cioè?\n— Vuoi tu, di cinque miserabili zecchini, farne cento, mille, duemila?\n— Magari! e la maniera?\n— La maniera è facilissima. Invece di tornartene a casa tua, dovresti venir con noi.\n— E dove mi volete condurre?\n— Nel paese dei Barbagianni. ―\nPinocchio ci pensò un poco, e poi disse risolutamente:\n— No, non ci voglio venire. Oramai sono vicino a casa, e voglio andarmene a casa, dove c’è il mio babbo che m’aspetta. Chi lo sa, povero vecchio, quanto ha sospirato ieri, a non vedermi tornare. Purtroppo io sono stato un figliuolo cattivo, e il Grillo-parlante aveva ragione quando diceva: «I ragazzi disobbedienti non possono aver bene in questo mondo.» Ed io l’ho provato a mie spese, perchè mi sono capitate molte disgrazie, e anche ieri sera in casa di Mangiafoco, ho corso pericolo… Brrr! mi viene i bordoni soltanto a pensarci!\n— Dunque, — disse la Volpe — vuoi proprio andare a casa tua? Allora va’ pure, e tanto peggio per te.\n— Tanto peggio per te! — ripetè il Gatto.\n— Pensaci bene, Pinocchio, perchè tu dài un calcio alla fortuna.\n— Alla fortuna! — ripetè il Gatto.\n— I tuoi cinque zecchini, dall’oggi al domani sarebbero diventati duemila.\n— Duemila! — ripetè il Gatto.\n— Ma com’è mai possibile che diventino tanti? — domandò Pinocchio, restando a bocca aperta dallo stupore.\n— Te lo spiego subito; — disse la Volpe — bisogna sapere che nel paese dei Barbagianni c’è un campo benedetto chiamato da tutti il Campo dei miracoli. Tu fai in questo campo una piccola buca e ci metti dentro, per esempio, uno zecchino d’oro. Poi ricopri la buca con un po’ di terra: l’annaffi con due secchie d’acqua di fontana, ci getti sopra una presa di sale, e la sera te ne vai tranquillamente a letto. Intanto, durante la notte, lo zecchino germoglia e fiorisce, e la mattina dopo di levata, ritornando nel campo, che cosa trovi? Trovi un bell’albero carico di tanti zecchini d’oro quanti chicchi di grano può avere una bella spiga nel mese di giugno.\n— Sicchè dunque — disse Pinocchio sempre più sbalordito — se io sotterrassi in quel campo i miei cinque zecchini, la mattina dopo quanti zecchini vi troverei?\n— È un conto facilissimo; — rispose la Volpe — un conto che puoi farlo sulla punta delle dita.\nPoni che ogni zecchino ti faccia un grappolo di cinquecento zecchini: moltiplica il cinquecento per cinque, e la mattina dopo trovi in tasca duemilacinquecento zecchini lampanti e sonanti.\n— Oh che bella cosa! — gridò Pinocchio, ballando dall’allegrezza. — Appena che questi zecchini li avrò raccolti, ne prenderò per me duemila e gli altri cinquecento di più li darò in regalo a voialtri due.\n— Un regalo a noi? — gridò la Volpe sdegnandosi e chiamandosi offesa. — Dio te ne liberi!\n— Te ne liberi! — ripetè il Gatto.\n— Noi — riprese la Volpe — non lavoriamo per il vile interesse: noi lavoriamo per arricchire gli altri.\n— Gli altri! — ripetè il Gatto.\n— Che brave persone! — pensò dentro di sè Pinocchio: e dimenticandosi lì sul tamburo, del suo babbo, della casacca nuova, dell’Abbecedario e di tutti i buoni proponimenti fatti, disse alla Volpe e al Gatto:\n— Andiamo subito, io vengo con voi. ―",
+    "model_outputs": [
+      {
+        "model_name": "Gemini-1.5-Flash",
+        "cleaned_text": "XII.\nIl burattinaio Mangiafoco regala cinque monete d’oro a Pinocchio perchè le porti al suo babbo Geppetto: e Pinocchio, invece, si lascia abbindolare dalla Volpe e dal Gatto e se ne va con loro.\nIl giorno dipoi Mangiafoco chiamò in disparte Pinocchio e gli domandò:\n— Come si chiama tuo padre?\n— Geppetto.\n— E che mestiere fa?\n— Il povero.\n— Guadagna molto?\n— Guadagna tanto quanto ci vuole per non aver mai un centesimo in tasca. Si figuri che per comprarmi l’Abbecedario della scuola dovè vendere l’unica casacca che aveva addosso: una casacca che, fra toppe e rimendi, era tutta una piaga.\n— Povero diavolo! Mi fa quasi compassione.\nEcco qui cinque monete d’oro. Va’ subito a portargliele, e salutalo tanto da parte mia. —\nPinocchio, come è facile immaginarselo, ringraziò mille volte il burattinaio: abbracciò, a uno a uno, tutti i burattini della compagnia, anche i giandarmi; e fuori di sè dalla contentezza, si mise in viaggio per ritornarsene a casa sua.\nMa non aveva fatto ancora mezzo chilometro, che incontrò per la strada una Volpe zoppa da un piede e un Gatto cieco da tutt’e due gli occhi, che se ne andavano là là, aiutandosi fra di loro, da buoni compagni di sventura. La Volpe, che era zoppa, camminava appoggiandosi al Gatto: e il Gatto, che era cieco, si lasciava guidare dalla Volpe.\n— Buon giorno, Pinocchio, — gli disse la Volpe, salutandolo garbatamente.\n\n— Com’è che sai il mio nome? — domandò il burattino.\n— Conosco bene il tuo babbo.\n— Dove l’hai veduto?\n— L’ho veduto ieri sulla porta di casa sua.\n— E che cosa faceva?\n— Era in maniche di camicia e tremava dal freddo.\n— Povero babbo! Ma, se Dio vuole, da oggi in poi non tremerà più!\n— Perchè!\n— Perchè io sono diventato un gran signore.\n— Un gran signore tu? — disse la Volpe, e cominciò a ridere di un riso sguaiato e canzonatore: e il Gatto rideva anche lui, ma per non darlo a vedere, si pettinava i baffi colle zampine davanti.\n— C’è poco da ridere — gridò Pinocchio impermalito. — Mi dispiace davvero di farvi venire l’acquolina in bocca, ma queste qui, se ve ne intendete, sono cinque bellissime monete d’oro. —\nE tirò fuori le monete avute in regalo da Mangiafoco.\nAl simpatico suono di quelle monete, la Volpe per un moto involontario allungò la gamba che pareva rattrappita, e il Gatto spalancò tutt’e due gli occhi, che parvero due lanterne verdi;\n\nma poi li richiuse subito, tant’è vero che Pinocchio non si accòrse di nulla.\n— E ora — gli domandò la Volpe — che cosa vuoi farne di codeste monete?\n— Prima di tutto — rispose il burattino — voglio comprare per il mio babbo una bella casacca nuova, tutta d’oro e d’argento, e coi bottoni di brillanti: e poi voglio comprare un Abbecedario per me.\n— Per te?\n— Davvero: perchè voglio andare a scuola e mettermi a studiare a buono.\n— Guarda me! — disse la Volpe. — Per la passione sciocca di studiare ho perduto una gamba.\n— Guarda me! — disse il Gatto. — Per la passione sciocca di studiare ho perduto la vista di tutt’e due gli occhi. —\nIn quel mentre un Merlo bianco, che se ne stava appollaiato sulla siepe della strada, fece il suo solito verso e disse:\n— Pinocchio, non dar retta ai consigli dei cattivi compagni: se no, te ne pentirai! —\nPovero Merlo, non l’avesse mai detto! Il Gatto spiccando un gran salto, gli si avventò addosso, e senza dargli nemmeno il tempo di dire ohi, se lo mangiò in un boccone con le penne e tutto.\n\nMangiato che l’ebbe e ripulitosi la bocca, chiuse gli occhi daccapo e ricominciò a fare il cieco come prima.\n— Povero Merlo! — disse Pinocchio al Gatto — perchè l’hai trattato così male?\nSpiccando un gran salto, gli si avventò addosso.\n\n— Ho fatto per dargli una lezione. Così un’altra volta imparerà a non metter bocca nei discorsi degli altri. —\nErano giunti più che a mezza strada, quando la Volpe, fermandosi di punto in bianco, disse al burattino:\n— Vuoi tu raddoppiare le tue monete d’oro?\n— Cioè?\n— Vuoi tu, di cinque miserabili zecchini, farne cento, mille, duemila?\n— Magari! e la maniera?\n— La maniera è facilissima. Invece di tornartene a casa tua, dovresti venir con noi.\n— E dove mi volete condurre?\n— Nel paese dei Barbagianni. —\nPinocchio ci pensò un poco, e poi disse risolutamente:\n— No, non ci voglio venire. Oramai sono vicino a casa, e voglio andarmene a casa, dove c’è il mio babbo che m’aspetta. Chi lo sa, povero vecchio, quanto ha sospirato ieri, a non vedermi tornare. Purtroppo io sono stato un figliuolo cattivo, e il Grillo-parlante aveva ragione quando diceva: « I ragazzi disobbedienti non possono aver bene in questo mondo. » Ed io l’ho provato a mie spese, perchè mi sono capitate molte disgrazie, e anche ieri sera in casa di Mangiafoco ho corso pericolo.... Brrr! mi viene i bordoni soltanto a pensarci!\n— Dunque, — disse la Volpe — vuoi proprio andare a casa tua? Allora va’ pure, e tanto peggio per te.\n— Tanto peggio per te! — ripetè il Gatto.\n— Pensaci bene, Pinocchio, perchè tu dai un calcio alla fortuna.\n— Alla fortuna! — ripetè il Gatto.\n— I tuoi cinque zecchini, dall’oggi al domani sarebbero diventati duemila.\n— Duemila! — ripetè il Gatto.\n— Ma com’è mai possibile che diventino tanti?\n— domandò Pinocchio, restando a bocca aperta dallo stupore.\n— Te lo spiego subito; — disse la Volpe — bisogna sapere che nel paese dei Barbagianni c’è un campo benedetto chiamato da tutti il Campo dei miracoli. Tu fai in questo campo una piccola buca e ci metti dentro, per esempio, uno zecchino d’oro. Poi ricopri la buca con un po’ di terra: l’annaffi con due secchie d’acqua di fontana, ci getti sopra una presa di sale, e la sera te ne vai tranquillamente a letto. Intanto, durante la notte, lo zecchino germoglia e fiorisce, e la mattina dopo di levata, ritornando nel campo, che cosa trovi? Trovi un bell’albero carico di tanti zecchini d’oro quanti chicchi di grano può avere una bella spiga nel mese di giugno.\n— Sicchè dunque — disse Pinocchio sempre più sbalordito — se io sotterrassi in quel campo i miei cinque zecchini, la mattina dopo quanti zecchini vi troverei!\n— È un conto facilissimo; — rispose la Volpe — un conto che puoi farlo sulla punta delle dita.\n\nPoni che ogni zecchino ti faccia un grappolo di cinquecento zecchini: moltiplica il cinquecento per cinque, e la mattina dopo trovi in tasca duemilacinquecento zecchini lampanti e sonanti.\n— Oh che bella cosa! — gridò Pinocchio, ballando dall’allegrezza. — Appena che questi zecchini li avrò raccolti, ne prenderò per me duemila e gli altri cinquecento di più li darò in regalo a voialtri due.\n— Un regalo a noi? — gridò la Volpe sdegnandosi e chiamandosi offesa. — Dio te ne liberi!\n— Te ne liberi! — ripetè il Gatto.\n— Noi, — riprese la Volpe — non lavoriamo per il vile interesse; noi lavoriamo per arricchire gli altri.\n— Gli altri! — ripetè il Gatto.\n— Che brave persone! — pensò dentro di sè Pinocchio: e dimenticandosi lì sul tamburo, del suo babbo, della casacca nuova, dell’Abbecedario e di tutti i buoni proponimenti fatti, disse alla Volpe e al Gatto:\n— Andiamo subito, io vengo con voi. —\n",
+        "metrics": {
+          "wer": 0.05104602510460251,
+          "cer": 0.013262977752424415,
+          "rouge": {
+            "rouge1": 0.9920134510298444,
+            "rouge2": 0.9861169541438789,
+            "rougeL": 0.9920134510298444,
+            "rougeLsum": 0.9920134510298444
+          }
+        },
+        "judgement": {
+          "score": 4,
+          "raw_score_text": "4"
+        },
+        "differences": [
+          {
+            "type": "delete",
+            "ground_truth_slice": "ringraziò",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "abbraccio ’",
+            "model_cleaned_slice": "abbracciò"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "se ’",
+            "model_cleaned_slice": "sè"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "- Com ' è che sai il mio nome ?",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "?",
+            "model_cleaned_slice": "!"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "zampe",
+            "model_cleaned_slice": "zampine"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": "—"
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "tutti",
+            "model_cleaned_slice": "tutt ’"
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": "—"
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": "suo"
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": "—"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "―",
+            "model_cleaned_slice": "—"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ". . . ."
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "dài",
+            "model_cleaned_slice": "dai"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "?",
+            "model_cleaned_slice": "!"
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": ":",
+            "model_cleaned_slice": ";"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "―",
+            "model_cleaned_slice": "—"
+          }
+        ]
+      },
+      {
+        "model_name": "Llama",
+        "cleaned_text": "XII.\n\nIl burattinaio Mangiafoco regala cinque monete d’oro a Pinocchio perchè le porti al suo babbo Geppetto: e Pinocchio, invece, si lascia abbindolare dalla Volpe e dal Gatto e se ne va con loro.\n\nIl giorno dopo Mangiafoco chiamò in disparte Pinocchio e gli domandò: \n— Come si chiama tuo padre? — Geppetto.\n— E che mestiere fa?\n— Il povero.\n— Guadagna molto?\n— Guadagna tanto quanto ci vuole per non aver mai un centesimo in tasca. Si figuri che per comprarmi l’Abbecedario della scuola dovè vendere l’unica casacca che aveva addosso: una casacca che, fra toppe e rimendi, era tutta una piaga.\n— Povero diavolo! Mi fa quasi compassione.\nEcco qui cinque monete d’oro. Va’subito a portargliele, e salutalo tanto da parte mia.\n\nPinocchio, come è facile immaginarselo, ringraziò mille volte il burattinaio: abbracciò, a uno a uno, tutti i burattini della compagnia, anche i gendarmi; e fuori di sè dalla contentezza, si mise in viaggio per ritornarsene a casa sua.\n\nMa non aveva fatto ancora mezzo chilometro, che incontrò per la strada una Volpe zoppa da un piede e un Gatto cieco da tutt’e due gli occhi, che se ne andavano là là, aiutandosi fra di loro, da buoni compagni di sventura. La Volpe, che era zoppa, camminava appoggiandosi al Gatto: e il Gatto, che era cieco, si lasciava guidare dalla Volpe.\n\n— Buon giorno, Pinocchio, — gli disse la Volpe, salutandolo garbatamente.\n\n— Com’è che sai il mio nome? — domandò il burattino.\n— Conosco bene il tuo babbo.\n— Dove l’hai veduto? — L’ho veduto ieri sulla porta di casa sua.\n— E che cosa faceva?\n— Era in maniche di camicia e tremava dal freddo.\n— Povero babbo! Ma, se Dio vuole, da oggi in poi non tremerà più!\n— Perchè!\n— Perchè io sono diventato un gran signore.\n— Un gran signore tu? — disse la Volpe, e cominciò a ridere di un riso sguaiato e canzonatore: e il Gatto rideva anche lui, ma per non darlo a vedere, si pettinava i baffi colle zampine davanti.\n— C’è poco da ridere — gridò Pinocchio impermalito. — Mi dispiace davvero di farvi venire l’acquolina in bocca, ma queste qui, se ve ne intendete, sono cinque bellissime monete d’oro.\n\nE tirò fuori le monete avute in regalo da Mangiafoco.\n\nAl simpatico suono di quelle monete, la Volpe per un moto involontario allungò la gamba che pareva rattrappita, e il Gatto spalancò tutt’e due gli occhi, che parvero due lanterne verdi;\n\nma poi li richiuse subito, tant’è vero che Pinocchio non si accorse di nulla.\n\n— E ora — gli domandò la Volpe — che cosa vuoi farne di codeste monete?\n— Prima di tutto — rispose il burattino — voglio comprare per il mio babbo una bella casacca nuova, tutta d’oro e d’argento, e coi bottoni di brillanti: e poi voglio comprare un Abbecedario per me.\n— Per te?\n— Davvero: perchè voglio andare a scuola e mettermi a studiare a buono.\n— Guarda me! — disse la Volpe. — Per la passione sciocca di studiare ho perso una gamba.\n— Guarda me! — disse il Gatto. — Per la passione sciocca di studiare ho perso la vista di tutt’e due gli occhi.\n\nIn quel mentre un Merlo bianco, che se ne stava appollaiato sulla siepe della strada, fece il suo solito verso e disse: \n— Pinocchio, non dar retta ai consigli dei cattivi compagni: se no, te ne pentirai!\n\nPovero Merlo, non l’avesse mai detto! Il Gatto spiccando un gran salto, gli si avventò addosso, e senza dargli nemmeno il tempo di dire ohè, se lo mangiò in un boccone con le penne e tutto.\n\nMangiato che l’ebbe e ripulitosi la bocca, chiuse gli occhi daccapo e ricominciò a fare il cieco come prima.\n\n— Povero Merlo! — disse Pinocchio al Gatto — perchè l’hai trattato così male?\n\n— Ho fatto per dargli una lezione. Così un’altra volta imparerà a non metter bocca nei discorsi degli altri.\n\nErano giunti più che a mezza strada, quando la Volpe, fermandosi di punto in bianco, disse al burattino: \n— Vuoi tu raddoppiare le tue monete d’oro?\n— Cioè?\n— Vuoi tu, di cinque miserabili zecchini, farne cento, mille, duemila?\n— Magari! e la maniera?\n— La maniera è facilissima. Invece di tornartene a casa tua, dovresti venir con noi.\n— E dove mi volete condurre!\n— Nel paese dei Barbagianni.\n\nPinocchio ci pensò un poco, e poi disse risolutamente: \n— No, non ci voglio venire. Oramai sono vicino a casa, e voglio andarmene a casa, dove c’è il mio babbo che m’aspetta. Chi lo sa, povero vecchio, quanto ha sospirato ieri, a non vedermi tornare. Purtroppo io sono stato un figliuolo cattivo, e il Grillo-parlante aveva ragione quando diceva: « I ragazzi disobbedienti non possono aver bene in questo mondo. » Ed io l’ho provato a mie spese, perchè mi sono capitate molte disgrazie, e anche ieri sera in casa di Mangiafoco ho corso pericolo.... Brrr! mi viene i brividi soltanto a pensarci!\n\n— Dunque, — disse la Volpe — vuoi proprio andare a casa tua? Allora va’pure, e tanto peggio per te.\n— Tanto peggio per te! — ripetè il Gatto.\n— Pensaci bene, Pinocchio, perchè tu dai un calcio alla fortuna.\n— Alla fortuna! — ripetè il Gatto.\n— I tuoi cinque zecchini, dall’oggi al domani sarebbero diventati duemila.\n— Duemila! — ripetè il Gatto.\n— Ma com’è mai possibile che diventino tanti? \n— domandò Pinocchio, restando a bocca aperta dallo stupore.\n\n— Te lo spiego subito; — disse la Volpe — bisogna sapere che nel paese dei Barbagianni c’è un campo benedetto chiamato da tutti il Campo dei miracoli. Tu fai in questo campo una piccola buca e ci metti dentro, per esempio, uno zecchino d’oro. Poi ricopri la buca con un po’ di terra: l’annaffi con due secchie d’acqua di fontana, ci getti sopra una presa di sale, e la sera te ne vai tranquillamente a letto. Intanto, durante la notte, lo zecchino germoglia e fiorisce, e la mattina dopo di levata, ritornando nel campo, che cosa trovi? Trovi un bell’albero carico di tanti zecchini d’oro quanti chicchi di grano può avere una bella spiga nel mese di giugno.\n\n— Sicchè dunque — disse Pinocchio sempre più sbalordito — se io sotterrassi in quel campo i miei cinque zecchini, la mattina dopo quanti zecchini vi troverei!\n\n— È un conto facilissimo; — rispose la Volpe — un conto che puoi farlo sulla punta delle dita.\n\nPoni che ogni zecchino ti faccia un grappolo di cinquecento zecchini: moltiplica il cinquecento per cinque, e la mattina dopo trovi in tasca duemila",
+        "metrics": {
+          "wer": 0.19246861924686193,
+          "cer": 0.1316314888762122,
+          "rouge": {
+            "rouge1": 0.9306666666666666,
+            "rouge2": 0.9145907473309609,
+            "rougeL": 0.928,
+            "rougeLsum": 0.9288888888888888
+          }
+        },
+        "judgement": {
+          "score": 3,
+          "raw_score_text": "3"
+        },
+        "differences": [
+          {
+            "type": "replace",
+            "ground_truth_slice": "dipoi",
+            "model_cleaned_slice": "dopo"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "—",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "ringraziò",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "abbraccio ’",
+            "model_cleaned_slice": "abbracciò"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "giandarmi",
+            "model_cleaned_slice": "gendarmi"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "se ’",
+            "model_cleaned_slice": "sè"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "- Com ' è che sai il mio nome ?",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "?",
+            "model_cleaned_slice": "!"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "zampe",
+            "model_cleaned_slice": "zampine"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "accòrse",
+            "model_cleaned_slice": "accorse"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "perduto",
+            "model_cleaned_slice": "perso"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "perduto",
+            "model_cleaned_slice": "perso"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "tutti",
+            "model_cleaned_slice": "tutt ’"
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": "suo"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "ohi",
+            "model_cleaned_slice": "ohè"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "Spiccando un gran salto , gli si avventò addosso .",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "—",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "?",
+            "model_cleaned_slice": "!"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "―",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ". . . ."
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "bordoni",
+            "model_cleaned_slice": "brividi"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "dài",
+            "model_cleaned_slice": "dai"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "?",
+            "model_cleaned_slice": "!"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "duemilacinquecento zecchini lampanti e sonanti . — Oh che bella cosa ! — gridò Pinocchio , ballando dall ’ allegrezza . — Appena che questi zecchini li avrò raccolti , ne prenderò per me",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "e gli altri cinquecento di più li darò in regalo a voialtri due . — Un regalo a noi ? — gridò la Volpe sdegnandosi e chiamandosi offesa . — Dio te ne liberi ! — Te ne liberi ! — ripetè il Gatto . — Noi — riprese la Volpe — non lavoriamo per il vile interesse : noi lavoriamo per arricchire gli altri . — Gli altri ! — ripetè il Gatto . — Che brave persone ! — pensò dentro di sè Pinocchio : e dimenticandosi lì sul tamburo , del suo babbo , della casacca nuova , dell ’ Abbecedario e di tutti i buoni proponimenti fatti , disse alla Volpe e al Gatto : — Andiamo subito , io vengo con voi . ―",
+            "model_cleaned_slice": ""
+          }
+        ]
+      },
+      {
+        "model_name": "Mistral",
+        "cleaned_text": "XII.\nIl burattinaio Mangiafoco regala cinque monete d’oro a Pinocchio perchè le porti al suo babbo Geppetto: e Pinocchio, invece, si lascia abbindolare dalla Volpe e dal Gatto e se ne va con loro.\nIl giorno dopo Mangiafoco chiamò in disparte Pinocchio e gli domandò:\n— Come si chiama tuo padre?\n— Geppetto.\n— E che mestiere fa?\n— Il povero.\n— Guadagna molto?\n— Guadagna tanto quanto ci vuole per non aver mai un centesimo in tasca. Si figuri che per comprarmi l’Abbecedario della scuola dovette vendere l’unica casacca che aveva addosso: una casacca che, fra toppe e rimendi, era tutta una piaga.\n— Povero diavolo! Mi fa quasi compassione.\nEcco qui cinque monete d’oro. Va’ subito a portargliele, e salutalo tanto da parte mia.\nPinocchio, come è facile immaginarselo, ringraziò mille volte il burattinaio: abbracciò, a uno a uno, tutti i burattini della compagnia, anche i giandarmi; e fuori di sè dalla contentezza, si mise in viaggio per ritornarsene a casa sua.\nMa non aveva fatto ancora mezzo chilometro, che incontrò per la strada una Volpe zoppa da un piede e un Gatto cieco da tutt’e due gli occhi, che se ne andavano là là, aiutandosi fra di loro, da buoni compagni di sventura. La Volpe, che era zoppa, camminava appoggiandosi al Gatto: e il Gatto, che era cieco, si lasciava guidare dalla Volpe.\n— Buon giorno, Pinocchio, — gli disse la Volpe, salutandolo garbatamente.\n— Com’è che sai il mio nome? — domandò il burattino.\n— Conosco bene il tuo babbo.\n— Dove l’hai veduto?\n— L’ho veduto ieri sulla porta di casa sua.\n— E che cosa faceva?\n— Era in maniche di camicia e tremava dal freddo.\n— Povero babbo! Ma, se Dio vuole, da oggi in poi non tremerà più!\n— Perchè!\n— Perchè io sono diventato un gran signore.\n— Un gran signore tu? — disse la Volpe, e cominciò a ridere di un riso sguaiato e canzonatore: e il Gatto rideva anche lui, ma per non darlo a vedere, si pettinava i baffi colle zampine davanti.\n— C’è poco da ridere — gridò Pinocchio impermalito. — Mi dispiace davvero di farvi venire l’acquolina in bocca, ma queste qui, se ve ne intendete, sono cinque bellissime monete d’oro.\nE tirò fuori le monete avute in regalo da Mangiafoco.\nAl simpatico suono di quelle monete, la Volpe per un moto involontario allungò la gamba che pareva rattrappita, e il Gatto spalancò tutt’e due gli occhi, che parvero due lanterne verdi;\nma poi li richiuse subito, tant’è vero che Pinocchio non si accorse di nulla.\n— E ora — gli domandò la Volpe — che cosa vuoi farne di codeste monete?\n— Prima di tutto — rispose il burattino — voglio comprare per il mio babbo una bella casacca nuova, tutta d’oro e d’argento, e coi bottoni di brillanti: e poi voglio comprare un Abbecedario per me.\n— Per te?\n— Davvero: perchè voglio andare a scuola e mettermi a studiare a buono.\n— Guarda me! — disse la Volpe. — Per la passione sciocca di studiare ho perduto una gamba.\n— Guarda me! — disse il Gatto. — Per la passione sciocca di studiare ho perduto la vista di tutt’e due gli occhi.\nIn quel mentre un Merlo bianco, che se ne stava appollaiato sulla siepe della strada, fece il suo solito verso e disse:\n— Pinocchio, non dar retta ai consigli dei cattivi compagni: se no, te ne pentirai!\nPovero Merlo, non l’avesse mai detto! Il Gatto spiccando un gran salto, gli si avventò addosso, e senza dargli nemmeno il tempo di dire “oh”, lo mangiò in un boccone con le penne e tutto.\nMangiato che l’ebbe e ripulitosi la bocca, chiuse gli occhi daccapo e ricominciò a fare il cieco come prima.\n— Povero Merlo! — disse Pinocchio al Gatto — perchè l’hai trattato così male?\n— Ho fatto per dargli una lezione. Così un’altra volta imparerà a non metter bocca nei discorsi degli altri.\nErano giunti più che a mezza strada, quando la Volpe, fermandosi di punto in bianco, disse al burattino:\n— Vuoi tu raddoppiare le tue monete d’oro?\n— Cioè?\n— Vuoi tu, di cinque miserabili zecchini, farne cento, mille, duemila?\n— Magari! e la maniera?\n— La maniera è facilissima. Invece di tornartene a casa tua, dovresti venir con noi.\n— E dove mi volete condurre!\n— Nel paese dei Barbagianni.\nPinocchio ci pensò un poco, e poi disse risolutamente:\n— No, non ci voglio venire. Oramai sono vicino a casa, e voglio andarmene a casa, dove c’è il mio babbo che m’aspetta. Chi lo sa, povero vecchio, quanto ha sospirato ieri, a non vedermi tornare. Purtroppo io sono stato un figliuolo cattivo, e il Grillo-parlante aveva ragione quando diceva: «I ragazzi disobbedienti non possono aver bene in questo mondo.» Ed io l’ho provato a mie spese, perchè mi sono capitate molte disgrazie, e anche ieri sera in casa di Mangiafoco ho corso pericolo.... Brrr! mi viene i brividi soltanto a pensarci!\n— Dunque, — disse la Volpe — vuoi proprio andare a casa tua? Allora va’ pure, e tanto peggio per te.\n— Tanto peggio per te! — ripetè il Gatto.\n— Pensaci bene, Pinocchio, perchè tu dai un calcio alla fortuna.\n— Alla fortuna! — ripetè il Gatto.\n— I tuoi cinque zecchini, dall’oggi al domani sarebbero diventati duemila.\n— Duemila! — ripetè il Gatto.\n— Ma com’è mai possibile che diventino tanti?\n— domandò Pinocchio, restando a bocca aperta dallo stupore.\n— Te lo spiego subito; — disse la Volpe — bisogna sapere che nel paese dei Barbagianni c’è un campo benedetto chiamato da tutti il Campo dei miracoli. Tu fai in questo campo una piccola buca e ci metti dentro, per esempio, uno zecchino d’oro. Poi ricopri la buca con un po’ di terra: l’annaffi con due secchie d’acqua di fontana, ci getti sopra una presa di sale, e la sera te ne vai tranquillamente a letto. Intanto, durante la notte, lo zecchino germoglia e fiorisce, e la mattina dopo di levata, ritornando nel campo, che cosa trovi? Trovi un bell’albero carico di tanti zecchini d’oro quanti chicchi di grano può avere una bella spiga nel mese di giugno.\n— Sicchè dunque — disse Pinocchio sempre più sbalordito — se io sotterrassi in quel campo i miei cinque zecchini, la mattina dopo quanti zecchini vi troverei!\n— È un conto facilissimo; — rispose la Volpe — un conto che puoi farlo sulla punta delle dita.\nPoni che ogni zecchino ti faccia un grappolo di cinquecento zecchini: moltiplica il cinquecento per cinque, e la mattina dopo trovi in tasca duemilacinquecento zecchini lampanti e sonanti.\n— Oh che bella cosa! — gridò Pinocchio, ballando dall’allegrezza. — Appena che questi zecchini li avrò raccolti, ne prenderò per me duemila e gli altri cinquecento di più li darò in regalo a voialtri due.\n— Un regalo a noi? — gridò la Volpe sdegnandosi e chiamandosi offesa.\n— Te ne liberi! — ripetè il Gatto.\n— Noi non lavoriamo per il vile interesse; noi lavoriamo per arricchire gli altri.\n— Gli altri! — ripetè il Gatto.\n— Oh, brave persone! — pensò dentro di sè Pinocchio: e dimenticandosi lì sul tamburo, del suo babbo, della casacca nuova, dell’Abbecedario e di tutti i buoni proponimenti fatti, disse alla Volpe e al Gatto:\n— Andiamo subito, io vengo con voi.",
+        "metrics": {
+          "wer": 0.06359832635983263,
+          "cer": 0.02809469480889903,
+          "rouge": {
+            "rouge1": 0.9796782387806943,
+            "rouge2": 0.9661016949152542,
+            "rougeL": 0.9796782387806943,
+            "rougeLsum": 0.9796782387806943
+          }
+        },
+        "judgement": {
+          "score": 4,
+          "raw_score_text": "4"
+        },
+        "differences": [
+          {
+            "type": "replace",
+            "ground_truth_slice": "dipoi",
+            "model_cleaned_slice": "dopo"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "dovè",
+            "model_cleaned_slice": "dovette"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "—",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "ringraziò",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "abbraccio ’",
+            "model_cleaned_slice": "abbracciò"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "se ’",
+            "model_cleaned_slice": "sè"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "- Com ' è che sai il mio nome ?",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "?",
+            "model_cleaned_slice": "!"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "zampe",
+            "model_cleaned_slice": "zampine"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "accòrse",
+            "model_cleaned_slice": "accorse"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": ","
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "tutti",
+            "model_cleaned_slice": "tutt ’"
+          },
+          {
+            "type": "insert",
+            "ground_truth_slice": "",
+            "model_cleaned_slice": "suo"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "ohi , se",
+            "model_cleaned_slice": "“ oh ” ,"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "Spiccando un gran salto , gli si avventò addosso .",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "—",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "?",
+            "model_cleaned_slice": "!"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "―",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": ",",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "…",
+            "model_cleaned_slice": ". . . ."
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "bordoni",
+            "model_cleaned_slice": "brividi"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "dài",
+            "model_cleaned_slice": "dai"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "?",
+            "model_cleaned_slice": "!"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "Dio te ne liberi ! —",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "— riprese la Volpe —",
+            "model_cleaned_slice": ""
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": ":",
+            "model_cleaned_slice": ";"
+          },
+          {
+            "type": "replace",
+            "ground_truth_slice": "Che",
+            "model_cleaned_slice": "Oh ,"
+          },
+          {
+            "type": "delete",
+            "ground_truth_slice": "―",
+            "model_cleaned_slice": ""
+          }
+        ]
+      }
+    ]
+  }
+]

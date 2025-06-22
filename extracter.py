@@ -10,6 +10,8 @@ def process_pipeline_results(file_path):
     Returns:
         dict: A dictionary where each key is an 'item_id' and the value is another
               dictionary containing the OCR, ground truth, and cleaned texts of all the models used gemini, llama, mistral.
+              
+              IT GENERATE THE TWO FILES EXTRACTED_DATA.JSON AND EXTRACTED_DATA_ITA.JSON
     """
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
@@ -50,7 +52,6 @@ def process_pipeline_results(file_path):
             elif model_name == "Mistral":
                 mistral_cleaned = cleaned_text
 
-        # --- MODIFIED SECTION ---
         # Assemble the dictionary with named keys, as requested.
         value_dict = {
             "original_ocr": original_ocr,
@@ -84,9 +85,13 @@ def save_dict_to_json(data_dict, file_path):
 
 # --- Main execution block ---
 if __name__ == "__main__":
-    # Define input and output file names
+    # Define input and output file names for the eng dataset
     input_file = 'results/full_pipeline_results_24.json'
     output_file = 'extracted_data.json'
+
+    # Define input and output file names for ita dataset
+    #input_file = 'results/full_pipeline_results_12_ita.json'
+    #output_file = 'extracted_data_ita.json'
 
     # Process the file to get the dictionary
     result_dict = process_pipeline_results(input_file)

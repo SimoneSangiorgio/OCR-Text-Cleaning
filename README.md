@@ -221,3 +221,14 @@ The main workflow, orchestrated by `main_V2.py`, is as follows:
 *   **Language Generalization:** Adapt prompts and dictionaries for other languages.
 
 This project provides a solid foundation for research and development in OCR post-correction using modern AI techniques.
+
+
+
+# TODO
+1) manda di nuovo prometheus sul dataset inglese
+2) manda prometheus sul dataset italiano
+3) rimanda evaluator su entrambi i dataset
+4) finire report
+    1) dataset inglese senza data processing 
+    
+    1) dataset italiano con preprocessing e chains of thought  
