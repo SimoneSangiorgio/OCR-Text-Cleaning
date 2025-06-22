@@ -145,5 +145,5 @@ def analyze_rater_agreement(json_file_path, output_report_path="kappa_analysis_r
 
 # --- Run the analysis ---
 if __name__ == "__main__":
-    json_file = "results/full_pipeline_results_human.json"
+    json_file = "full_pipeline_results_human_24_eng.json"
     analyze_rater_agreement(json_file)
